@@ -36,7 +36,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 DEFAULT_TIMEOUT = 10
 MAX_DEPTH = 2            # 索引递归深度
 MAX_PER_SOURCE = 120     # 单个配置源最多取前 N 个站点（保留作者主推源）
-DEFAULT_MAX_SITES = 500  # 合并后站点总数上限
+DEFAULT_MAX_SITES = 800  # 合并后站点总数上限（高优源全量 + 补充源按剩余容量并入）
 
 KEY_SECTIONS = ("sites", "parses", "lives", "doh", "rules", "ads", "headers")
 BLOCKLIST_FILE = "blocklist.txt"   # 广告/赌博域名黑名单，每行一个，并入 merged.json 的 ads 字段
@@ -61,6 +61,30 @@ JAR_HOST_BLOCKLIST = {
     "home.jundie.top:666",
     "bitbucket.org",
 }
+
+# 色情/赌博类站点过滤词（源列表常混入此类低质源，用户明确要求剔除"播放跳广告"的赌博/擦边源）。
+# 命中站点名即剔除；词条取特征组合避免误杀正常站（如"鸭奈飞"不含下列组合词）。
+NSFW_TERMS = [
+    "AV资源", "快AV", "XXOO", "蜜桃", "水蜜桃", "麻豆", "草榴", "抖阴", "一本道",
+    "亚洲成人", "日本AV", "快播盒子", "大香蕉", "AV集中", "夜夜撸", "大屌丝",
+    "我要啪啪", "咪咪", "鲍鱼", "精工厂", "点点娱乐", "大MM", "老司鸡", "黄瓜TV",
+    "青青草", "蛋蛋视频", "91麻豆", "酷豆", "酷伦理", "美少女", "淫水", "小湿妹",
+    "黄AV", "老鸭", "博天堂", "环亚", "JAV", "色色", "玖玖", "久草", "狼少年",
+    "富二代", "利来", "佳丽", "番号", "鲨鱼", "KK写真", "花椒", "色资源", "色猫",
+    "色窝", "黄色", "秀色", "草莓", "花魁", "葡萄", "皇冠", "滴滴", "雪豹", "森林",
+    "玉兔", "伊人", "老鸨", "鸡坤", "开云", "奶香", "色南国", "色屌丝", "小姐姐",
+    "52AVAV", "色狼", "成人", "丝袜", "情色", "露点", "裸聊",
+]
+
+
+def is_nsfw_site(s):
+    """站点是否命中色情/赌博过滤词（按 name 匹配，组合词防误杀）。"""
+    name = s.get("name", "") or ""
+    for t in NSFW_TERMS:
+        if t in name:
+            return True
+    api = s.get("api", "") or ""
+    return "gambling" in api or "bet" in api
 
 
 def host_of(api):
@@ -183,6 +207,42 @@ def parse_text_to_urls(text):
     return out
 
 
+def parse_line_json_sites(text):
+    """兼容"逐行 JSON"站点列表（如 maotv3.txt：注释行 + 每行一个站点对象）。
+
+    这类文件不是合法整体 JSON（多行对象），且每行站点常带尾随逗号。
+    用 raw_decode 逐行解析（容忍逗号），过滤色情/赌博站。
+    返回 {"sites": [...]}（含顶层 spider 行），失败返回 None。
+    """
+    sites = []
+    spider = ""
+    decoder = json.JSONDecoder()
+    for ln in (text or "").splitlines():
+        ln = ln.strip()
+        if not ln or ln.startswith("//") or ln.startswith("#"):
+            continue
+        if ln.startswith('"spider"'):
+            try:
+                spider = decoder.raw_decode("{" + ln + "}")[0].get("spider", "")
+            except Exception:
+                pass
+            continue
+        try:
+            obj = decoder.raw_decode(ln)[0]
+        except (json.JSONDecodeError, ValueError):
+            continue
+        if isinstance(obj, dict) and ("api" in obj or "key" in obj) and "name" in obj:
+            if is_nsfw_site(obj):
+                continue
+            sites.append(obj)
+    if not sites:
+        return None
+    cfg = {"sites": sites}
+    if spider:
+        cfg["spider"] = spider
+    return cfg
+
+
 def fetch_kind(url, timeout, mirror_list):
     """抓取一个 URL，返回 (kind, payload)。kind: config / index / fail"""
     try:
@@ -201,6 +261,9 @@ def fetch_kind(url, timeout, mirror_list):
     if text.startswith("#EXTM3U"):
         # m3u 直播列表：作为单个直播源合并，不再当"每行 URL"的索引递归展开
         return "live", text
+    line_cfg = parse_line_json_sites(text)
+    if line_cfg:
+        return "config", line_cfg
     return "index", parse_text_to_urls(text)
 
 
@@ -223,6 +286,18 @@ def usable_spider_url(sp):
     return sp
 
 
+def spider_reachable(sp, timeout=6):
+    """探测 spider jar 是否真正可达（HEAD），防把 DNS 挂/不可达的 jar 选为顶层。
+    只取 URL 部分（去掉 ;md5; 校验段），HEAD 200/3xx 即视为可达。"""
+    u = sp.split(";md5;", 1)[0]
+    try:
+        req = urllib.request.Request(u, headers={"User-Agent": UA}, method="HEAD")
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.status < 400
+    except Exception:
+        return False
+
+
 def best_spider(config_list):
     """从配置列表自动挑选顶层 spider：绝对可达 + 覆盖站点最多的源的 jar。
 
@@ -230,16 +305,22 @@ def best_spider(config_list):
     置空会杀死所有自定义类站点（csp_Wex*/csp_Ai* 等）。自动恢复一个
     可达 jar 作为顶层默认：jar load err 只在顶层 jar 下载失败时出现，
     绝对可达地址不会触发；某天作者删除后会自动切到下一个候选。
+    候选必须通过可达性探测（HEAD），DNS 挂/404 的 jar 不会入选。
     """
-    best, best_count = None, -1
+    candidates = []
     for cfg in config_list:
         sp = usable_spider_url(cfg.get("spider", ""))
         if not sp:
             continue
-        count = len(cfg.get("sites", []))
-        if count > best_count:
-            best, best_count = sp, count
-    return best
+        candidates.append((len(cfg.get("sites", [])), sp))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda x: -x[0])
+    # 只探测站点数最多的前 3 个候选（避免每天爬虫多请求）
+    for _, sp in candidates[:3]:
+        if spider_reachable(sp):
+            return sp
+    return candidates[0][1]  # 全部不可达时退回最大候选（宁可有配置也不置空）
 
 
 def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider="",
@@ -272,6 +353,7 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
     dropped_jar = 0
     dropped_live = 0
     jar_injected = 0
+    dropped_nsfw = 0
 
     for cfg in config_list:
         # 品牌字段：spider 用参数指定的值；未指定时自动挑覆盖最多的可达 jar
@@ -282,7 +364,7 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
         # 该源 spider 若为绝对可达 URL，作为本源站点默认 jar（恢复自定义类站点）
         src_spider = usable_spider_url(cfg.get("spider", "")) if inject_jar else None
 
-        # sites：按 api 去重；key 冲突加序号；过滤 jar 报错源
+        # sites：按 api+ext 组合去重（同 api 不同 ext 的 XB/JS 爬虫站按目标站保留）；key 冲突加序号；过滤 jar 报错源
         for s in cfg.get("sites", [])[:max_per_source]:
             if not isinstance(s, dict):
                 continue
@@ -295,7 +377,14 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
             if drop_jar and api.startswith("http") and host_of(api) in JAR_HOST_BLOCKLIST:
                 dropped_jar += 1
                 continue
-            if api in seen_api:
+            if is_nsfw_site(s):
+                dropped_nsfw += 1
+                continue
+            ext_raw = s.get("ext")
+            ext = ext_raw if isinstance(ext_raw, str) else (
+                json.dumps(ext_raw, ensure_ascii=False, sort_keys=True) if ext_raw else "")
+            dedup_key = (api + "|" + ext) if ext else api
+            if dedup_key in seen_api:
                 continue
             if len(merged["sites"]) >= max_sites:
                 break
@@ -312,7 +401,7 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
                     i += 1
                 new_s["key"] = "%s_%d" % (key, i)
             used_keys.add(new_s["key"])
-            seen_api[api] = new_s["key"]
+            seen_api[dedup_key] = new_s["key"]
             merged["sites"].append(new_s)
             if len(merged["sites"]) >= max_sites:
                 break
@@ -385,6 +474,7 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
         "rules_final": len(merged["rules"]),
         "dropped_jar": dropped_jar,
         "dropped_live": dropped_live,
+        "dropped_nsfw": dropped_nsfw,
         "jar_injected": jar_injected,
     }
     return merged, dedup_stats

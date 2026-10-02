@@ -273,6 +273,13 @@
    "last": "fail",
    "last_date": "2026-10-02",
    "first_seen": "2026-10-02"
+  },
+  "https://raw.githubusercontent.com/hd9211/maotv/main/maotv3.txt": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
   }
  }
 }

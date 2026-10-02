@@ -100,6 +100,12 @@ python fetch_sources.py --official-live    # 主爬虫 + 并入官方直播源
 
 > `--spider <URL>` 可手动指定顶层 jar；`--no-inject-jar` 关闭站点级注入。
 
+## 高清/4K 站扩充 + 内容过滤
+
+- 新增 **maotv（hd9211/maotv）源**：逐行 JSON 格式自动解析（容忍尾随逗号），并入维护中的高清站——**4K电影网(XB)、蓝光影院(XB)、4kan电影网(XB)、厂长资源-蓝光(XB)、剧白白-蓝光(XB)、小宝影院(XB)、欧乐影院(XB)** 等（csp_XBiubiu/XPF 爬虫，依赖元勋 XBiubiuLA4.jar，freed.yuanhsing.cf 国内 DNS 暂挂时自动跳过，恢复后自动生效）。
+- **NSFW/赌博过滤**：源列表常混入色情/博彩站（AV/麻豆/草榴/博天堂等），`is_nsfw_site` 按组合词过滤，parse 与 merge 两层防线；`status.json → summary.dropped_nsfw` 记录本次剔除数。
+- 去重升级：**api+ext 组合去重**（同 api 不同 ext 的 XB/JS 爬虫站按目标站保留）。
+
 ## 部署步骤（约 5 分钟）
 
 1. **建仓库**：GitHub 上新建一个空仓库（如 `tvbox-daily`，Public 即可）。

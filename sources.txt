@@ -10,10 +10,11 @@
 
 # ========== 索引类种子 ==========
 
-# ① hkuc 维护的公开 TVBox 配置收集（每日自动更新，含高天流云/老白/heroaku 等）
-https://raw.githubusercontent.com/hkuc/tvbox-config/main/url.json
+# ① 猫友·元勋高清/4K 站配置（hd9211/maotv 维护，行式 JSON，含 4K电影网(XB)/蓝光影院(XB)/4k片库网(XPF) 等）
+# 顶层 spider=元勋 XBiubiuLA4.jar（freed.yuanhsing.cf 镜像，国内 DNS 暂挂时自动跳过，海外 Actions 可用）
+https://raw.githubusercontent.com/hd9211/maotv/main/maotv3.txt
 
-# ========== 聚玩盒子（juwanhezi.com）单仓源精选 ==========
+# ========== 聚玩盒子（juwanhezi.com）单仓源精选（高优先级：jar 版秒播/4K 站，合并时优先全量并入）==========
 # 2026-10-02 实测：以下 10 个为有效 TVBox 配置（sites 数见注释），直接启用；
 # 其余导航站地址已注释保留，需要时取消 # 即可。
 
@@ -39,6 +40,9 @@ http://zhangqun1818.serv00.net/zq/api.json
 # https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
 # 短剧频道（URL 含中文路径，脚本已支持中文编码，实测有效）
 http://box.ufuzi.com/tv/qq/短剧频道/api.json
+
+# ========== hkuc 公开配置收集（低优先级：剩余容量并入，补充 gao/heroaku 的 JS 高清站）==========
+https://raw.githubusercontent.com/hkuc/tvbox-config/main/url.json
 
 # ========== 直播源（m3u 列表，识别为直播源直接并入 lives）==========
 # 2026-10-02 实测可达（镜像形式国内可访问）；失效会自动跳过并记录
