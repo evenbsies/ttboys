@@ -292,6 +292,10 @@ def usable_spider_url(sp):
     源配置的 spider 若为绝对可达 URL（含作者伪装成 .jpg/.png 的 dex jar），
     下放到站点级 jar 字段，恢复 csp_Wex*/csp_Ai*/csp_SheQu* 等自定义类站点；
     相对路径（./jar/xxx.jar）URL 订阅无法下载，跳过避免 jar load err。
+
+    关键兼容性：去掉 `;md5;` 校验段返回纯 URL。FongMi/TVBox 部分版本会把
+    `url;md5;hash` 整串当下载地址，OSS 对带 md5 段的路径返回 404 错误页
+    （HTML/XML），导致"bad ELF magic"加载失败；纯 URL 全部 200 真 jar。
     """
     if not sp:
         return None
@@ -302,7 +306,7 @@ def usable_spider_url(sp):
         return None
     if host_of(sp) in JAR_HOST_BLOCKLIST:
         return None
-    return sp
+    return sp.split(";md5;", 1)[0]
 
 
 def spider_reachable(sp, timeout=6):
@@ -380,7 +384,7 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
         for field in ("wallpaper", "logo"):
             if not merged[field] and cfg.get(field):
                 merged[field] = cfg[field]
-        merged["spider"] = spider or best_spider(config_list) or ""
+        merged["spider"] = (usable_spider_url(spider) if spider else best_spider(config_list)) or ""
         # 该源 spider 若为绝对可达 URL，作为本源站点默认 jar（恢复自定义类站点）
         src_spider = usable_spider_url(cfg.get("spider", "")) if inject_jar else None
 
@@ -415,6 +419,8 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
             new_s = dict(s)
             if not new_s.get("jar"):
                 new_s.pop("jar", None)  # 空串 jar 会让播放器下载空地址，移除
+            elif new_s["jar"].startswith("http"):
+                new_s["jar"] = new_s["jar"].split(";md5;", 1)[0]  # 绝对 URL 去 md5 段（OSS 对带 md5 路径 404）
             if src_spider and not new_s.get("jar"):
                 new_s["jar"] = src_spider
                 jar_injected += 1
