@@ -26,8 +26,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: 采集官方直播源（咪咕等）
+        run: python live_official.py
+
       - name: 抓取并合并公开源
-        run: python fetch_sources.py
+        run: python fetch_sources.py --official-live
 
       - name: 生成短文件名副本（供短订阅地址使用）
         run: cp merged.json m.json
@@ -36,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add merged.json m.json status.json
+          git add merged.json m.json status.json live_official.m3u live_official.json
           if git diff --cached --quiet; then
             echo "配置无变化，跳过提交"
           else
