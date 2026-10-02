@@ -242,7 +242,8 @@ def parse_line_json_sites(text):
             continue
         if ln.startswith('"spider"'):
             try:
-                spider = decoder.raw_decode("{" + ln + "}")[0].get("spider", "")
+                # 行末可能带逗号（逐行 JSON 格式），去掉再解析
+                spider = decoder.raw_decode("{" + ln.rstrip(",") + "}")[0].get("spider", "")
             except Exception:
                 pass
             continue
@@ -286,6 +287,23 @@ def fetch_kind(url, timeout, mirror_list):
     return "index", parse_text_to_urls(text)
 
 
+# freed.yuanhsing.cf 域名已注销（DNS NXDOMAIN），映射到元勋 GitHub 仓库的可达镜像：
+#   .jar → gh-proxy raw（jsDelivr 拦截 jar 类型返回 403）
+#   .json 规则 → jsDelivr CDN（国内可达）
+FREED_JSDELIVR = "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/"
+FREED_GHPROXY = "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/"
+
+
+def remap_freed(url):
+    """把已失效的 freed.yuanhsing.cf/TVBox/ 地址映射到元勋 GitHub 仓库镜像。"""
+    if "freed.yuanhsing.cf/TVBox/" not in url:
+        return url
+    path = url.split("freed.yuanhsing.cf/TVBox/", 1)[1]
+    if url.lower().endswith(".jar"):
+        return FREED_GHPROXY + path
+    return FREED_JSDELIVR + path
+
+
 def usable_spider_url(sp):
     """返回可注入站点 jar 的绝对 URL；相对路径/黑名单域名返回 None。
 
@@ -306,7 +324,7 @@ def usable_spider_url(sp):
         return None
     if host_of(sp) in JAR_HOST_BLOCKLIST:
         return None
-    return sp.split(";md5;", 1)[0]
+    return remap_freed(sp.split(";md5;", 1)[0])
 
 
 def spider_reachable(sp, timeout=6):
@@ -410,6 +428,8 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
             ext_raw = s.get("ext")
             ext = ext_raw if isinstance(ext_raw, str) else (
                 json.dumps(ext_raw, ensure_ascii=False, sort_keys=True) if ext_raw else "")
+            if isinstance(ext_raw, str) and "freed.yuanhsing.cf" in ext_raw:
+                ext_raw = remap_freed(ext_raw)
             dedup_key = (api + "|" + ext) if ext else api
             if dedup_key in seen_api:
                 continue
@@ -417,10 +437,12 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
                 break
             key = str(s.get("key", "") or api[:12])
             new_s = dict(s)
+            if isinstance(new_s.get("ext"), str) and "freed.yuanhsing.cf" in new_s["ext"]:
+                new_s["ext"] = remap_freed(new_s["ext"])
             if not new_s.get("jar"):
                 new_s.pop("jar", None)  # 空串 jar 会让播放器下载空地址，移除
             elif new_s["jar"].startswith("http"):
-                new_s["jar"] = new_s["jar"].split(";md5;", 1)[0]  # 绝对 URL 去 md5 段（OSS 对带 md5 路径 404）
+                new_s["jar"] = remap_freed(new_s["jar"].split(";md5;", 1)[0])  # 绝对 URL 去 md5 段（OSS 对带 md5 路径 404）
             if src_spider and not new_s.get("jar"):
                 new_s["jar"] = src_spider
                 jar_injected += 1

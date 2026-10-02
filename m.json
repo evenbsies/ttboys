@@ -1,5 +1,5 @@
 {
- "spider": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg",
+ "spider": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar",
  "wallpaper": "https://www.loliapi.com/acg/",
  "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
  "sites": [
@@ -10,7 +10,8 @@
    "api": "csp_LiteApple",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_Kunyu77",
@@ -19,7 +20,8 @@
    "api": "csp_Kunyu77",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_Zxzj",
@@ -28,7 +30,8 @@
    "api": "csp_Zxzj",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_Xiaoh",
@@ -37,7 +40,8 @@
    "api": "csp_Xiaoh",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_huya",
@@ -47,7 +51,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/huya2.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/huya2.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_斗鱼",
@@ -57,7 +62,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/斗鱼.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/斗鱼.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_kuqimv",
@@ -67,7 +73,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/kuqimv.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/kuqimv.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_厂长资源-蓝光",
@@ -77,7 +84,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/厂长资源-蓝光.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/厂长资源-蓝光.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_在线之家",
@@ -87,7 +95,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/在线之家.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/在线之家.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_LIBVIO",
@@ -97,7 +106,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/LIBVIO.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/LIBVIO.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_COKEMV",
@@ -107,7 +117,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/COKEMV.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/COKEMV.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_影视工厂",
@@ -117,7 +128,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/影视工厂.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/影视工厂.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_欧乐影院",
@@ -127,7 +139,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/欧乐影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/欧乐影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_555电影",
@@ -137,7 +150,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/555电影.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/555电影.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_小宝影院",
@@ -147,7 +161,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/小宝影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/小宝影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_特狗影视",
@@ -157,7 +172,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/特狗影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/特狗影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_F7好看剧",
@@ -167,7 +183,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/F7好看剧.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/F7好看剧.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_瓜皮TV",
@@ -177,7 +194,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/瓜皮TV.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/瓜皮TV.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_看片狂人",
@@ -187,7 +205,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/看片狂人.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/看片狂人.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_大米星球",
@@ -197,7 +216,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/大米星球.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/大米星球.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_米子影视",
@@ -207,7 +227,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/米子影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/米子影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_87影院",
@@ -217,7 +238,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/87影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/87影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_4K电影网",
@@ -227,7 +249,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/4K电影网.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/4K电影网.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_蓝光影院",
@@ -237,7 +260,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/蓝光影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/蓝光影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_干饭影视",
@@ -247,7 +271,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/干饭影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/干饭影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_OmoFun动漫",
@@ -257,7 +282,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/OmoFun动漫.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/OmoFun动漫.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_去看吧",
@@ -267,7 +293,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/去看吧.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/去看吧.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_次元城",
@@ -277,7 +304,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/次元城.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/次元城.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_风车动漫",
@@ -287,7 +315,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/风车动漫.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/风车动漫.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_森屋新番",
@@ -297,7 +326,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/森屋新番.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/森屋新番.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_打驴动漫",
@@ -307,7 +337,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/打驴动漫.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/打驴动漫.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_维奇动漫",
@@ -317,7 +348,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/维奇动漫.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/维奇动漫.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_真不卡影院(不支持搜索)",
@@ -327,7 +359,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/真不卡影院(不支持搜索).json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/真不卡影院(不支持搜索).json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_奈落影院",
@@ -337,7 +370,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/奈落影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/奈落影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_剧白白-蓝光",
@@ -347,7 +381,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/剧白白-蓝光.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/剧白白-蓝光.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_鸭奈飞",
@@ -357,7 +392,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/鸭奈飞.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/鸭奈飞.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_小强迷",
@@ -367,7 +403,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/小强迷.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/小强迷.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_chok8电影",
@@ -377,7 +414,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/chok8电影.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/chok8电影.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_九州影视",
@@ -387,7 +425,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/九州影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/九州影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_乐猪影视",
@@ -397,7 +436,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/乐猪影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/乐猪影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_口袋影院",
@@ -407,7 +447,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/口袋影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/口袋影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_黑洞影视",
@@ -417,7 +458,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/黑洞影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/黑洞影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_北川影视",
@@ -427,7 +469,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/北川影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/北川影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_六度TV",
@@ -437,7 +480,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/六度TV.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/六度TV.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_双十电影",
@@ -447,7 +491,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/双十电影.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/双十电影.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_哔嘀影视",
@@ -457,7 +502,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/哔嘀影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/哔嘀影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_23影院",
@@ -467,7 +513,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/23影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/23影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_骚火电影",
@@ -477,7 +524,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/骚火电影.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/骚火电影.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_YYDS影院",
@@ -487,7 +535,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/YYDS影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/YYDS影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_如如影视",
@@ -497,7 +546,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/如如影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/如如影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_神马接口",
@@ -507,7 +557,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/神马接口.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/神马接口.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_火火影视",
@@ -517,7 +568,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/火火影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/火火影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_小熊影视",
@@ -527,7 +579,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/小熊影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/小熊影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_天空资源",
@@ -537,7 +590,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/天空资源.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/天空资源.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_GIMY影视",
@@ -547,7 +601,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/GIMY影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/GIMY影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_GimyTV",
@@ -557,7 +612,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/GimyTV.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/GimyTV.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_神马影院",
@@ -567,7 +623,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/神马影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/神马影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_完美看看影视",
@@ -577,7 +634,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/完美看看影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/完美看看影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_达达龟",
@@ -587,7 +645,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/达达龟.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/达达龟.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_花猫TV",
@@ -597,7 +656,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/花猫TV.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/花猫TV.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_348电影网",
@@ -607,7 +667,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/348电影网.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/348电影网.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_看一看影视",
@@ -617,7 +678,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/看一看影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/看一看影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_1080Kkk",
@@ -627,7 +689,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/1080Kkk.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/1080Kkk.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_789影视",
@@ -637,7 +700,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/789影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/789影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_人人影视",
@@ -647,7 +711,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/人人影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/人人影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_31看影视",
@@ -657,7 +722,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/31看影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/31看影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_爱港剧",
@@ -667,7 +733,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/爱港剧.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/爱港剧.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_VIP1280",
@@ -677,7 +744,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/VIP1280.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/VIP1280.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_影视之光",
@@ -687,7 +755,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/影视之光.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/影视之光.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_手机看剧",
@@ -697,7 +766,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/手机看剧.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/手机看剧.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_创艺影视",
@@ -707,7 +777,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/创艺影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/创艺影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_炫猫影视",
@@ -717,7 +788,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/炫猫影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/炫猫影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_利丽娅电影",
@@ -727,7 +799,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/利丽娅电影.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/利丽娅电影.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_七年影视",
@@ -737,7 +810,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/七年影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/七年影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_大象TV",
@@ -747,7 +821,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/大象TV.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/大象TV.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_小猫咪",
@@ -757,7 +832,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/小猫咪.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/小猫咪.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_4kan电影网",
@@ -767,7 +843,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/4kan电影网.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/4kan电影网.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_蓝莓影视",
@@ -777,7 +854,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/蓝莓影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/蓝莓影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_奇优影院（不支持搜）",
@@ -787,7 +865,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/奇优影院（不支持搜）.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/奇优影院（不支持搜）.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_影渣渣",
@@ -797,7 +876,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/影渣渣.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/影渣渣.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_牛马TV",
@@ -807,7 +887,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/牛马TV.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/牛马TV.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_飘花播播",
@@ -817,7 +898,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/飘花播播.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/飘花播播.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_星空影视",
@@ -827,7 +909,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/星空影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/星空影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_豆角网",
@@ -837,7 +920,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/豆角网.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/豆角网.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_稀饭影视",
@@ -847,7 +931,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/稀饭影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/稀饭影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_尘落影院",
@@ -857,7 +942,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/尘落影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/尘落影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_city电影",
@@ -867,7 +953,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/city电影.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/city电影.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_小傻瓜",
@@ -877,7 +964,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/小傻瓜.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/小傻瓜.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_电影馆",
@@ -887,7 +975,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/电影馆.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/电影馆.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_爱看影视",
@@ -897,7 +986,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/爱看影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/爱看影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_视中心影院",
@@ -907,7 +997,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/视中心影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/视中心影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_老茶馆",
@@ -917,7 +1008,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/老茶馆.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/老茶馆.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_凛冬又至",
@@ -927,7 +1019,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/凛冬又至.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/凛冬又至.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_红领巾",
@@ -937,7 +1030,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/红领巾.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/红领巾.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_老电影",
@@ -947,7 +1041,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/老电影.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/老电影.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_Nike影视网",
@@ -957,7 +1052,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/Nike影视网.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/Nike影视网.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_极品影视",
@@ -967,7 +1063,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/极品影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/极品影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_大师兄影视",
@@ -977,7 +1074,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/大师兄影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/大师兄影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_139影视",
@@ -987,7 +1085,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/139影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/139影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_思乐影视",
@@ -997,7 +1096,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/思乐影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/思乐影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_开心果电影网",
@@ -1007,7 +1107,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/开心果电影网.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/开心果电影网.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_伊雪湾",
@@ -1017,7 +1118,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/伊雪湾.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/伊雪湾.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_悟空影视",
@@ -1027,7 +1129,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/悟空影视.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/悟空影视.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_biubiu_虚拟影院",
@@ -1037,7 +1140,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXB2/虚拟影院.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXB2/虚拟影院.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_独播库",
@@ -1047,7 +1151,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/duboku.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/duboku.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "if101资源",
@@ -1056,7 +1161,8 @@
    "api": "https://demo.if101.tv/api.php/provide/vod",
    "searchable": 1,
    "quickSearch": 0,
-   "filterable": 0
+   "filterable": 0,
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_zxzj2",
@@ -1066,7 +1172,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/zxzj2.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/zxzj2.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_ctv",
@@ -1076,7 +1183,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/chongtmtv.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/chongtmtv.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_汉城影院",
@@ -1086,7 +1194,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/hancheng.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/hancheng.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_libv",
@@ -1096,7 +1205,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/libv.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/libv.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_cokemv",
@@ -1106,7 +1216,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/cokemv.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/cokemv.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_ddg",
@@ -1116,7 +1227,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/dadagui.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/dadagui.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_jbb",
@@ -1126,7 +1238,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/jubaibai.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/jubaibai.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_Jumi",
@@ -1136,7 +1249,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/Jumi.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/Jumi.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_唐人街",
@@ -1146,7 +1260,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/Renjie.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/Renjie.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_lranc",
@@ -1156,7 +1271,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/lranc.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/lranc.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_yanetflix",
@@ -1166,7 +1282,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/yanet.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/yanet.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "csp_xpath_Ole",
@@ -1176,7 +1293,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/olevod.json"
+   "ext": "https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/TVBox/MaooXP/olevod.json",
+   "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/YuanHsing/freed/master/TVBox/MaooXB2/XBiubiuLA4.jar"
   },
   {
    "key": "Douban",
@@ -7710,7 +7828,8 @@
    "name": " 🎑js测试[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/%E6%A8%A1%E7%89%88/jstest.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/%E6%A8%A1%E7%89%88/jstest.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "csp_xBPQ_test测试",
@@ -7720,7 +7839,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/XBPQ/test.json"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/XBPQ/test.json",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": " py_test",
@@ -7730,7 +7850,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Py/py_test.py"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Py/py_test.py",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "csp_biubiu_test",
@@ -7740,7 +7861,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://github.com/wokaotianshi123/0929tv_box/raw/bb4b7f06ed212f1c2ca1c3f4dc1a0f61904a754e/tvbox/23w.json"
+   "ext": "https://github.com/wokaotianshi123/0929tv_box/raw/bb4b7f06ed212f1c2ca1c3f4dc1a0f61904a754e/tvbox/23w.json",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "csp_xb_test ",
@@ -7750,7 +7872,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://v.yunque.vip/index.php/vod/show/id/{cateId}/page/{catePg}.html"
+   "ext": "https://v.yunque.vip/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "csp_xpath_测试",
@@ -7760,7 +7883,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/%E6%A8%A1%E7%89%88/xpthtest.json"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/%E6%A8%A1%E7%89%88/xpthtest.json",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "csp_XYQBiu_测试",
@@ -7770,7 +7894,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 0,
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/XYQBiu/test.json"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/XYQBiu/test.json",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "haiwaicaiji",
@@ -7779,7 +7904,8 @@
    "api": "https://haiwaikan.com/api.php/provide/vod/at/xml",
    "searchable": 1,
    "quickSearch": 0,
-   "filterable": 0
+   "filterable": 0,
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "非凡采集",
@@ -7788,7 +7914,8 @@
    "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
    "searchable": 1,
    "quickSearch": 0,
-   "filterable": 0
+   "filterable": 0,
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "量子采集",
@@ -7797,7 +7924,8 @@
    "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
    "searchable": 1,
    "quickSearch": 0,
-   "filterable": 0
+   "filterable": 0,
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "csp_appysv2_M2_haiwai影视",
@@ -7806,7 +7934,8 @@
    "api": "https://taopianapi.com/home/cjapi/as/mc/vod/xml",
    "searchable": 1,
    "quickSearch": 0,
-   "filterable": 0
+   "filterable": 0,
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "1080zyk",
@@ -7814,7 +7943,8 @@
    "type": 1,
    "api": "https://api.1080zyku.com/inc/api_mac10.php",
    "searchable": 1,
-   "quickSearch": 0
+   "quickSearch": 0,
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "py_bilimy",
@@ -7824,7 +7954,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1,
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Py/py_bilimy.py"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Py/py_bilimy.py",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "T4a",
@@ -7833,7 +7964,8 @@
    "api": "https://t4.secan.icu/vod?sites=all&ali_token=a60a9387a6124e47ac78c726a02dba6d&timeout=5",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "csp_If101",
@@ -7842,7 +7974,8 @@
    "api": "csp_If101",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "csp_trj",
@@ -7851,7 +7984,8 @@
    "api": "csp_Tangrenjie",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "csp_Zjdr",
@@ -7860,217 +7994,248 @@
    "api": "csp_Zjdr",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_我的哔哩",
    "name": " 🎑我的哔哩[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/我的哔哩.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/我的哔哩.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_小宝影院",
    "name": " 🎑小宝影院 🚪[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/小宝影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/小宝影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_WZ影视",
    "name": " 🎑WZ影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/WZ影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/WZ影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_多瑙影视",
    "name": " 🎑多瑙影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/多瑙影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/多瑙影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_熊猫影视",
    "name": " 🎑熊猫影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/熊猫影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/熊猫影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_NY影院",
    "name": " 🎑NY影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/NY影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/NY影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_豆芽影院",
    "name": " 🎑豆芽影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/豆芽影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/豆芽影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_唐人街影视",
    "name": " 🎑唐人街影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/唐人街影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/唐人街影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_楚门影院",
    "name": " 🎑楚门影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/楚门影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/楚门影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_if101",
    "name": " 🎑If101 🚪[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/if101.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/if101.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_爱壹帆",
    "name": " 🎑爱壹帆 🚪[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/爱壹帆.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/爱壹帆.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_起飞影院",
    "name": " 🎑起飞影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/起飞影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/起飞影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_海兔影院",
    "name": " 🎑海兔影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/海兔影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/海兔影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_金曼影视",
    "name": " 🎑金曼影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/金曼影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/金曼影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_HoHo影视",
    "name": " 🎑HoHo影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/HoHo影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/HoHo影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_映迷影院",
    "name": " 🎑映迷影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/映迷影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/映迷影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_Voflix",
    "name": " 🎑Voflix[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/Voflix.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/Voflix.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_独播库",
    "name": " 🎑独播库[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/独播库.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/独播库.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_看片狂人",
    "name": " 🎑看片狂人[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看片狂人.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看片狂人.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_7喜影院",
    "name": " 🎑7喜影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/7喜影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/7喜影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_美视网",
    "name": " 🎑美视网[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/美视网.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/美视网.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_兰花影院",
    "name": " 🎑兰花影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/兰花影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/兰花影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_大中影视",
    "name": " 🎑大中影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大中影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大中影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_TV蜂",
    "name": " 🎑TV蜂[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/TV蜂.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/TV蜂.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_99影院",
    "name": " 🎑99影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/99影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/99影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_艾旦影视",
    "name": " 🎑艾旦影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾旦影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾旦影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_艾斯影院",
    "name": " 🎑艾斯影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾斯影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾斯影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_冲TV",
    "name": " 🎑冲TV[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/冲TV.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/冲TV.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_海外看影院",
    "name": " 🎑海外看影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/海外看影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/海外看影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_追剧达人",
    "name": " 🎑追剧达人[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧达人.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧达人.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_欧乐影院",
@@ -8078,490 +8243,560 @@
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
    "playerType": 2,
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/欧乐影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/欧乐影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_欧帝影院",
    "name": " 🎑欧帝影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/欧帝影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/欧帝影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_看BZ影视",
    "name": " 🎑看BZ影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看BZ影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看BZ影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_898TV",
    "name": " 🎑898TV[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/898TV.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/898TV.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_麻花影视",
    "name": " 🎑麻花影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/麻花影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/麻花影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_乐动影视",
    "name": " 🎑乐动影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/乐动影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/乐动影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_KOK影视",
    "name": " 🎑KOK影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/KOK影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/KOK影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_追剧兔",
    "name": " 🎑追剧兔[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧兔.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧兔.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_1080P",
    "name": " 🎑1080P[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/1080P.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/1080P.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_追剧啦",
    "name": " 🎑追剧啦[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧啦.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧啦.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_348电影网",
    "name": " 🎑348电影网[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/348电影网.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/348电影网.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_利丽娅电影",
    "name": " 🎑利丽娅电影[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/利丽娅电影.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/利丽娅电影.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_米宝影院",
    "name": " 🎑米宝影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/米宝影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/米宝影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_首播影院",
    "name": " 🎑首播影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/首播影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/首播影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_回响影视",
    "name": " 🎑回响影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/回响影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/回响影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_量子影视",
    "name": " 🎑量子影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/量子影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/量子影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_乐鱼影视",
    "name": " 🎑乐鱼影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/乐鱼影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/乐鱼影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_布雷蓝光",
    "name": " 🎑布雷蓝光[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/布雷蓝光.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/布雷蓝光.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_八蛋影视",
    "name": " 🎑八蛋影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/八蛋影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/八蛋影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_浮生半日",
    "name": " 🎑浮生半日[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/浮生半日.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/浮生半日.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_007影视",
    "name": " 🎑007影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/007影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/007影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_cokemv",
    "name": " 🎑cokemv[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/cokemv.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/cokemv.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_BD影视",
    "name": " 🎑BD影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/BD影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/BD影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_l0l",
    "name": " 🎑l0l[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/l0l.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/l0l.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_天天视频",
    "name": " 🎑天天视频[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/天天视频.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/天天视频.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_大猪蹄子",
    "name": " 🎑大猪蹄子[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大猪蹄子.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大猪蹄子.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_艾菲影视",
    "name": " 🎑艾菲影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾菲影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾菲影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_追剧迷",
    "name": " 🎑追剧迷[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧迷.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧迷.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_2099电影",
    "name": " 🎑2099电影[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/2099电影.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/2099电影.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_LIBVIO",
    "name": " 🎑LIBVIO[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/LIBVIO.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/LIBVIO.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_干饭影视",
    "name": " 🎑干饭影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/干饭影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/干饭影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_在线之家Ⅱ",
    "name": " 🎑在线之家Ⅱ[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/在线之家Ⅱ.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/在线之家Ⅱ.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_南瓜影院",
    "name": " 🎑南瓜影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/南瓜影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/南瓜影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_视觉影院",
    "name": " 🎑视觉影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/视觉影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/视觉影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_188看",
    "name": " 🎑188看[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/188看.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/188看.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_蚂蚁影视",
    "name": " 🎑蚂蚁影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/蚂蚁影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/蚂蚁影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_厂长资源",
    "name": " 🎑厂长资源[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/厂长资源.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/厂长资源.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_石榴影院",
    "name": " 🎑石榴影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/石榴影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/石榴影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_新视觉影视",
    "name": " 🎑新视觉影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/新视觉影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/新视觉影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_超前点播",
    "name": " 🎑超前点播[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/超前点播.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/超前点播.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_私人影院",
    "name": " 🎑私人影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/私人影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/私人影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_稀饭影视",
    "name": " 🎑稀饭影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/稀饭影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/稀饭影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_爱猫影院",
    "name": " 🎑爱猫影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/爱猫影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/爱猫影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_蓝光影院",
    "name": " 🎑蓝光影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/蓝光影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/蓝光影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_喵喵",
    "name": " 🎑喵喵[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/喵喵.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/喵喵.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_西瓜影视",
    "name": " 🎑西瓜影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/西瓜影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/西瓜影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_盛世电影网",
    "name": " 🎑盛世电影网[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/盛世电影网.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/盛世电影网.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_闪影影院",
    "name": " 🎑闪影影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/闪影影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/闪影影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_大米星球",
    "name": " 🎑大米星球[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大米星球.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大米星球.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_人人影视",
    "name": " 🎑人人影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/人人影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/人人影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_菜狗",
    "name": " 🎑菜狗[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/菜狗.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/菜狗.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_奇优影院",
    "name": " 🎑奇优影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/奇优影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/奇优影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_奇珍异兽",
    "name": " 🎑奇珍异兽[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/奇珍异兽.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/奇珍异兽.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_腾云驾雾",
    "name": " 🎑腾云驾雾[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/腾云驾雾.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/腾云驾雾.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_优酷",
    "name": " 🎑优酷[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/优酷.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/优酷.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_兔小贝",
    "name": " 🎑兔小贝[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/兔小贝.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/兔小贝.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_玄天",
    "name": " 🎑玄天[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/玄天.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/玄天.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_鸭奈飞",
    "name": " 🎑鸭奈飞[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/鸭奈飞.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/鸭奈飞.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_IMAX影视",
    "name": " 🎑IMAX影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/IMAX影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/IMAX影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_在线之家",
    "name": " 🎑在线之家[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/在线之家.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/在线之家.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_真不卡",
    "name": " 🎑真不卡[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/真不卡.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/真不卡.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_秋霞",
    "name": " 🎑秋霞影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/秋霞.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/秋霞.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_Nike影视",
    "name": " 🎑Nike影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/Nike影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/Nike影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_大师兄影视",
    "name": " 🎑大师兄影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大师兄影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大师兄影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_豆瓣",
    "name": " 🎑豆瓣[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/豆瓣.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/豆瓣.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_天天影视",
    "name": " 🎑天天影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/天天影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/天天影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_短视频",
    "name": " 🎑短视频[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/短视频.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/短视频.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_剧迷",
    "name": " 🎑剧迷[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/剧迷.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/剧迷.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_看了么",
    "name": " 🎑看了么[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看了么.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看了么.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "drpy_js_乐猪TV",
    "name": " 🎑乐猪TV[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/drpy/raw/master/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/乐猪TV.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/乐猪TV.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/xo1.jar"
   },
   {
    "key": "py_douban",
@@ -8571,189 +8806,216 @@
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1,
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Py/py_douban.py"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Py/py_douban.py",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_小宝影院_2",
    "name": " 🎑小宝影院 🚪[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/小宝影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/小宝影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_多瑙影视_2",
    "name": " 🎑多瑙影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/多瑙影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/多瑙影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_NY影院_2",
    "name": " 🎑NY影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/NY影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/NY影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_豆芽影院_2",
    "name": " 🎑豆芽影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/豆芽影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/豆芽影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_唐人街影视_2",
    "name": " 🎑唐人街影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/唐人街影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/唐人街影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_楚门影院_2",
    "name": " 🎑楚门影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/楚门影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/楚门影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_if101_2",
    "name": " 🎑If101 🚪[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/if101.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/if101.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_爱壹帆_2",
    "name": " 🎑爱壹帆 🚪[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/爱壹帆.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/爱壹帆.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_起飞影院_2",
    "name": " 🎑起飞影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/起飞影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/起飞影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_海兔影院_2",
    "name": " 🎑海兔影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/海兔影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/海兔影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_金曼影视_2",
    "name": " 🎑金曼影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/金曼影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/金曼影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_HoHo影视_2",
    "name": " 🎑HoHo影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/HoHo影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/HoHo影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_映迷影院_2",
    "name": " 🎑映迷影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/映迷影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/映迷影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_Voflix_2",
    "name": " 🎑Voflix[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/Voflix.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/Voflix.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_独播库_2",
    "name": " 🎑独播库[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/独播库.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/独播库.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_看片狂人_2",
    "name": " 🎑看片狂人[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看片狂人.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看片狂人.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_7喜影院_2",
    "name": " 🎑7喜影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/7喜影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/7喜影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_美视网_2",
    "name": " 🎑美视网[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/美视网.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/美视网.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_兰花影院_2",
    "name": " 🎑兰花影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/兰花影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/兰花影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_大中影视_2",
    "name": " 🎑大中影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大中影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/大中影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_TV蜂_2",
    "name": " 🎑TV蜂[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/TV蜂.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/TV蜂.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_99影院_2",
    "name": " 🎑99影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/99影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/99影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_艾旦影视_2",
    "name": " 🎑艾旦影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾旦影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾旦影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_艾斯影院_2",
    "name": " 🎑艾斯影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾斯影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/艾斯影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_冲TV_2",
    "name": " 🎑冲TV[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/冲TV.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/冲TV.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_追剧达人_2",
    "name": " 🎑追剧达人[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧达人.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/追剧达人.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_欧乐影院_2",
@@ -8761,49 +9023,56 @@
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
    "playerType": 2,
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/欧乐影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/欧乐影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_欧帝影院_2",
    "name": " 🎑欧帝影院[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/欧帝影院.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/欧帝影院.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_看BZ影视_2",
    "name": " 🎑看BZ影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看BZ影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/看BZ影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_898TV_2",
    "name": " 🎑898TV[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/898TV.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/898TV.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_麻花影视_2",
    "name": " 🎑麻花影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/麻花影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/麻花影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_乐动影视_2",
    "name": " 🎑乐动影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/乐动影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/乐动影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   },
   {
    "key": "drpy_js_KOK影视_2",
    "name": " 🎑KOK影视[DRPY]",
    "type": 3,
    "api": "https://github.com/heroaku/TVboxo/raw/main/libs/drpy.min.js",
-   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/KOK影视.js"
+   "ext": "https://github.com/heroaku/TVboxo/raw/main/Js/KOK影视.js",
+   "jar": "https://github.com/heroaku/TVboxo/raw/main/Jar/1008.jar"
   }
  ],
  "parses": [
@@ -12510,10 +12779,10 @@
    }
   }
  ],
- "update_time": "2026-10-02 18:30:31",
+ "update_time": "2026-10-02 18:43:43",
  "_sources": {
-  "indexes": 8,
-  "configs_ok": 29,
-  "failed": 3
+  "indexes": 9,
+  "configs_ok": 30,
+  "failed": 1
  }
 }
