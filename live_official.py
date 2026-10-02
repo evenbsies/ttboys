@@ -147,7 +147,9 @@ def main():
         uniq.append((name, url))
     print("URL 去重后:", len(uniq))
 
-    # 3) 并发存活探测（403=IP受限保留，404/410=死亡剔除）
+    # 3) 官方域名源跳过服务器探测、全部保留：
+    #    咪咕等官方直链对数据中心/海外 IP 一律 403 或 404（防盗链），只有家庭宽带才准；
+    #    服务器端探测只会误杀，所以对官方域名不做剔除，交由用户播放器实测。
     alive = {}
     locked = {}
     with ThreadPoolExecutor(max_workers=10) as ex:
@@ -158,12 +160,18 @@ def main():
                 res = fut.result()
             except Exception:
                 res = False
+            if is_official(url):
+                # 官方域名：无论探测结果如何都保留（探测仅作参考，不剔除）
+                key = norm_name(name)
+                if key not in alive:
+                    alive[key] = (name, url)
+                continue
             if res is False:
                 continue
             key = norm_name(name)
             if key not in (alive if res is True else locked):
                 (alive if res is True else locked)[key] = (name, url)
-    print("可播频道:", len(alive), "| IP受限保留:", len(locked))
+    print("官方频道（全部保留）:", len(alive), "| 非官方可播:", len(locked))
 
     # 4) 输出 m3u（可播在前，IP受限在后；按分组排序）
     groups = OrderedDict()
