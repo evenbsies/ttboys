@@ -223,6 +223,25 @@ def usable_spider_url(sp):
     return sp
 
 
+def best_spider(config_list):
+    """从配置列表自动挑选顶层 spider：绝对可达 + 覆盖站点最多的源的 jar。
+
+    TVBox 原版主要靠顶层 spider 加载 jar（站点级 jar 字段支持有限），
+    置空会杀死所有自定义类站点（csp_Wex*/csp_Ai* 等）。自动恢复一个
+    可达 jar 作为顶层默认：jar load err 只在顶层 jar 下载失败时出现，
+    绝对可达地址不会触发；某天作者删除后会自动切到下一个候选。
+    """
+    best, best_count = None, -1
+    for cfg in config_list:
+        sp = usable_spider_url(cfg.get("spider", ""))
+        if not sp:
+            continue
+        count = len(cfg.get("sites", []))
+        if count > best_count:
+            best, best_count = sp, count
+    return best
+
+
 def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider="",
                   keep_lives=False, inject_jar=True):
     """合并多个 TVBox 配置。返回 (merged_config, dedup_stats)。
@@ -234,6 +253,8 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
     高级用户可用 --spider 显式指定一个可达的 jar/http 链接。
     inject_jar=True（默认）：源 spider 为绝对 URL 时注入到该源所有
     无 jar 字段的站点，恢复自定义 jar 类站点（秒播/4K 等）。
+    spider 为空时自动挑选绝对可达且覆盖站点最多的源 jar 作为顶层
+    spider（TVBox 原版靠顶层加载类；置空会杀死全部自定义类站点）。
     """
     merged = {
         "spider": "", "wallpaper": "", "logo": "",
@@ -253,11 +274,11 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
     jar_injected = 0
 
     for cfg in config_list:
-        # 品牌字段：spider 用参数指定的值（默认空）；wallpaper/logo 取第一个非空
+        # 品牌字段：spider 用参数指定的值；未指定时自动挑覆盖最多的可达 jar
         for field in ("wallpaper", "logo"):
             if not merged[field] and cfg.get(field):
                 merged[field] = cfg[field]
-        merged["spider"] = spider or ""
+        merged["spider"] = spider or best_spider(config_list) or ""
         # 该源 spider 若为绝对可达 URL，作为本源站点默认 jar（恢复自定义类站点）
         src_spider = usable_spider_url(cfg.get("spider", "")) if inject_jar else None
 
@@ -474,7 +495,7 @@ def main():
     ap.add_argument("--keep-jar", action="store_true",
                     help="保留相对路径/不可达域名的 js 爬虫源（默认剔除，避免 jar load err）")
     ap.add_argument("--spider", default="",
-                    help="显式指定 spider 字段（默认空=播放器内置默认，彻底避免 jar load err）")
+                    help="显式指定顶层 spider（默认自动挑选绝对可达且覆盖站点最多的源 jar，恢复自定义类站点且不触发 jar load err）")
     ap.add_argument("--no-inject-jar", action="store_true",
                     help="不把源 spider(绝对URL) 注入站点 jar 字段（默认注入，恢复自定义类站点）")
     ap.add_argument("--official-live", action="store_true",

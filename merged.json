@@ -1,5 +1,5 @@
 {
- "spider": "",
+ "spider": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853",
  "wallpaper": "https://深色壁纸.xxooo.cf/",
  "logo": "https://avatars.githubusercontent.com/u/58679624?v=4",
  "sites": [
@@ -9482,10 +9482,10 @@
    }
   }
  ],
- "update_time": "2026-10-02 15:44:41",
+ "update_time": "2026-10-02 16:01:27",
  "_sources": {
-  "indexes": 18,
+  "indexes": 17,
   "configs_ok": 20,
-  "failed": 1
+  "failed": 2
  }
 }
