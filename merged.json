@@ -7413,14 +7413,6 @@
  ],
  "lives": [
   {
-   "name": "初秋语•ipv4",
-   "type": 0,
-   "url": "./list.txt",
-   "playerType": 2,
-   "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-   "logo": "https://live.fanmingming.com/tv/{name}.png"
-  },
-  {
    "name": "YanG•综合",
    "type": 0,
    "url": "https://tv.iill.top/m3u/Gather",
@@ -7500,12 +7492,6 @@
    "logo": "https://epg.112114.xyz/logo/{name}.png"
   },
   {
-   "name": "初秋语•电台",
-   "type": 0,
-   "url": "./radio.txt",
-   "playerType": 1
-  },
-  {
    "name": "范明明•电台1",
    "type": 0,
    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
@@ -7526,13 +7512,6 @@
    "name": "YuanHsing•油管",
    "type": 0,
    "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u"
-  },
-  {
-   "name": "PG•油管",
-   "type": 0,
-   "url": "./yo21.txt",
-   "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-   "logo": "https://epg.112114.xyz/logo/{name}.png"
   },
   {
    "name": "IPV6①",
@@ -7693,38 +7672,6 @@
    "timeout": 10
   },
   {
-   "name": "肥羊虎牙一起看",
-   "type": 0,
-   "url": "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/huyayqk.m3u",
-   "playerType": 2,
-   "timeout": 10,
-   "ua": "okHttp/Mod-1.4.0.0"
-  },
-  {
-   "name": "肥羊B站直播",
-   "type": 0,
-   "url": "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/bililive.m3u",
-   "playerType": 2,
-   "timeout": 10,
-   "ua": "okHttp/Mod-1.4.0.0"
-  },
-  {
-   "name": "肥羊斗鱼一起看",
-   "type": 0,
-   "url": "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/douyuyqk.m3u",
-   "playerType": 2,
-   "timeout": 10,
-   "ua": "okHttp/Mod-1.4.0.0"
-  },
-  {
-   "name": "肥羊YY轮播",
-   "type": 0,
-   "url": "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/yylunbo.m3u",
-   "playerType": 2,
-   "timeout": 10,
-   "ua": "okHttp/Mod-1.4.0.0"
-  },
-  {
    "name": "内置直播",
    "boot": true,
    "type": 0,
@@ -7854,16 +7801,9 @@
    "url": "http://zhangqun66.com/141.php"
   },
   {
-   "name": "野火直播",
-   "url": "./野火改.txt",
-   "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-   "logo": "https://epg.112114.xyz/logo/{name}.png"
-  },
-  {
-   "name": "live",
-   "type": 0,
-   "url": "./lives/live.txt",
-   "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+   "name": "gh-proxy.com",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+   "type": 0
   }
  ],
  "headers": [
@@ -7880,10 +7820,10 @@
    }
   }
  ],
- "update_time": "2026-10-02 11:37:20",
+ "update_time": "2026-10-02 12:27:27",
  "_sources": {
   "indexes": 17,
-  "configs_ok": 18,
-  "failed": 2
+  "configs_ok": 19,
+  "failed": 3
  }
 }
