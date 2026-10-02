@@ -29,11 +29,14 @@ jobs:
       - name: 抓取并合并公开源
         run: python fetch_sources.py
 
+      - name: 生成短文件名副本（供短订阅地址使用）
+        run: cp merged.json m.json
+
       - name: 提交并推送结果
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add merged.json status.json
+          git add merged.json m.json status.json
           if git diff --cached --quiet; then
             echo "配置无变化，跳过提交"
           else
