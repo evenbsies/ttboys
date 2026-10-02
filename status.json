@@ -1,0 +1,237 @@
+{
+  "run_at": "2026-10-02 10:51:22",
+  "indexes": [
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/url.json",
+      "ok": true,
+      "found": 18,
+      "elapsed_ms": 2640
+    },
+    {
+      "url": "https://github.com/heroaku/TVboxo/raw/main/Text/ptest.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 41068
+    },
+    {
+      "url": "https://github.com/heroaku/TVboxo/raw/main/Text/pyn.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 25131
+    },
+    {
+      "url": "https://github.com/heroaku/TVboxo/raw/main/Text/ayn.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 42515
+    },
+    {
+      "url": "https://github.com/heroaku/TVboxo/raw/main/Text/dtes.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 42790
+    },
+    {
+      "url": "https://github.com/gaotianliuyun/gao/raw/master/XYQ.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 3077
+    },
+    {
+      "url": "https://github.com/yw88075/tvbox/raw/main/dr/js.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 3015
+    },
+    {
+      "url": "https://github.com/liu673cn/box/raw/main/m.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 35660
+    },
+    {
+      "url": "https://github.com/hackyjso/TVbox/raw/main/jzy.txt",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 13803
+    },
+    {
+      "url": "https://raw.githubusercontent.com/FanchangWang/tvbox_config/main/dist/tvbox.json",
+      "ok": true,
+      "found": 8,
+      "elapsed_ms": 1592
+    },
+    {
+      "url": "http://www.饭太硬.net/tv",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 612
+    },
+    {
+      "url": "https://w.junce.dpdns.org/fm.gif",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 1314
+    },
+    {
+      "url": "http://tvbox.王二小放牛娃.top/",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 1069
+    },
+    {
+      "url": "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 990
+    },
+    {
+      "url": "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 743
+    },
+    {
+      "url": "https://www.252035.xyz/p/jsm.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 225
+    },
+    {
+      "url": "https://www.252035.xyz/z/FongMi.json",
+      "ok": true,
+      "found": 0,
+      "elapsed_ms": 216
+    }
+  ],
+  "configs": [
+    {
+      "url": "https://github.com/gaotianliuyun/gao/raw/master/0821.json",
+      "ok": true,
+      "sites": 86,
+      "elapsed_ms": 14749
+    },
+    {
+      "url": "https://github.com/gaotianliuyun/gao/raw/master/0825.json",
+      "ok": true,
+      "sites": 135,
+      "elapsed_ms": 1164
+    },
+    {
+      "url": "https://github.com/gaotianliuyun/gao/raw/master/0826.json",
+      "ok": true,
+      "sites": 51,
+      "elapsed_ms": 2412
+    },
+    {
+      "url": "https://github.com/gaotianliuyun/gao/raw/master/0827.json",
+      "ok": true,
+      "sites": 33,
+      "elapsed_ms": 8976
+    },
+    {
+      "url": "https://github.com/gaotianliuyun/gao/raw/master/js.json",
+      "ok": true,
+      "sites": 298,
+      "elapsed_ms": 17325
+    },
+    {
+      "url": "https://github.com/Dong-learn9/TVBox-zyjk/raw/main/tvbox2.json",
+      "ok": true,
+      "sites": 43,
+      "elapsed_ms": 9409
+    },
+    {
+      "url": "https://github.com/anaer/Meow/raw/main/meow.json",
+      "ok": true,
+      "sites": 77,
+      "elapsed_ms": 17880
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hkuc/public/main/box/ai.json",
+      "ok": true,
+      "sites": 1,
+      "elapsed_ms": 13213
+    },
+    {
+      "url": "https://9280.kstore.vip/newwex.json",
+      "ok": true,
+      "sites": 96,
+      "elapsed_ms": 115
+    },
+    {
+      "url": "https://9280.kstore.space/wex.json",
+      "ok": true,
+      "sites": 63,
+      "elapsed_ms": 138
+    },
+    {
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "ok": true,
+      "sites": 151,
+      "elapsed_ms": 757
+    },
+    {
+      "url": "https://9763.kstore.vip/aowu.json",
+      "ok": true,
+      "sites": 78,
+      "elapsed_ms": 76
+    },
+    {
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
+      "ok": true,
+      "sites": 77,
+      "elapsed_ms": 760
+    },
+    {
+      "url": "https://szyyds.cn/tv/x.json",
+      "ok": true,
+      "sites": 62,
+      "elapsed_ms": 93
+    },
+    {
+      "url": "http://rihou.cc:555/nzk/nzk0722.json",
+      "ok": true,
+      "sites": 37,
+      "elapsed_ms": 179
+    },
+    {
+      "url": "http://home.jundie.top:81/top98.json",
+      "ok": true,
+      "sites": 24,
+      "elapsed_ms": 116
+    },
+    {
+      "url": "http://zhangqun1818.serv00.net/zq/api.json",
+      "ok": true,
+      "sites": 19,
+      "elapsed_ms": 533
+    },
+    {
+      "url": "http://box.ufuzi.com/tv/qq/短剧频道/api.json",
+      "ok": true,
+      "sites": 35,
+      "elapsed_ms": 192
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://github.com/franksun1211/TVBOX/raw/main/0706.json",
+      "error": "HTTP Error 404: Not Found",
+      "elapsed_ms": 8254
+    },
+    {
+      "url": "https://我不是.摸鱼儿.top",
+      "error": "<urlopen error timed out>",
+      "elapsed_ms": 10010
+    }
+  ],
+  "summary": {
+    "sites_raw": 1366,
+    "sites_final": 500,
+    "parses_final": 91,
+    "lives_final": 59,
+    "rules_final": 41,
+    "blocklist_added": 0
+  }
+}

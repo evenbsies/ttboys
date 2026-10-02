@@ -1,0 +1,61 @@
+# TVBox 每日源抓取 · 种子列表
+# 每行一个 URL，# 开头为注释。支持两类：
+#   1) 索引类：返回源地址列表（JSON 数组或每行一个 URL 的文本），脚本会自动展开
+#   2) 配置类：直接是 TVBox 配置 JSON（含 sites 字段）
+#
+# 注意：
+#   - raw.githubusercontent.com 在国外服务器（GitHub Actions）可直接访问；
+#     国内运行时脚本会按需自动走内置镜像（ghfast.top / gh-proxy.com / gh.ddlc.top）。
+#   - 失效的源会自动跳过并在 status.json 中记录，不影响整体。
+
+# ========== 索引类种子 ==========
+
+# ① hkuc 维护的公开 TVBox 配置收集（每日自动更新，含高天流云/老白/heroaku 等）
+https://raw.githubusercontent.com/hkuc/tvbox-config/main/url.json
+
+# ========== 聚玩盒子（juwanhezi.com）单仓源精选 ==========
+# 2026-10-02 实测：以下 10 个为有效 TVBox 配置（sites 数见注释），直接启用；
+# 其余导航站地址已注释保留，需要时取消 # 即可。
+
+# 王二小（新） sites=96  ← 你最初用的源
+https://9280.kstore.vip/newwex.json
+# 牛二线路 sites=63（与王二小同作者，api 去重会自动合并重复）
+https://9280.kstore.space/wex.json
+# 心魔在线 sites=151 parses=24
+https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json
+# 嗷呜备用 sites=78
+https://9763.kstore.vip/aowu.json
+# 宝盒备用 sites=77
+https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json
+# 小马线路 sites=62 parses=40
+https://szyyds.cn/tv/x.json
+# D佬线路 sites=37 lives=20
+http://rihou.cc:555/nzk/nzk0722.json
+# 俊佬在线 sites=24
+http://home.jundie.top:81/top98.json
+# zhangqun1818 sites=19
+http://zhangqun1818.serv00.net/zq/api.json
+# 高天流云 js.json sites=298（hkuc 索引已含，去重后不重复计）
+# https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
+# 短剧频道（URL 含中文路径，脚本已支持中文编码，实测有效）
+http://box.ufuzi.com/tv/qq/短剧频道/api.json
+
+# ---- 以下为聚玩盒子导航站其余地址（实测非标准配置/待观察，注释保留）----
+# 少儿频道（jihulab 平台）
+# https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer
+# 无意云
+# https://ym.wya6.cn/
+# 小盒子4K
+# http://xhztv.top/4k.json
+# 月光宝盒源
+# https://3043.kstore.space/bhvip/bh/box.json
+# 宝盒线路2026
+# https://3043.kstore.space/bhvip/bh/bh2.json
+# 香雅晴线（hkuc 索引展开项）
+# https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json
+# 分享在线
+# http://hucongrong.web3v.work/%E9%A3%8E%E6%B0%B4/fxz/fxz.json
+# 饭太硬4（特殊格式，需配套解析）
+# http://fty.888484.xyz/tv
+# CandyMu（gitlab，当前连接被拒）
+# https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json
