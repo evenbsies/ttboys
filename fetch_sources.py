@@ -47,6 +47,23 @@ DEFAULT_MIRRORS = [
     "https://gh.ddlc.top/https://raw.githubusercontent.com/",
 ]
 
+# 实测不可达/失效的外部 js 爬虫域名（合并时默认剔除其站点，避免 jar load err）
+# 2026-10-02 实测：notabug 404 / catbox 连接重置 / yylx 404 / jundie666 401 / bitbucket 返回非内容
+JAR_HOST_BLOCKLIST = {
+    "notabug.org",
+    "files.catbox.moe",
+    "git.yylx.win",
+    "home.jundie.top:666",
+    "bitbucket.org",
+}
+
+
+def host_of(api):
+    try:
+        return urlsplit(api).netloc
+    except Exception:
+        return ""
+
 
 def safe_url(u):
     """含中文域名/路径的 URL 转成 IDNA + percent-encode，避免 urllib 编码错误。"""
@@ -176,11 +193,22 @@ def fetch_kind(url, timeout, mirror_list):
 
     if isinstance(obj, dict) and ("sites" in obj or "spider" in obj or "lives" in obj):
         return "config", obj
+    if text.startswith("#EXTM3U"):
+        # m3u 直播列表：作为单个直播源合并，不再当"每行 URL"的索引递归展开
+        return "live", text
     return "index", parse_text_to_urls(text)
 
 
-def merge_configs(config_list, max_per_source, max_sites):
-    """合并多个 TVBox 配置。返回 (merged_config, dedup_stats)。"""
+def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider="",
+                  keep_lives=False):
+    """合并多个 TVBox 配置。返回 (merged_config, dedup_stats)。
+
+    drop_jar=True（默认）：剔除网络订阅下必报错的站点——
+      1) api 为相对路径（./lib/xxx.js 等，URL 订阅无法下载）
+      2) api 指向实测不可达的外部 js 域名（JAR_HOST_BLOCKLIST）
+    spider 默认置空（播放器用内置默认，从根上避免 jar load err）；
+    高级用户可用 --spider 显式指定一个可达的 jar/http 链接。
+    """
     merged = {
         "spider": "", "wallpaper": "", "logo": "",
         "sites": [], "parses": [], "doh": [], "rules": [],
@@ -194,19 +222,28 @@ def merge_configs(config_list, max_per_source, max_sites):
     seen_doh = set()
     seen_ads = set()
     seen_header = set()
+    dropped_jar = 0
+    dropped_live = 0
 
     for cfg in config_list:
-        # 品牌字段取第一个非空的
-        for field in ("spider", "wallpaper", "logo"):
+        # 品牌字段：spider 用参数指定的值（默认空）；wallpaper/logo 取第一个非空
+        for field in ("wallpaper", "logo"):
             if not merged[field] and cfg.get(field):
                 merged[field] = cfg[field]
+        merged["spider"] = spider or ""
 
-        # sites：按 api 去重；key 冲突加序号
+        # sites：按 api 去重；key 冲突加序号；过滤 jar 报错源
         for s in cfg.get("sites", [])[:max_per_source]:
             if not isinstance(s, dict):
                 continue
             api = s.get("api", "")
             if not api:
+                continue
+            if drop_jar and api.startswith("./"):
+                dropped_jar += 1
+                continue
+            if drop_jar and api.startswith("http") and host_of(api) in JAR_HOST_BLOCKLIST:
+                dropped_jar += 1
                 continue
             if api in seen_api:
                 continue
@@ -234,13 +271,21 @@ def merge_configs(config_list, max_per_source, max_sites):
             seen_parse.add(p["url"])
             merged["parses"].append(p)
 
-        # lives：按 url 去重
+        # lives：按 url 去重；过滤网络订阅下必死的相对路径/本地代理条目
         for lv in cfg.get("lives", []):
             if not isinstance(lv, dict) or not lv.get("url"):
                 continue
-            if lv["url"] in seen_live:
+            lurl = lv["url"]
+            if lurl.startswith("./"):
+                dropped_live += 1
                 continue
-            seen_live.add(lv["url"])
+            h = host_of(lurl)
+            if h.split(":")[0] in ("127.0.0.1", "localhost"):
+                dropped_live += 1
+                continue
+            if lurl in seen_live:
+                continue
+            seen_live.add(lurl)
             merged["lives"].append(lv)
 
         # rules：按 name 去重
@@ -283,6 +328,8 @@ def merge_configs(config_list, max_per_source, max_sites):
         "parses_final": len(merged["parses"]),
         "lives_final": len(merged["lives"]),
         "rules_final": len(merged["rules"]),
+        "dropped_jar": dropped_jar,
+        "dropped_live": dropped_live,
     }
     return merged, dedup_stats
 
@@ -307,6 +354,12 @@ def main():
     ap.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT, help="单请求超时秒数")
     ap.add_argument("--sources", default="sources.txt", help="种子列表文件")
     ap.add_argument("--mirror", default="", help="自定义镜像前缀(逗号分隔)；默认使用内置镜像列表")
+    ap.add_argument("--keep-jar", action="store_true",
+                    help="保留相对路径/不可达域名的 js 爬虫源（默认剔除，避免 jar load err）")
+    ap.add_argument("--spider", default="",
+                    help="显式指定 spider 字段（默认空=播放器内置默认，彻底避免 jar load err）")
+    ap.add_argument("--official-live", action="store_true",
+                    help="并入官方直播源（读取 live_official.json，由 live_official.py 生成）")
     args = ap.parse_args()
 
     mirror_list = [m.strip() for m in args.mirror.split(",") if m.strip()] if args.mirror else list(DEFAULT_MIRRORS)
@@ -340,6 +393,13 @@ def main():
             print("[OK  ] %s  sites=%d (%dms)" % (url, sites_n, elapsed))
             config_list.append(payload)
             return
+        if kind == "live":
+            # m3u 直播列表 → 包成最小配置并入 lives
+            status["configs"].append({"url": url, "ok": True, "sites": 0, "elapsed_ms": elapsed, "live": True})
+            print("[LIVE] %s 直播列表 (%dms)" % (url, elapsed))
+            name = host_of(url) or "m3u"
+            config_list.append({"sites": [], "lives": [{"name": name, "url": url, "type": 0}]})
+            return
         # index
         urls = payload
         status["indexes"].append({"url": url, "ok": True, "found": len(urls), "elapsed_ms": elapsed})
@@ -356,7 +416,8 @@ def main():
         _write_status(status, {})
         sys.exit(1)
 
-    merged, stats = merge_configs(config_list, MAX_PER_SOURCE, args.max_sites)
+    merged, stats = merge_configs(config_list, MAX_PER_SOURCE, args.max_sites,
+                                  drop_jar=not args.keep_jar, spider=args.spider)
 
     # 并入用户维护的广告/赌博域名黑名单（TVBox 播放器据此拦截）
     blocklist = load_blocklist()
@@ -364,6 +425,27 @@ def main():
         if d not in merged["ads"]:
             merged["ads"].append(d)
     stats["blocklist_added"] = len(blocklist)
+
+    # 并入官方直播源（live_official.py 生成，咪咕等官方直链）
+    if args.official_live:
+        try:
+            with open("live_official.json", "r", encoding="utf-8") as f:
+                off_lives = json.load(f)
+            seen_live = set(lv["url"] for lv in merged["lives"])
+            added = 0
+            for lv in off_lives:
+                if not isinstance(lv, dict) or not lv.get("url"):
+                    continue
+                if lv["url"] in seen_live:
+                    continue
+                seen_live.add(lv["url"])
+                merged["lives"].append(lv)
+                added += 1
+            stats["official_live_added"] = added
+            stats["lives_final"] = len(merged["lives"])
+            print("并入官方直播源: %d 个（lives 共 %d）" % (added, len(merged["lives"])))
+        except FileNotFoundError:
+            print("未找到 live_official.json，跳过官方源并入（先运行 python live_official.py）")
 
     merged["update_time"] = status["run_at"]
     merged["_sources"] = {"indexes": len(status["indexes"]),
