@@ -7260,45 +7260,6 @@
    "regex": [
     "Smartv.php?id="
    ]
-  },
-  {
-   "name": "蜗牛直连去广",
-   "hosts": [
-    "vip.123pan.cn",
-    "rescdn.wuxivlog.cn"
-   ],
-   "regex": [
-    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-   ]
-  },
-  {
-   "name": "索尼广告",
-   "hosts": [
-    "suonizy"
-   ],
-   "regex": [
-    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-   ]
-  },
-  {
-   "name": "采集站广告",
-   "hosts": [
-    "vip.ffzy",
-    "hd.ffzy",
-    "vip.lz",
-    "hd.lz",
-    ".cdnlz",
-    "suonizy",
-    "bfzy"
-   ],
-   "regex": [
-    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+",
-    "#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+",
-    "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"
-   ]
   }
  ],
  "ads": [
@@ -7893,12 +7854,6 @@
    "url": "./野火改.txt",
    "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
    "logo": "https://epg.112114.xyz/logo/{name}.png"
-  },
-  {
-   "name": "live",
-   "type": 0,
-   "url": "./lives/live.txt",
-   "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
   }
  ],
  "headers": [
@@ -7915,10 +7870,10 @@
    }
   }
  ],
- "update_time": "2026-10-02 10:51:22",
+ "update_time": "2026-10-02 03:07:39",
  "_sources": {
-  "indexes": 17,
-  "configs_ok": 18,
+  "indexes": 18,
+  "configs_ok": 17,
   "failed": 2
  }
 }
