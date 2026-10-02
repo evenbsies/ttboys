@@ -40,6 +40,15 @@ http://zhangqun1818.serv00.net/zq/api.json
 # 短剧频道（URL 含中文路径，脚本已支持中文编码，实测有效）
 http://box.ufuzi.com/tv/qq/短剧频道/api.json
 
+# ========== 直播源（m3u 列表，识别为直播源直接并入 lives）==========
+# 2026-10-02 实测可达（镜像形式国内可访问）；失效会自动跳过并记录
+# 范明明·央视+卫视+地方台（ipv6，频道最全）
+https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+# （范明明仓库无 ipv4.m3u，实测 404；ipv4 央视卫视由 YueChan / Kimentanm-iptv 覆盖）
+# https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv4.m3u
+# YueChan·综合直播
+https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+
 # ---- 以下为聚玩盒子导航站其余地址（实测非标准配置/待观察，注释保留）----
 # 少儿频道（jihulab 平台）
 # https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer
