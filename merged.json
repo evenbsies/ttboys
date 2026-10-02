@@ -7225,45 +7225,6 @@
    "regex": [
     "Smartv.php?id="
    ]
-  },
-  {
-   "name": "蜗牛直连去广",
-   "hosts": [
-    "vip.123pan.cn",
-    "rescdn.wuxivlog.cn"
-   ],
-   "regex": [
-    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-   ]
-  },
-  {
-   "name": "索尼广告",
-   "hosts": [
-    "suonizy"
-   ],
-   "regex": [
-    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-   ]
-  },
-  {
-   "name": "采集站广告",
-   "hosts": [
-    "vip.ffzy",
-    "hd.ffzy",
-    "vip.lz",
-    "hd.lz",
-    ".cdnlz",
-    "suonizy",
-    "bfzy"
-   ],
-   "regex": [
-    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+",
-    "#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+",
-    "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"
-   ]
   }
  ],
  "ads": [
@@ -8176,8 +8137,8 @@
    "type": 0
   },
   {
-   "name": "山东卫视 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227909/index.m3u8",
+   "name": "山东卫视 480",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227955/index.m3u8",
    "type": 0
   },
   {
@@ -8188,6 +8149,11 @@
   {
    "name": "广东卫视 576",
    "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229362/index.m3u8",
+   "type": 0
+  },
+  {
+   "name": "广东卫视 720HEVC",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230784/index.m3u8广东卫视 480",
    "type": 0
   },
   {
@@ -8221,8 +8187,8 @@
    "type": 0
   },
   {
-   "name": "新疆卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229116/index.m3u8",
+   "name": "新疆卫视 480",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230439/index.m3u8",
    "type": 0
   },
   {
@@ -8341,8 +8307,8 @@
    "type": 0
   },
   {
-   "name": "湖南卫视 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228852/index.m3u8",
+   "name": "湖南卫视 3M1080",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230206/index.m3u8",
    "type": 0
   },
   {
@@ -8397,7 +8363,7 @@
   },
   {
    "name": "直播 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230662/index.m3u8",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230622/index.m3u8",
    "type": 0
   },
   {
@@ -8427,7 +8393,7 @@
   },
   {
    "name": "直播片段 V720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230718/index.m3u8",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230721/index.m3u8",
    "type": 0
   },
   {
@@ -8515,10 +8481,10 @@
    }
   }
  ],
- "update_time": "2026-10-02 13:18:12",
+ "update_time": "2026-10-02 06:02:03",
  "_sources": {
-  "indexes": 17,
-  "configs_ok": 20,
+  "indexes": 18,
+  "configs_ok": 19,
   "failed": 2
  }
 }
