@@ -204,8 +204,27 @@ def fetch_kind(url, timeout, mirror_list):
     return "index", parse_text_to_urls(text)
 
 
+def usable_spider_url(sp):
+    """返回可注入站点 jar 的绝对 URL；相对路径/黑名单域名返回 None。
+
+    源配置的 spider 若为绝对可达 URL（含作者伪装成 .jpg/.png 的 dex jar），
+    下放到站点级 jar 字段，恢复 csp_Wex*/csp_Ai*/csp_SheQu* 等自定义类站点；
+    相对路径（./jar/xxx.jar）URL 订阅无法下载，跳过避免 jar load err。
+    """
+    if not sp:
+        return None
+    sp = sp.strip()
+    if sp.startswith("./") or sp.startswith("/"):
+        return None
+    if not (sp.startswith("http://") or sp.startswith("https://")):
+        return None
+    if host_of(sp) in JAR_HOST_BLOCKLIST:
+        return None
+    return sp
+
+
 def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider="",
-                  keep_lives=False):
+                  keep_lives=False, inject_jar=True):
     """合并多个 TVBox 配置。返回 (merged_config, dedup_stats)。
 
     drop_jar=True（默认）：剔除网络订阅下必报错的站点——
@@ -213,6 +232,8 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
       2) api 指向实测不可达的外部 js 域名（JAR_HOST_BLOCKLIST）
     spider 默认置空（播放器用内置默认，从根上避免 jar load err）；
     高级用户可用 --spider 显式指定一个可达的 jar/http 链接。
+    inject_jar=True（默认）：源 spider 为绝对 URL 时注入到该源所有
+    无 jar 字段的站点，恢复自定义 jar 类站点（秒播/4K 等）。
     """
     merged = {
         "spider": "", "wallpaper": "", "logo": "",
@@ -229,6 +250,7 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
     seen_header = set()
     dropped_jar = 0
     dropped_live = 0
+    jar_injected = 0
 
     for cfg in config_list:
         # 品牌字段：spider 用参数指定的值（默认空）；wallpaper/logo 取第一个非空
@@ -236,6 +258,8 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
             if not merged[field] and cfg.get(field):
                 merged[field] = cfg[field]
         merged["spider"] = spider or ""
+        # 该源 spider 若为绝对可达 URL，作为本源站点默认 jar（恢复自定义类站点）
+        src_spider = usable_spider_url(cfg.get("spider", "")) if inject_jar else None
 
         # sites：按 api 去重；key 冲突加序号；过滤 jar 报错源
         for s in cfg.get("sites", [])[:max_per_source]:
@@ -256,6 +280,11 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
                 break
             key = str(s.get("key", "") or api[:12])
             new_s = dict(s)
+            if not new_s.get("jar"):
+                new_s.pop("jar", None)  # 空串 jar 会让播放器下载空地址，移除
+            if src_spider and not new_s.get("jar"):
+                new_s["jar"] = src_spider
+                jar_injected += 1
             if key in used_keys:
                 i = 2
                 while "%s_%d" % (key, i) in used_keys:
@@ -335,6 +364,7 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
         "rules_final": len(merged["rules"]),
         "dropped_jar": dropped_jar,
         "dropped_live": dropped_live,
+        "jar_injected": jar_injected,
     }
     return merged, dedup_stats
 
@@ -445,6 +475,8 @@ def main():
                     help="保留相对路径/不可达域名的 js 爬虫源（默认剔除，避免 jar load err）")
     ap.add_argument("--spider", default="",
                     help="显式指定 spider 字段（默认空=播放器内置默认，彻底避免 jar load err）")
+    ap.add_argument("--no-inject-jar", action="store_true",
+                    help="不把源 spider(绝对URL) 注入站点 jar 字段（默认注入，恢复自定义类站点）")
     ap.add_argument("--official-live", action="store_true",
                     help="并入官方直播源（读取 live_official.json，由 live_official.py 生成）")
     ap.add_argument("--quality-file", default=QUALITY_FILE, help="质量历史文件")
@@ -562,7 +594,8 @@ def main():
         sys.exit(1)
 
     merged, stats = merge_configs(config_list, MAX_PER_SOURCE, args.max_sites,
-                                  drop_jar=not args.keep_jar, spider=args.spider)
+                                  drop_jar=not args.keep_jar, spider=args.spider,
+                                  inject_jar=not args.no_inject_jar)
 
     # 并入用户维护的广告/赌博域名黑名单（TVBox 播放器据此拦截）
     blocklist = load_blocklist()
@@ -610,6 +643,8 @@ def main():
         stats["rules_final"], len(status["configs"]), len(status["failed"])))
     print("质量: 淘汰中 %d 个(本次新增 %d) | 复活成功 %d / 失败 %d" %
           (len(excluded), excluded_new, revived_ok, revived_fail))
+    if stats.get("jar_injected"):
+        print("jar注入: %d 个站点补上可达的源 jar（恢复秒播/4K 等自定义类站点）" % stats["jar_injected"])
 
 
 def _write_status(status, stats):

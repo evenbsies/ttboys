@@ -1829,7 +1829,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt",
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "Wexconfig",
@@ -1841,7 +1842,8 @@
    "indexs": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "MyPan",
@@ -1853,7 +1855,8 @@
    "indexs": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "花卷",
@@ -1862,7 +1865,8 @@
    "api": "csp_AiNewHuaJuanGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "玩偶_2",
@@ -1871,7 +1875,8 @@
    "api": "csp_AiNewWoggGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiNewGuanYing",
@@ -1880,7 +1885,8 @@
    "api": "csp_AiNewGuanYingGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiQwMkv",
@@ -1889,7 +1895,8 @@
    "api": "csp_AiQwMkvGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiNewPianKu",
@@ -1898,7 +1905,8 @@
    "api": "csp_AiNewPianKuGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiNewHuBan",
@@ -1907,7 +1915,8 @@
    "api": "csp_AiNewHuBanGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiNewMuOu",
@@ -1916,7 +1925,8 @@
    "api": "csp_AiNewMuOuGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiNewDuoDuo",
@@ -1925,7 +1935,8 @@
    "api": "csp_AiNewDuoDuoGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiNewJuTou",
@@ -1934,7 +1945,8 @@
    "api": "csp_AiNewJuTouGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiNewLibvio",
@@ -1943,7 +1955,8 @@
    "api": "csp_AiNewLibvioGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "原盘",
@@ -1952,7 +1965,8 @@
    "api": "csp_AiNewZhiNan4KGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "蜗牛",
@@ -1961,7 +1975,8 @@
    "api": "csp_AiNewWoNiu4KGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiPan1Me",
@@ -1970,7 +1985,8 @@
    "api": "csp_AiPan1MeGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AiNewYiDong4K",
@@ -1979,7 +1995,8 @@
    "api": "csp_AiNewYiDong4KGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexHanXiaoQuan",
@@ -1988,7 +2005,8 @@
    "api": "csp_WexAiHanXiaoQuanGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexAiGuaZi",
@@ -1997,7 +2015,8 @@
    "api": "csp_WexAiGuaZiGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexAiDuBoKu",
@@ -2006,7 +2025,8 @@
    "api": "csp_WexAiDuBoKuGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexAiYueYue",
@@ -2015,7 +2035,8 @@
    "api": "csp_WexAiYueYueGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexAiWenCai",
@@ -2024,7 +2045,8 @@
    "api": "csp_WexAiWenCaiGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexFengYe4K",
@@ -2033,7 +2055,8 @@
    "api": "csp_WexFengYe4KGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "賤賤",
@@ -2042,7 +2065,8 @@
    "api": "csp_WexAiJianPianGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AppV7 | 大师兄",
@@ -2055,7 +2079,8 @@
     "config": "AppV7Dsx",
     "proxyImg": false
    },
-   "timeout": 120
+   "timeout": 120,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexAiYiYs",
@@ -2064,7 +2089,8 @@
    "api": "csp_WexAiYiYsGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexAiReBo",
@@ -2073,7 +2099,8 @@
    "api": "csp_WexAiReBoGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexAiBoBo",
@@ -2082,7 +2109,8 @@
    "api": "csp_WexAiBoBoGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "WexAiIkanBot",
@@ -2091,7 +2119,8 @@
    "api": "csp_WexAiIkanBotGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "LiveAiHuYa",
@@ -2099,7 +2128,8 @@
    "type": 3,
    "api": "csp_LiveAiHuYaGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "LiveAiDouYu",
@@ -2107,7 +2137,8 @@
    "type": 3,
    "api": "csp_LiveAiDouYuGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "LiveAiBiLi",
@@ -2115,7 +2146,8 @@
    "type": 3,
    "api": "csp_LiveAiBiLiGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "ManJuAiHongGuo",
@@ -2124,7 +2156,8 @@
    "类型": "短剧",
    "api": "csp_ManJuAiHongGuoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "ManJuAiHuoLong",
@@ -2133,7 +2166,8 @@
    "类型": "短剧",
    "api": "csp_ManJuAiHuoLongGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "ManJuAiQiMao",
@@ -2142,7 +2176,8 @@
    "类型": "短剧",
    "api": "csp_ManJuAiQiMaoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "ManJuAiXiFan",
@@ -2151,7 +2186,8 @@
    "类型": "短剧",
    "api": "csp_ManJuAiXiFanGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "ManJuAiHeMa",
@@ -2160,7 +2196,8 @@
    "类型": "短剧",
    "api": "csp_ManJuAiHeMaGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "DuanJuAiHaoKan",
@@ -2169,7 +2206,8 @@
    "类型": "短剧",
    "api": "csp_DuanJuAiHaoKanGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "DuanJuAiQiMiao",
@@ -2178,7 +2216,8 @@
    "类型": "短剧",
    "api": "csp_DuanJuAiQiMiaoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "DuanJuAiXingYa",
@@ -2187,7 +2226,8 @@
    "类型": "短剧",
    "api": "csp_DuanJuAiXingYaGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "DuanJuAiWeiGuan",
@@ -2196,7 +2236,8 @@
    "类型": "短剧",
    "api": "csp_DuanJuAiWeiGuanGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AnimeXiFan",
@@ -2204,7 +2245,8 @@
    "type": 3,
    "api": "csp_AnimeXiFanGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AnimeCiYuanCheng",
@@ -2212,7 +2254,8 @@
    "type": 3,
    "api": "csp_AnimeCiYuanChengGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AnimeAiMoDu",
@@ -2220,7 +2263,8 @@
    "type": 3,
    "api": "csp_AnimeAiMoDuGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "BookHongGuo",
@@ -2228,7 +2272,8 @@
    "type": 3,
    "api": "csp_BookHongGuoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "BookHeMa",
@@ -2236,7 +2281,8 @@
    "type": 3,
    "api": "csp_BookHeMaGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "BookAiShiJie",
@@ -2244,7 +2290,8 @@
    "type": 3,
    "api": "csp_BookAiShiJieGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "BookAiYueTing",
@@ -2253,7 +2300,8 @@
    "api": "csp_BookAiYueTingGuard",
    "searchable": 1,
    "changeable": 0,
-   "timeout": 120
+   "timeout": 120,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "BookAi23TingShu",
@@ -2261,7 +2309,8 @@
    "type": 3,
    "api": "csp_BookAi23TingShuGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "ChildrenAiBaoBao",
@@ -2273,7 +2322,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "ChildrenAiBeiWa",
@@ -2285,7 +2335,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "ChildrenAiTuTu",
@@ -2297,7 +2348,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "MusicAiTangDou",
@@ -2309,7 +2361,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "MusicAiLiYuan",
@@ -2321,7 +2374,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "MusicAiQingTing",
@@ -2329,7 +2383,8 @@
    "type": 3,
    "api": "csp_MusicAiQingTingGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "MusicAiIKtv",
@@ -2337,7 +2392,8 @@
    "type": 3,
    "api": "csp_MusicAiIKtvGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "MusicAiKuWoa",
@@ -2345,7 +2401,8 @@
    "type": 3,
    "api": "csp_MusicAiKuWoaGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "MusicAi163",
@@ -2353,7 +2410,8 @@
    "type": 3,
    "api": "csp_MusicAi163Guard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "MusicAiKuWo",
@@ -2361,7 +2419,8 @@
    "type": 3,
    "api": "csp_MusicAiKuWoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "MusicAiLunHui",
@@ -2369,7 +2428,8 @@
    "type": 3,
    "api": "csp_MusicAiLunHuiGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SportAiFeiQiu",
@@ -2380,7 +2440,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SportAiGuaZi",
@@ -2391,7 +2452,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SportAiKanQiuTong",
@@ -2402,7 +2464,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SportAiKanqiu",
@@ -2410,7 +2473,8 @@
    "type": 3,
    "api": "csp_SportAiKanqiuGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SportAiKaFei",
@@ -2421,7 +2485,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SportAiWwe",
@@ -2432,7 +2497,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "FakeAi115Share",
@@ -2444,7 +2510,8 @@
    "timeout": 50,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "Emby",
@@ -2453,7 +2520,8 @@
    "api": "csp_EmbyGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "Emby001",
@@ -2465,7 +2533,8 @@
    "changeable": 0,
    "ext": {
     "embynumber": 0
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "AList",
@@ -2473,7 +2542,8 @@
    "type": 3,
    "api": "csp_AListGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "webdav",
@@ -2481,7 +2551,8 @@
    "type": 3,
    "api": "csp_WebDAVGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "DiyVod",
@@ -2492,7 +2563,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "biliys",
@@ -2501,7 +2573,8 @@
    "api": "csp_BiliYsGuard",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
+   "filterable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "bilibili",
@@ -2518,7 +2591,8 @@
    },
    "ext": {
     "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SoAiHaiYin",
@@ -2526,7 +2600,8 @@
    "type": 3,
    "api": "csp_SoAiHaiYinGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SoAiPanSoo",
@@ -2534,7 +2609,8 @@
    "type": 3,
    "api": "csp_SoAiPanSooGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SoAiQuPanShe",
@@ -2542,7 +2618,8 @@
    "type": 3,
    "api": "csp_SoAiQuPanSheGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SoAiAiPanSo",
@@ -2550,7 +2627,8 @@
    "type": 3,
    "api": "csp_SoAiAiPanSoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "SoKaKa",
@@ -2558,7 +2636,8 @@
    "type": 3,
    "api": "csp_SoKaKaGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "push_agent_2",
@@ -2566,7 +2645,8 @@
    "type": 3,
    "api": "csp_PushGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/06cf2230c30d9c26fa46ea79147b330d.jpg;md5;fc8f993c9297d38139363cd0e3db9853"
   },
   {
    "key": "Douban_2",
@@ -2576,7 +2656,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 0,
-   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
+   "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt",
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexconfig_2",
@@ -2585,7 +2666,8 @@
    "api": "csp_WexconfigGuard",
    "searchable": 0,
    "changeable": 0,
-   "indexs": 0
+   "indexs": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexokconfig",
@@ -2594,7 +2676,8 @@
    "api": "csp_WexokconfigGuard",
    "searchable": 0,
    "changeable": 0,
-   "indexs": 0
+   "indexs": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "玩偶_3",
@@ -2602,7 +2685,8 @@
    "type": 3,
    "api": "csp_WoggGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexnullname",
@@ -2611,7 +2695,8 @@
    "api": "csp_WexnullnameGuard",
    "searchable": 1,
    "changeable": 1,
-   "timeout": 120
+   "timeout": 120,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexduoduoziyuanGuard",
@@ -2620,7 +2705,8 @@
    "api": "csp_WexduoduoziyuanGuard",
    "searchable": 1,
    "changeable": 1,
-   "timeout": 120
+   "timeout": 120,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexmuougg",
@@ -2628,7 +2714,8 @@
    "type": 3,
    "api": "csp_WexmuouggGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexshuangzixingGuard",
@@ -2636,7 +2723,8 @@
    "type": 3,
    "api": "csp_WexshuangzixingGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexhubanGuard",
@@ -2644,7 +2732,8 @@
    "type": 3,
    "api": "csp_WexhubanGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexpan123ziyuanGuard",
@@ -2652,7 +2741,8 @@
    "type": 3,
    "api": "csp_Wexpan123ziyuanGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexhanxiaoquan",
@@ -2660,7 +2750,8 @@
    "type": 3,
    "api": "csp_WexhanxiaoquanGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "賤賤_2",
@@ -2668,7 +2759,8 @@
    "type": 3,
    "api": "csp_WexJianpianGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexkuihuatvGuard",
@@ -2676,7 +2768,8 @@
    "type": 3,
    "api": "csp_WexkuihuatvGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexwencai",
@@ -2684,7 +2777,8 @@
    "type": 3,
    "api": "csp_WexwencaiGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "csp_Nmys",
@@ -2692,7 +2786,8 @@
    "type": 3,
    "api": "csp_WexNmysGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexbttwoGuard",
@@ -2700,7 +2795,8 @@
    "type": 3,
    "api": "csp_WexbttwoGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexikanbotGuard",
@@ -2708,7 +2804,8 @@
    "type": 3,
    "api": "csp_WexikanbotGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "新6V_3",
@@ -2716,7 +2813,8 @@
    "type": 3,
    "api": "csp_WexXb6vGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexemby",
@@ -2724,7 +2822,8 @@
    "type": 3,
    "api": "csp_WexembyGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexNewHuYa",
@@ -2732,7 +2831,8 @@
    "type": 3,
    "api": "csp_WexNewHuYaGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexNewDouYu",
@@ -2740,7 +2840,8 @@
    "type": 3,
    "api": "csp_WexNewDouYuGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexNewBiLiLive",
@@ -2748,7 +2849,8 @@
    "type": 3,
    "api": "csp_WexNewBiLiLiveGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexduanjuvop",
@@ -2756,7 +2858,8 @@
    "type": 3,
    "api": "csp_WexduanjuvopGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexduanjusuipian",
@@ -2764,7 +2867,8 @@
    "type": 3,
    "api": "csp_WexduanjusuipianGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexduanjuvmp",
@@ -2772,7 +2876,8 @@
    "type": 3,
    "api": "csp_WexduanjuvmpGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexduanjuhema",
@@ -2780,7 +2885,8 @@
    "type": 3,
    "api": "csp_WexduanjuhemaGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexduanju001",
@@ -2788,7 +2894,8 @@
    "type": 3,
    "api": "csp_Wexduanju001Guard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexlaobaitingshu",
@@ -2796,7 +2903,8 @@
    "type": 3,
    "api": "csp_WexlaobaitingshuGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wex275tingshu",
@@ -2804,7 +2912,8 @@
    "type": 3,
    "api": "csp_Wex275tingshuGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexliyuan",
@@ -2816,7 +2925,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wextangdou",
@@ -2828,7 +2938,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexergeduoduo",
@@ -2840,7 +2951,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexbaobaobashi",
@@ -2852,7 +2964,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexbeiwa",
@@ -2864,7 +2977,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wextuxiaobei",
@@ -2876,7 +2990,8 @@
    "style": {
     "type": "rect",
     "ratio": 2
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Iktv_2",
@@ -2884,7 +2999,8 @@
    "type": 3,
    "api": "csp_WexIktvGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "自定义",
@@ -2895,7 +3011,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wexbiliys",
@@ -2903,7 +3020,8 @@
    "type": 3,
    "api": "csp_WexbiliysGuard",
    "searchable": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexLunhuiDJ",
@@ -2911,7 +3029,8 @@
    "type": 3,
    "api": "csp_WexLunhuiDJGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "看球_2",
@@ -2922,7 +3041,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "瓜子看球",
@@ -2933,7 +3053,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wextyso",
@@ -2941,7 +3062,8 @@
    "type": 3,
    "api": "csp_WextysoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexbaidusoGuard",
@@ -2949,7 +3071,8 @@
    "type": 3,
    "api": "csp_WexbaidusoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexHaiYinsoGuard",
@@ -2957,7 +3080,8 @@
    "type": 3,
    "api": "csp_WexHaiYinsoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "Wex97pansoGuard",
@@ -2965,7 +3089,8 @@
    "type": 3,
    "api": "csp_Wex97pansoGuard",
    "searchable": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "115",
@@ -2977,7 +3102,8 @@
    "timeout": 50,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "tianyi",
@@ -2989,7 +3115,8 @@
    "timeout": 50,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "夸克",
@@ -3001,7 +3128,8 @@
    "timeout": 50,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "优熙",
@@ -3013,7 +3141,8 @@
    "timeout": 50,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "异动",
@@ -3025,7 +3154,8 @@
    "timeout": 50,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "WexWo123panGuard",
@@ -3037,7 +3167,8 @@
    "timeout": 50,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "xunlei",
@@ -3049,7 +3180,8 @@
    "timeout": 50,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "baidu",
@@ -3061,7 +3193,8 @@
    "timeout": 50,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "http://oss4liview.moji.com/thd_file/2026/09/24/558a139ef7cb6b9a1f8400749c5cd59c.jpg;md5;59c9dc9de0031483ab248e1c8425c9f5"
   },
   {
    "key": "csp_xml_非凡资源",
@@ -3793,7 +3926,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "changeable": 1,
-   "ext": "Douban"
+   "ext": "Douban",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "更新日期:【侏罗纪】",
@@ -3803,7 +3937,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "changeable": 1,
-   "ext": "Y360"
+   "ext": "Y360",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🔥短剧┃推荐",
@@ -3814,7 +3949,8 @@
    "quickSearch": 1,
    "changeable": 1,
    "genre": "shortdrama",
-   "ext": "Hgdh"
+   "ext": "Hgdh",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "⚙️配置┃中心",
@@ -3823,7 +3959,8 @@
    "api": "csp_AAConfigAmns",
    "searchable": 0,
    "quickSearch": 0,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📁资源┃中心",
@@ -3832,7 +3969,8 @@
    "api": "csp_MyAllAmns",
    "searchable": 0,
    "quickSearch": 0,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "💥玩偶┃4K",
@@ -3842,7 +3980,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "woWogg"
+   "ext": "woWogg",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "💥木偶┃4K",
@@ -3852,7 +3991,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "moWobg"
+   "ext": "moWobg",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🚀韩剧┃秒播",
@@ -3861,7 +4001,8 @@
    "api": "csp_HxqAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🚀瓜子┃秒播",
@@ -3871,7 +4012,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "Guazi"
+   "ext": "Guazi",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🚀金牌┃秒播",
@@ -3880,7 +4022,8 @@
    "api": "csp_JinPaiAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🚀秋天┃秒播",
@@ -3890,7 +4033,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "NewGrV2"
+   "ext": "NewGrV2",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📦①线┃秒播",
@@ -3900,7 +4044,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "AppV7Fz"
+   "ext": "AppV7Fz",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "☁️花卷┃4K",
@@ -3910,7 +4055,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "PanHj"
+   "ext": "PanHj",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "☁️Sed┃4K",
@@ -3920,7 +4066,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "SeedHub"
+   "ext": "SeedHub",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "☁️观影┃4K",
@@ -3930,7 +4077,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "Gying"
+   "ext": "Gying",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "☁️七味┃4K",
@@ -3940,7 +4088,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "Qiwei"
+   "ext": "Qiwei",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "☁️原盘┃4K",
@@ -3950,7 +4099,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "Zhinan"
+   "ext": "Zhinan",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "☁️逸动┃4K",
@@ -3959,7 +4109,8 @@
    "api": "csp_SheQuydAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "☁️123┃4K",
@@ -3968,7 +4119,8 @@
    "api": "csp_SheQu123Amns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "☁️蜗牛┃4K",
@@ -3977,7 +4129,8 @@
    "api": "csp_SheQuwonAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🐱番薯┃动漫",
@@ -3986,7 +4139,8 @@
    "api": "csp_DMfansAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🐱牛来┃动漫",
@@ -3995,7 +4149,8 @@
    "api": "csp_DMoxAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🐱青云┃动漫",
@@ -4004,7 +4159,8 @@
    "api": "csp_DMqingkAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🐱魔都┃动漫",
@@ -4013,7 +4169,8 @@
    "api": "csp_DMmoduAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🛸哔嘀┃2K",
@@ -4023,7 +4180,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "Bidys"
+   "ext": "Bidys",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🛸厂长┃2K",
@@ -4033,7 +4191,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "Czzy"
+   "ext": "Czzy",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🛸LBV┃2K",
@@ -4043,7 +4202,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "Libvio"
+   "ext": "Libvio",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📽️嗷嗚┃短剧",
@@ -4053,7 +4213,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "changeable": 1,
-   "genre": "shortdrama"
+   "genre": "shortdrama",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📽️豪堪┃短剧",
@@ -4063,7 +4224,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "genre": "shortdrama"
+   "genre": "shortdrama",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📽️盒马┃短剧",
@@ -4073,7 +4235,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "genre": "shortdrama"
+   "genre": "shortdrama",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📽️拜拜┃短剧",
@@ -4083,7 +4246,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "genre": "shortdrama"
+   "genre": "shortdrama",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📽️围观┃短剧",
@@ -4093,7 +4257,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "genre": "shortdrama"
+   "genre": "shortdrama",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📽️喵喵┃短剧",
@@ -4103,7 +4268,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "genre": "shortdrama"
+   "genre": "shortdrama",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📽️星星┃短剧",
@@ -4113,7 +4279,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "genre": "shortdrama"
+   "genre": "shortdrama",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "⭐橘汁┃快速",
@@ -4133,7 +4300,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "Rbys"
+   "ext": "Rbys",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "⭐杜北┃秒播",
@@ -4143,7 +4311,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "Dubk"
+   "ext": "Dubk",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "⭐荐片┃快速",
@@ -4153,7 +4322,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "JPian"
+   "ext": "JPian",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "⭐伊外┃快速",
@@ -4162,7 +4332,8 @@
    "api": "csp_YIysAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "⭐爱看┃采集",
@@ -4171,7 +4342,8 @@
    "api": "csp_AiBotAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🌍爱瓜┃墙外",
@@ -4180,7 +4352,8 @@
    "api": "csp_AiGuaAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🌍U视┃墙外",
@@ -4189,7 +4362,8 @@
    "api": "csp_YspAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🌍欧乐┃墙外",
@@ -4198,7 +4372,8 @@
    "api": "csp_OlyyAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🌍壹帆┃墙外",
@@ -4207,7 +4382,8 @@
    "api": "csp_AiyfAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📡Bili┃Live",
@@ -4220,7 +4396,8 @@
    "style": {
     "type": "rect",
     "ratio": 1.433
-   }
+   },
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📡虎牙┃Live",
@@ -4233,7 +4410,8 @@
    "style": {
     "type": "rect",
     "ratio": 1.433
-   }
+   },
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🏆瓜子┃体育",
@@ -4243,7 +4421,8 @@
    "searchable": 0,
    "quickSearch": 0,
    "changeable": 1,
-   "ext": "GuaziLive"
+   "ext": "GuaziLive",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🏆飞球┃体育",
@@ -4252,7 +4431,8 @@
    "api": "csp_FeiqLiveAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🏆88┃体育",
@@ -4262,7 +4442,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "BbkqLive"
+   "ext": "BbkqLive",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🏆咖啡┃体育",
@@ -4271,7 +4452,8 @@
    "api": "csp_KafLiveAmns",
    "searchable": 0,
    "quickSearch": 0,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🎉合集┃Bili",
@@ -4289,7 +4471,8 @@
    "style": {
     "type": "rect",
     "ratio": 1.433
-   }
+   },
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📖嗷嗚┃听书",
@@ -4298,7 +4481,8 @@
    "api": "csp_TSaowuAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📖富强┃听书",
@@ -4307,7 +4491,8 @@
    "api": "csp_TStyAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "📖文明┃听书",
@@ -4316,7 +4501,8 @@
    "api": "csp_TStzgAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🎸酷狗┃音乐",
@@ -4326,7 +4512,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "genre": "music"
+   "genre": "music",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🎸酷听┃音乐",
@@ -4336,7 +4523,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "genre": "music"
+   "genre": "music",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🎸蜻蜓┃电台",
@@ -4346,7 +4534,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "genre": "music"
+   "genre": "music",
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🔍fish┃盘搜",
@@ -4355,7 +4544,8 @@
    "api": "csp_PSfishAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🔍短剧┃盘搜",
@@ -4364,7 +4554,8 @@
    "api": "csp_PSdjuAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "name": "🛴推送┃播放",
@@ -4373,7 +4564,8 @@
    "api": "csp_PushAmns",
    "searchable": 0,
    "quickSearch": 0,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png;md5;14751afef3ef30b1afffa398f1e9d961"
   },
   {
    "key": "csp_PanShare",
@@ -4639,7 +4831,8 @@
    "indexs": 1,
    "searchable": 0,
    "quickSearch": 0,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "我的云盘",
@@ -4654,7 +4847,8 @@
    },
    "ext": {
     "Cloud-drive": "tvfan/Cloud-drive.txt"
-   }
+   },
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "push_agent_4",
@@ -4667,7 +4861,8 @@
    "ext": {
     "sp": "Push"
    },
-   "timeout": 25
+   "timeout": 25,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "电影天堂",
@@ -4678,7 +4873,8 @@
    "quickSearch": 1,
    "filterable": 1,
    "changeable": 1,
-   "playerType": 2
+   "playerType": 2,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "天涯采集",
@@ -4693,7 +4889,8 @@
    "quickSearch": 1,
    "filterable": 1,
    "changeable": 1,
-   "playerType": 2
+   "playerType": 2,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "索尼_2",
@@ -4728,7 +4925,8 @@
     "港台动漫",
     "海外动漫",
     "影视解说"
-   ]
+   ],
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "极速资源",
@@ -4771,7 +4969,8 @@
    ],
    "header": {
     "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-   }
+   },
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "建安采集",
@@ -4786,7 +4985,8 @@
    "quickSearch": 1,
    "filterable": 1,
    "changeable": 1,
-   "playerType": 2
+   "playerType": 2,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "率率",
@@ -4814,14 +5014,16 @@
     "欧美动漫",
     "大陆综艺",
     "日韩综艺"
-   ]
+   ],
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "AQY",
    "name": "爱奇艺",
    "type": 3,
    "api": "https://szyyds.cn/js/6F02.js",
-   "ext": "https://szyyds.cn/js/3c16.js"
+   "ext": "https://szyyds.cn/js/3c16.js",
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "玩偶_4",
@@ -4834,7 +5036,8 @@
    "changeable": 0,
    "ext": {
     "Cloud-drive": "tvfan/Cloud-drive.txt"
-   }
+   },
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "huban",
@@ -4852,7 +5055,8 @@
    "quickSearch": 1,
    "changeable": 1,
    "filterable": 1,
-   "timeout": 10
+   "timeout": 10,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "YGP",
@@ -4861,7 +5065,8 @@
    "api": "csp_YGPGuard",
    "searchable": 0,
    "quickSearch": 0,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "MTV1",
@@ -4875,7 +5080,8 @@
    "playerType": 2,
    "searchable": 1,
    "quickSearch": 0,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "Dm84_2",
@@ -4885,7 +5091,8 @@
    "timeout": 10,
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "Anime1_2",
@@ -4895,7 +5102,8 @@
    "timeout": 10,
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "新6V_4",
@@ -4906,7 +5114,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 0,
-   "ext": "https://www.xb6v.com/"
+   "ext": "https://www.xb6v.com/",
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "荐片",
@@ -4917,7 +5126,8 @@
    "playerType": 2,
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 0
+   "changeable": 0,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "厂长_2",
@@ -4928,7 +5138,8 @@
    "playerType": 2,
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "文采_2",
@@ -4939,7 +5150,8 @@
    "playerType": 2,
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "原创",
@@ -4950,7 +5162,8 @@
    "playerType": 1,
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "比特_2",
@@ -4960,7 +5173,8 @@
    "timeout": 10,
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "糯米_2",
@@ -4970,7 +5184,8 @@
    "timeout": 15,
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "热播_2",
@@ -4982,7 +5197,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "uqGL1bNENExT7/hGxpSE5qU="
+   "ext": "uqGL1bNENExT7/hGxpSE5qU=",
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "剧圈",
@@ -4993,7 +5209,8 @@
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"
+   "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p",
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "奥特",
@@ -5003,7 +5220,8 @@
    "timeout": 10,
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1
+   "changeable": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "闪电资源",
@@ -5011,7 +5229,8 @@
    "type": 1,
    "api": "http://sdzyapi.com/api.php/provide/vod/",
    "searchable": 1,
-   "quickSearch": 1
+   "quickSearch": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "光速资源",
@@ -5019,7 +5238,8 @@
    "type": 1,
    "api": "https://api.guangsuapi.com/api.php/provide/vod/",
    "searchable": 1,
-   "quickSearch": 1
+   "quickSearch": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "新浪资源",
@@ -5027,7 +5247,8 @@
    "type": 1,
    "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
    "searchable": 1,
-   "quickSearch": 1
+   "quickSearch": 1,
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "还行",
@@ -5049,7 +5270,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "Aid_2",
@@ -5062,7 +5284,8 @@
    "style": {
     "type": "rect",
     "ratio": 3.8
-   }
+   },
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "88",
@@ -5074,7 +5297,8 @@
    "changeable": 0,
    "style": {
     "type": "list"
-   }
+   },
+   "jar": "https://szyyds.cn/tv/x.jpg;md5;4ce29ce27eeff6a73a230dd92d98ba0c"
   },
   {
    "key": "jrsjs",
@@ -5091,7 +5315,8 @@
    "timeout": 10,
    "header": {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
-   }
+   },
+   "jar": "http://rihou.cc:555/jar/nzk0722.jar"
   },
   {
    "key": "影视_2",
@@ -7225,6 +7450,45 @@
    "regex": [
     "Smartv.php?id="
    ]
+  },
+  {
+   "name": "蜗牛直连去广",
+   "hosts": [
+    "vip.123pan.cn",
+    "rescdn.wuxivlog.cn"
+   ],
+   "regex": [
+    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+   ]
+  },
+  {
+   "name": "索尼广告",
+   "hosts": [
+    "suonizy"
+   ],
+   "regex": [
+    "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+   ]
+  },
+  {
+   "name": "采集站广告",
+   "hosts": [
+    "vip.ffzy",
+    "hd.ffzy",
+    "vip.lz",
+    "hd.lz",
+    ".cdnlz",
+    "suonizy",
+    "bfzy"
+   ],
+   "regex": [
+    "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+",
+    "#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+",
+    "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"
+   ]
   }
  ],
  "ads": [
@@ -7773,7 +8037,7 @@
   },
   {
    "name": "24小时城市联赛轮播台",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/lunbo/ouzhoubei/51/20240603/index.m3u8?msisdn=1b636e40d33384afce798b5a1a8416be&mdspid=&spid=800033&netType=0&sid=5910022136&pid=2028597139&timestamp=20261002145100&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=915512915&ParentNodeID=-99&assertID=5910022136&client_ip=39.103.182.111&SecurityKey=20261002145100&promotionId=&mvid=5900006618&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=f52efce7ef16277411f9fd533065af60&ddCalcu=0f65vf2aael5fa6c0e373e5fd1f692f71714&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/lunbo/ouzhoubei/51/20240603/index.m3u8?msisdn=66a6fc8120e6cdc3873941da904e6004&mdspid=&spid=800033&netType=0&sid=5910022136&pid=2028597139&timestamp=20261002135135&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=915512915&ParentNodeID=-99&assertID=5910022136&client_ip=39.103.182.111&SecurityKey=20261002135135&promotionId=&mvid=5900006618&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=ee330b9ae502e3bbbd205f3ba69e4f2f&ddCalcu=fe2evf3a43le0a9b69aabe35f0520e23dbbb&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -7853,7 +8117,7 @@
   },
   {
    "name": "CGTN外语纪录",
-   "url": "http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/doc/1000/index.m3u8?msisdn=b5b445a5b280ecfba9bf7e5e567b1694&mdspid=&spid=699004&netType=0&sid=2200179356&pid=2028597139&timestamp=20261002145031&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=609006487&ParentNodeID=-99&assertID=2200179356&client_ip=39.103.188.159&SecurityKey=20261002145031&promotionId=&mvid=2200179356&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=69802e6cbfb0622cfd3bd8c5fa3c1d46&ddCalcu=6649vd8a10yc2a3ea6fc5bcf8bd0b632d2fc&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/doc/1000/index.m3u8?msisdn=cdc09dc386ea3f484c7e87cead7c578a&mdspid=&spid=699004&netType=0&sid=2200179356&pid=2028597139&timestamp=20261002135106&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=609006487&ParentNodeID=-99&assertID=2200179356&client_ip=39.103.188.159&SecurityKey=20261002135106&promotionId=&mvid=2200179356&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=0a968882e75811c0af8c60f71c8cf3c5&ddCalcu=50cav39af6yc8a88c8127ef70568c181fca0&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -7949,7 +8213,7 @@
   },
   {
    "name": "三沙卫视",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ssws/50/20251127/index.m3u8?msisdn=adc71e9c0f319c82d577ba0dce848e1e&mdspid=&spid=600697&netType=0&sid=5910022307&pid=2028597139&timestamp=20261002145044&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=961023778&ParentNodeID=-99&assertID=5910022307&client_ip=39.103.182.111&SecurityKey=20261002145044&promotionId=&mvid=5900006777&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=771e56ee4fda0277e70d7cf8934c23de&ddCalcu=e7d7v31a2exc5a463e9e84ffcd7ad00277e7&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ssws/50/20251127/index.m3u8?msisdn=cf5c5a0219ee3973c2788c2d6459a591&mdspid=&spid=600697&netType=0&sid=5910022307&pid=2028597139&timestamp=20261002135118&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=961023778&ParentNodeID=-99&assertID=5910022307&client_ip=39.103.188.159&SecurityKey=20261002135118&promotionId=&mvid=5900006777&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=8c8b8d995894b0221feaf78dd903bebf&ddCalcu=f8bcve8abbx38a0d99d9d58879f4abe0f212&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -7965,7 +8229,7 @@
   },
   {
    "name": "中华特产",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/zhtc/51/20251103/index.m3u8?msisdn=2fe74e372b3a4bd64629cd7b2fc7f458&mdspid=&spid=600697&netType=0&sid=5910022295&pid=2028597139&timestamp=20261002145113&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=959986618&ParentNodeID=-99&assertID=5910022295&client_ip=39.103.182.111&SecurityKey=20261002145113&promotionId=&mvid=5900006771&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=29b82e06863568508307b04f63231ce7&ddCalcu=72e9vcba18w32a2e3066f84603b576083580&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/zhtc/51/20251103/index.m3u8?msisdn=913151ebc9dbd2e7df726d623639e32a&mdspid=&spid=600697&netType=0&sid=5910022295&pid=2028597139&timestamp=20261002135148&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=959986618&ParentNodeID=-99&assertID=5910022295&client_ip=39.103.188.159&SecurityKey=20261002135148&promotionId=&mvid=5900006771&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=9151ad4ab27cf864f25489853c1f4c49&ddCalcu=9941vc5a41wfaa1dc43a5b82978c4f5826f4&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -7973,7 +8237,7 @@
   },
   {
    "name": "中国农林卫视",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/zgnlws/51/20250804/index.m3u8?msisdn=b9b8101ba40dd57577e67c34594bae42&mdspid=&spid=600572&netType=0&sid=5910022186&pid=2028597139&timestamp=20261002145042&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956904896&ParentNodeID=-99&assertID=5910022186&client_ip=39.103.188.159&SecurityKey=20261002145042&promotionId=&mvid=5900006709&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=bbb02647ef1d33c2eebfc08a3cbaebdf&ddCalcu=fbdbvbbae0ka2ab6c437ae8f01cdf3b3ece2&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/zgnlws/51/20250804/index.m3u8?msisdn=620b860e778dc4a67c13248274adec0b&mdspid=&spid=600572&netType=0&sid=5910022186&pid=2028597139&timestamp=20261002135117&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956904896&ParentNodeID=-99&assertID=5910022186&client_ip=39.103.188.159&SecurityKey=20261002135117&promotionId=&mvid=5900006709&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=d0aa29bcd85cf8f558fea7f5532a9633&ddCalcu=3d30v6aa9aka2a293b5c5df875aceff88f55&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -7981,7 +8245,7 @@
   },
   {
    "name": "中国天气",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/zgtq/51/20251103/index.m3u8?msisdn=ca1a6feacfd2342f641a7268700f484b&mdspid=&spid=600697&netType=0&sid=5910022296&pid=2028597139&timestamp=20261002145108&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=959986621&ParentNodeID=-99&assertID=5910022296&client_ip=39.103.188.159&SecurityKey=20261002145108&promotionId=&mvid=5900006772&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=8bea827763e45c88934d694dd24068de&ddCalcu=e8dbv8ea6aw08a4227d7d6439e64d54c3898&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/zgtq/51/20251103/index.m3u8?msisdn=a51ae4fdf5d8aff800a455588a2aaeee&mdspid=&spid=600697&netType=0&sid=5910022296&pid=2028597139&timestamp=20261002135143&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=959986621&ParentNodeID=-99&assertID=5910022296&client_ip=39.103.188.159&SecurityKey=20261002135143&promotionId=&mvid=5900006772&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=95ccd4b753fb73e8425e20974d968649&ddCalcu=9945v6ca8cw6da94db4775930f2be7532e48&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8077,7 +8341,7 @@
   },
   {
    "name": "和美乡途轮播台",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002411/51/20210706/index.m3u8?msisdn=0cd267096e0d40dc3d390527deb040a5&mdspid=&spid=800033&netType=0&sid=5910019525&pid=2028597139&timestamp=20261002145102&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=713591450&ParentNodeID=-99&assertID=5910019525&client_ip=39.103.188.159&SecurityKey=20261002145102&promotionId=&mvid=5900002421&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=2269a8a234a2fad1b5e3f6aa2e7ad631&ddCalcu=1232v66ad9yaaa78ea22a3a46af23fea5db1&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002411/51/20210706/index.m3u8?msisdn=2750e95f0a513dd02d5a87ca47741a38&mdspid=&spid=800033&netType=0&sid=5910019525&pid=2028597139&timestamp=20261002135137&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=713591450&ParentNodeID=-99&assertID=5910019525&client_ip=39.103.182.111&SecurityKey=20261002135137&promotionId=&mvid=5900002421&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=86c230cbeb430746a1c6b5aab888bc0e&ddCalcu=e806vccab2y83a808cbbaeab54b360c714a6&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8101,7 +8365,7 @@
   },
   {
    "name": "四海钓鱼",
-   "url": "http://gslbmgsplive.miguvideo.com/wd_r4/peoplecn/shdiaoyu/1200/index.m3u8?msisdn=6f89577c86372bdd15e1adb775e6c94d&mdspid=&spid=600697&netType=0&sid=5910022184&pid=2028597139&timestamp=20261002145058&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=637444975&ParentNodeID=-99&assertID=5910022184&client_ip=39.103.182.111&SecurityKey=20261002145058&promotionId=&mvid=5100132656&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=3cfd1ea679da7750434a22a507a433f5&ddCalcu=53fcv3fa3dl41aae7a0657a92d2aa7473540&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/wd_r4/peoplecn/shdiaoyu/1200/index.m3u8?msisdn=16293e7335fb4758e73df6c19dc28500&mdspid=&spid=600697&netType=0&sid=5910022184&pid=2028597139&timestamp=20261002135133&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=637444975&ParentNodeID=-99&assertID=5910022184&client_ip=39.103.182.111&SecurityKey=20261002135133&promotionId=&mvid=5100132656&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=0d67ee293cd992eb230c5bf7395b056d&ddCalcu=d06dv56a07lbea5e923973fcbd59c9023e2b&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8165,7 +8429,7 @@
   },
   {
    "name": "建党105周年巡礼",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002413/51/20210706/index.m3u8?msisdn=952c1493cb21f6e441c5d7ceacde87e2&mdspid=&spid=800033&netType=0&sid=5910019527&pid=2028597139&timestamp=20261002145102&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=713600957&ParentNodeID=-99&assertID=5910019527&client_ip=39.103.188.159&SecurityKey=20261002145102&promotionId=&mvid=5900002443&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=6bc1d046dd410ee2b99784e66ad3da49&ddCalcu=964bvacad1l3dad0a4666ded4481709e9eb2&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002413/51/20210706/index.m3u8?msisdn=e0a69ad1b65fb00ec01a4e9197956e5b&mdspid=&spid=800033&netType=0&sid=5910019527&pid=2028597139&timestamp=20261002135137&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=713600957&ParentNodeID=-99&assertID=5910019527&client_ip=39.103.182.111&SecurityKey=20261002135137&promotionId=&mvid=5900002443&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=cf19bb6828086d1459887b7bf5457bff&ddCalcu=fcffvb1a79l5ba4b56f8b278b078868d9154&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8173,7 +8437,7 @@
   },
   {
    "name": "快乐垂钓",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ydcmklcd/51/20251225/index.m3u8?msisdn=55561d584a3578d0471b45faabb19de3&mdspid=&spid=600603&netType=0&sid=5910022317&pid=2028597139&timestamp=20261002145100&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=961930263&ParentNodeID=-99&assertID=5910022317&client_ip=39.103.188.159&SecurityKey=20261002145100&promotionId=&mvid=5900006783&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=e332662a9840f653a00bc54cb3a45527&ddCalcu=7e23v53a52a46aa632bac94854c0bf0605a3&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ydcmklcd/51/20251225/index.m3u8?msisdn=456cb0cf594bf5af1259139b6267235d&mdspid=&spid=600603&netType=0&sid=5910022317&pid=2028597139&timestamp=20261002135135&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=961930263&ParentNodeID=-99&assertID=5910022317&client_ip=39.103.188.159&SecurityKey=20261002135135&promotionId=&mvid=5900006783&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=a6bd853dcca797b81bcea48aae73dc64&ddCalcu=4a66vcbadda38a75e3adac8c4aa7e9c7bb18&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8189,7 +8453,7 @@
   },
   {
    "name": "新动力量创一流",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002409/51/20210706/index.m3u8?msisdn=9c32fc1cf0e1fd758d75324a1d24ee68&mdspid=&spid=800033&netType=0&sid=5910019523&pid=2028597139&timestamp=20261002145113&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=713589837&ParentNodeID=-99&assertID=5910019523&client_ip=39.103.182.111&SecurityKey=20261002145113&promotionId=&mvid=5900002419&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=587b337b4a0eef4e6b3e651d96b8b38d&ddCalcu=d588v37abbk83ab3679bd41a506eee3fb46e&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/virtuallive2/5900002409/51/20210706/index.m3u8?msisdn=fb9d8dd4b0c6f1764229a200dc631699&mdspid=&spid=800033&netType=0&sid=5910019523&pid=2028597139&timestamp=20261002135148&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=713589837&ParentNodeID=-99&assertID=5910019523&client_ip=39.103.182.111&SecurityKey=20261002135148&promotionId=&mvid=5900002419&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=d8c7e48336f1396807bbe9b22db39460&ddCalcu=0d68v4ca97k3eab4d82323b69fe1b3b97608&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8269,7 +8533,7 @@
   },
   {
    "name": "梨园频道",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ydcmc/51/20251225/index.m3u8?msisdn=5dacf833df7ba0bcfa4329c3da9f2cdb&mdspid=&spid=600697&netType=0&sid=5910022344&pid=2028597139&timestamp=20261002145113&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=961930369&ParentNodeID=-99&assertID=5910022344&client_ip=39.103.188.159&SecurityKey=20261002145113&promotionId=&mvid=5900006785&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=abb39e6859ccc29f3a6d236b3d1b2843&ddCalcu=3a4bv8ba23bb9a1ed638b5693c2cdc62a93f&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ydcmc/51/20251225/index.m3u8?msisdn=62ba64a2ab6ce24247bd7eb6df8a9bc4&mdspid=&spid=600697&netType=0&sid=5910022344&pid=2028597139&timestamp=20261002135148&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=961930369&ParentNodeID=-99&assertID=5910022344&client_ip=39.103.182.111&SecurityKey=20261002135148&promotionId=&mvid=5900006785&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=6facfffb48e7cb82164c30a61787d7c7&ddCalcu=76cfv7aadcb7fa8f7f1b64a80e37cc4b6812&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8357,7 +8621,7 @@
   },
   {
    "name": "环球旅游",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/hqly/51/20250915/index.m3u8?msisdn=5dacf833df7ba0bcfa4329c3da9f2cdb&mdspid=&spid=600697&netType=0&sid=5910022200&pid=2028597139&timestamp=20261002145113&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=958475356&ParentNodeID=-99&assertID=5910022200&client_ip=39.103.182.111&SecurityKey=20261002145113&promotionId=&mvid=5900006723&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=b616b23b6821e9538cef8dbc0dde0b6c&ddCalcu=cb66vb1a06bebad2d30bc6b8d281fee9c583&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/hqly/51/20250915/index.m3u8?msisdn=c640a8fb49da17f535fec0de6c5ce39e&mdspid=&spid=600697&netType=0&sid=5910022200&pid=2028597139&timestamp=20261002135148&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=958475356&ParentNodeID=-99&assertID=5910022200&client_ip=39.103.188.159&SecurityKey=20261002135148&promotionId=&mvid=5900006723&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=adf3a166d36b8c92cb54d7c3d5999fd6&ddCalcu=6addvffa93b9aa9156d63dc376db485cb9c2&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8413,7 +8677,7 @@
   },
   {
    "name": "直播片段 V720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230721/index.m3u8",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230718/index.m3u8",
    "type": 0,
    "group": "其他",
    "source": "F-zyoom",
@@ -8437,7 +8701,7 @@
   },
   {
    "name": "经典香港电影",
-   "url": "http://gslbmgsplive.miguvideo.com/wd_r2/virtuallive/5100180869/150/index.m3u8?msisdn=914541b91a22f753490cc3a4dda4276d&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20261002145102&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=39.103.182.111&SecurityKey=20261002145102&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=452c16d6f9cc5a9a930714190fcf84e7&ddCalcu=74e5v42a8cbf1ac6fd069f194c1c750a399a&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/wd_r2/virtuallive/5100180869/150/index.m3u8?msisdn=ea28fa79c1a3437cdf7d3f0c7afbe2ab&mdspid=&spid=800033&netType=0&sid=5500242089&pid=2028597139&timestamp=20261002135137&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=625703337&ParentNodeID=-99&assertID=5500242089&client_ip=39.103.188.159&SecurityKey=20261002135137&promotionId=&mvid=5100180869&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=9df28398580c7c2216cf2ae907cacd0b&ddCalcu=b90dvdfac2ba8ac3790895e8a02cf7cc6212&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8468,8 +8732,8 @@
    "tier": "1"
   },
   {
-   "name": "芒果TV 8M1080",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230203/index.m3u8",
+   "name": "芒果TV 4M1080",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230235/index.m3u8",
    "type": 0,
    "group": "其他",
    "source": "F-zyoom",
@@ -8477,7 +8741,7 @@
   },
   {
    "name": "财富天下",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/cftx/51/20250804/index.m3u8?msisdn=8a583b5e60781924de852a593bf80b2a&mdspid=&spid=600697&netType=0&sid=5910022193&pid=2028597139&timestamp=20261002145054&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956923159&ParentNodeID=-99&assertID=5910022193&client_ip=39.103.182.111&SecurityKey=20261002145054&promotionId=&mvid=5900006715&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=681eb88c09789e2d2ef74736c5287246&ddCalcu=6648v21a7ed8ba2858cc6039774879fee22d&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/cftx/51/20250804/index.m3u8?msisdn=348f9631fbcaf14f751e57c44677b4bf&mdspid=&spid=600697&netType=0&sid=5910022193&pid=2028597139&timestamp=20261002135130&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956923159&ParentNodeID=-99&assertID=5910022193&client_ip=39.103.182.111&SecurityKey=20261002135130&promotionId=&mvid=5900006715&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=4bba0af84eaca857f741cd36fcd374c7&ddCalcu=74cbv4ba7ad30adacff8643edacc1a4875f7&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
    "source": "ioptu",
@@ -8533,7 +8797,7 @@
   },
   {
    "name": "CCTV13",
-   "url": "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8",
+   "url": "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8",
    "type": 0,
    "group": "央视频道",
    "source": "baocaien",
@@ -8717,7 +8981,7 @@
   },
   {
    "name": "南通新闻综合",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ntxwzh/51/20250604/index.m3u8?msisdn=6f219438e92cb4bdfd3e28e99707b447&mdspid=&spid=699067&netType=0&sid=5910022178&pid=2028597139&timestamp=20261002145052&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=955227985&ParentNodeID=-99&assertID=5910022178&client_ip=39.103.188.159&SecurityKey=20261002145052&promotionId=&mvid=5900006706&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=64b914ee27884f90235dba6488b62e04&ddCalcu=4604veba29l61ab48e8e4267a8b8d45f3920&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ntxwzh/51/20250604/index.m3u8?msisdn=795bfd9027e9c51357a39eb0bcef7b8c&mdspid=&spid=699067&netType=0&sid=5910022178&pid=2028597139&timestamp=20261002135128&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=955227985&ParentNodeID=-99&assertID=5910022178&client_ip=39.103.182.111&SecurityKey=20261002135128&promotionId=&mvid=5900006706&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=ad641eb08e1e877d4416da5cc013101b&ddCalcu=ba1dv06a14l31a1e0bc0c85ea1de6817474d&sv=10004&ct=android",
    "type": 0,
    "group": "新闻",
    "source": "ioptu",
@@ -8725,7 +8989,7 @@
   },
   {
    "name": "宜兴新闻综合",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/yxxwzh/51/20250604/index.m3u8?msisdn=6c4dab6a0224806423f280392dcc5217&mdspid=&spid=699067&netType=0&sid=5910022179&pid=2028597139&timestamp=20261002145053&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=955227996&ParentNodeID=-99&assertID=5910022179&client_ip=39.103.182.111&SecurityKey=20261002145053&promotionId=&mvid=5900006707&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=3edfe4e0263c04c21f00d19fd7e7105b&ddCalcu=b35ev0da1fl7eae47ed0f29613dc0004fc12&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/yxxwzh/51/20250604/index.m3u8?msisdn=bd5dd774c6e857dbeb352c9612a6e2d7&mdspid=&spid=699067&netType=0&sid=5910022179&pid=2028597139&timestamp=20261002135128&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=955227996&ParentNodeID=-99&assertID=5910022179&client_ip=39.103.188.159&SecurityKey=20261002135128&promotionId=&mvid=5900006707&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=cf95d76fb24b13b1e973bcb1faaae3a7&ddCalcu=7cafv39ae5ladaa7a6ff1bb2c4bb31739be1&sv=10004&ct=android",
    "type": 0,
    "group": "新闻",
    "source": "ioptu",
@@ -8733,7 +8997,7 @@
   },
   {
    "name": "宿迁新闻综合",
-   "url": "http://gslbmgsplive.miguvideo.com/wd_r2/jstv/sqxinwenzonghe/600/index.m3u8?msisdn=5649c880b666e6261745a98935838f86&mdspid=&spid=699067&netType=0&sid=5500469357&pid=2028597139&timestamp=20261002145051&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639731832&ParentNodeID=-99&assertID=5500469357&client_ip=39.103.188.159&SecurityKey=20261002145051&promotionId=&mvid=5102012616&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=9d7ebe263ab5ad292e55f497a3394e2b&ddCalcu=b92dve7a4ek9ba3e32a6739a4bf55a5de229&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/wd_r2/jstv/sqxinwenzonghe/600/index.m3u8?msisdn=cae01226a27afdc2b2cb7f890cfb25ae&mdspid=&spid=699067&netType=0&sid=5500469357&pid=2028597139&timestamp=20261002135126&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639731832&ParentNodeID=-99&assertID=5500469357&client_ip=39.103.188.159&SecurityKey=20261002135126&promotionId=&mvid=5102012616&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=4d347f01da7e74958cd9b51a94f9675e&ddCalcu=e45dv73a64k97aff4091ad1a57be97d4c985&sv=10004&ct=android",
    "type": 0,
    "group": "新闻",
    "source": "ioptu",
@@ -8749,7 +9013,7 @@
   },
   {
    "name": "江阴新闻综合",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/jyxwzh/51/20250604/index.m3u8?msisdn=485060edf0d87e5ee52fb942f6f7a334&mdspid=&spid=699067&netType=0&sid=5910022177&pid=2028597139&timestamp=20261002145052&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=955227979&ParentNodeID=-99&assertID=5910022177&client_ip=39.103.182.111&SecurityKey=20261002145052&promotionId=&mvid=5900006705&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=d45f9805f4e5ad43f9fabe88842c9abe&ddCalcu=edb4va5a9flc9a2840858f84eeb5aafd94f3&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/jyxwzh/51/20250604/index.m3u8?msisdn=131d1fdab5c231008fd6fdf99fe9a299&mdspid=&spid=699067&netType=0&sid=5910022177&pid=2028597139&timestamp=20261002135128&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=955227979&ParentNodeID=-99&assertID=5910022177&client_ip=39.103.188.159&SecurityKey=20261002135128&promotionId=&mvid=5900006705&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=a8c8ddf8b61d426069858157984226e1&ddCalcu=1ae8v6ca28l2da4d8f987b56118d54829660&sv=10004&ct=android",
    "type": 0,
    "group": "新闻",
    "source": "ioptu",
@@ -8773,7 +9037,7 @@
   },
   {
    "name": "溧水新闻综合",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/wxxwzh/51/20250604/index.m3u8?msisdn=06224a6ce16c4cd0ac274a77dff2801e&mdspid=&spid=699067&netType=0&sid=5500469349&pid=2028597139&timestamp=20261002145053&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639737327&ParentNodeID=-99&assertID=5500469349&client_ip=39.103.182.111&SecurityKey=20261002145053&promotionId=&mvid=5102012612&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=1469a5d92944a96d43c04212d7b926f9&ddCalcu=91f4v66a29b9aab57dd9221924440ac9364d&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/wxxwzh/51/20250604/index.m3u8?msisdn=dd63c25a4bee09ef3c2289328fd43a05&mdspid=&spid=699067&netType=0&sid=5500469349&pid=2028597139&timestamp=20261002135128&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639737327&ParentNodeID=-99&assertID=5500469349&client_ip=39.103.182.111&SecurityKey=20261002135128&promotionId=&mvid=5102012612&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=4729a031382c0aa5babdd4ed4e04b08f&ddCalcu=f487v02ab9b4aa00e341d3e842dcd0baaab5&sv=10004&ct=android",
    "type": 0,
    "group": "新闻",
    "source": "ioptu",
@@ -8781,7 +9045,7 @@
   },
   {
    "name": "盐城新闻综合",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ycxwzh/51/20250604/index.m3u8?msisdn=021304c69143626cc46b4385a0af4a77&mdspid=&spid=699067&netType=0&sid=5500469360&pid=2028597139&timestamp=20261002145049&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639731825&ParentNodeID=-99&assertID=5500469360&client_ip=39.103.188.159&SecurityKey=20261002145049&promotionId=&mvid=5102012617&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=5bac94fa10fc0332413860769c9380ad&ddCalcu=d5abv0aa8ck39a94cf9a61700f6c80331342&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/ycxwzh/51/20250604/index.m3u8?msisdn=708991122ee2706f2e5ef1f2d0cc8040&mdspid=&spid=699067&netType=0&sid=5500469360&pid=2028597139&timestamp=20261002135125&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639731825&ParentNodeID=-99&assertID=5500469360&client_ip=39.103.182.111&SecurityKey=20261002135125&promotionId=&mvid=5102012617&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=7694c5edfd83c3c6f26c7719a06d48b9&ddCalcu=97b6v89a44kdca650ead9f1d7873cc632cf6&sv=10004&ct=android",
    "type": 0,
    "group": "新闻",
    "source": "ioptu",
@@ -8797,7 +9061,7 @@
   },
   {
    "name": "镇江新闻综合",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/zjxwzh/50/20251127/index.m3u8?msisdn=9bf383170527b6f17fab0585429d535e&mdspid=&spid=699067&netType=0&sid=5500469365&pid=2028597139&timestamp=20261002145055&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639731783&ParentNodeID=-99&assertID=5500469365&client_ip=39.103.188.159&SecurityKey=20261002145055&promotionId=&mvid=5102012619&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=3e31b964570c50cc588594c19095f93e&ddCalcu=e33ev93af1x5ba99069415c7409c55808c5c&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/zjxwzh/50/20251127/index.m3u8?msisdn=6c122f99443e1941fa9ed69ee4246f63&mdspid=&spid=699067&netType=0&sid=5500469365&pid=2028597139&timestamp=20261002135131&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639731783&ParentNodeID=-99&assertID=5500469365&client_ip=39.103.188.159&SecurityKey=20261002135131&promotionId=&mvid=5102012619&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=d8dd100250b9e18a49a2865649176cbc&ddCalcu=cdb8vcda6dx71a10904265506b892ea1984a&sv=10004&ct=android",
    "type": 0,
    "group": "新闻",
    "source": "ioptu",
@@ -8820,8 +9084,8 @@
    "tier": "1"
   },
   {
-   "name": "东南卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230464/index.m3u8",
+   "name": "东南卫视 576",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229068/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -8836,24 +9100,24 @@
    "tier": "1"
   },
   {
-   "name": "云南卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230452/index.m3u8",
+   "name": "云南卫视 576",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229055/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
    "tier": "1"
   },
   {
-   "name": "内蒙古卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230440/index.m3u8",
+   "name": "内蒙古卫视 576",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229043/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
    "tier": "1"
   },
   {
-   "name": "北京卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230437/index.m3u8",
+   "name": "北京卫视 576",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229353/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -8876,8 +9140,8 @@
    "tier": "1"
   },
   {
-   "name": "四川卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230458/index.m3u8",
+   "name": "四川卫视 576",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229064/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -8908,8 +9172,8 @@
    "tier": "1"
   },
   {
-   "name": "山东卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227955/index.m3u8",
+   "name": "山东卫视 720",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227909/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -8917,7 +9181,7 @@
   },
   {
    "name": "山东教育",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sdjyws/51/20250915/index.m3u8?msisdn=c770f12f89ea08ecfff96748b37c2383&mdspid=&spid=600697&netType=0&sid=5910022199&pid=2028597139&timestamp=20261002145111&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=609154353&ParentNodeID=-99&assertID=5910022199&client_ip=39.103.188.159&SecurityKey=20261002145111&promotionId=&mvid=2200208305&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=9b4cea9fae28168513ad98aebf2982de&ddCalcu=e9dbv24a8cb9ea2af9bfeaae8298d1a63815&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sdjyws/51/20250915/index.m3u8?msisdn=6189219de5564fac851f815ae84c9f6e&mdspid=&spid=600697&netType=0&sid=5910022199&pid=2028597139&timestamp=20261002135145&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=609154353&ParentNodeID=-99&assertID=5910022199&client_ip=39.103.188.159&SecurityKey=20261002135145&promotionId=&mvid=2200208305&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=3bfdacff5452bddd6beb7f198389fc27&ddCalcu=732bvcfafdb9aa8c3f8f9514f572bbedbd6d&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
    "source": "ioptu",
@@ -8949,7 +9213,7 @@
   },
   {
    "name": "广东珠江频道",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/szxwzh/51/20250604/index.m3u8?msisdn=9304353978e5ace088a523d1558cefa2&mdspid=&spid=600697&netType=0&sid=5910022410&pid=2028597139&timestamp=20261002145056&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639731952&ParentNodeID=-99&assertID=5910022410&client_ip=39.103.188.159&SecurityKey=20261002145056&promotionId=&mvid=5102012610&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=4e44d5710140e8064c14cdaa39724d32&ddCalcu=243evd4a44l2da759731a0a1d4c04e18c046&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/szxwzh/51/20250604/index.m3u8?msisdn=34ddad7d5f00a7785f6d7c8e95b5ead7&mdspid=&spid=600697&netType=0&sid=5910022410&pid=2028597139&timestamp=20261002135131&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639731952&ParentNodeID=-99&assertID=5910022410&client_ip=39.103.182.111&SecurityKey=20261002135131&promotionId=&mvid=5102012610&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=ead0c17707141525e6867365b2a3d475&ddCalcu=5e7av4dad0l3caa127b750673174618562e5&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
    "source": "ioptu",
@@ -9125,15 +9389,15 @@
   },
   {
    "name": "陕西体育休闲频道",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxtyxx/51/20250804/index.m3u8?msisdn=ba9aeac03d37dae3bff0ccfc7d25ba28&mdspid=&spid=600572&netType=0&sid=5910022189&pid=2028597139&timestamp=20261002145054&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909356&ParentNodeID=-99&assertID=5910022189&client_ip=39.103.188.159&SecurityKey=20261002145054&promotionId=&mvid=5900006712&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=ef2732b0dad4efb88260ea170f44d28f&ddCalcu=fe8fv22ad7b43a42fb007d1aade40e6f2b88&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxtyxx/51/20250804/index.m3u8?msisdn=faa790f13f0c7393b69120e3cfef4822&mdspid=&spid=600572&netType=0&sid=5910022189&pid=2028597139&timestamp=20261002135129&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909356&ParentNodeID=-99&assertID=5910022189&client_ip=39.103.182.111&SecurityKey=20261002135129&promotionId=&mvid=5900006712&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=70acb1af3bd1c390e7b1192f7f1d35c1&ddCalcu=17c0v5aa3cbdba11fa7ff32b9d111cb379e0&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
    "source": "ioptu",
    "tier": "1"
   },
   {
-   "name": "陕西卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230433/index.m3u8",
+   "name": "陕西卫视 576",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229052/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -9141,7 +9405,7 @@
   },
   {
    "name": "陕西新闻资讯频道",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxxwzx/51/20250804/index.m3u8?msisdn=27def41b9ffae78e6ddbb96cb7d77adf&mdspid=&spid=600572&netType=0&sid=5910022187&pid=2028597139&timestamp=20261002145054&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909289&ParentNodeID=-99&assertID=5910022187&client_ip=39.103.182.111&SecurityKey=20261002145054&promotionId=&mvid=5900006710&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=0bd95eab3ca44a9fe959cffdc7f03aa7&ddCalcu=70abvada39a05afe7acbd3fcfac4945a99ef&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxxwzx/51/20250804/index.m3u8?msisdn=a21598e75d3af7cb5b101cf6cf569799&mdspid=&spid=600572&netType=0&sid=5910022187&pid=2028597139&timestamp=20261002135130&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909289&ParentNodeID=-99&assertID=5910022187&client_ip=39.103.188.159&SecurityKey=20261002135130&promotionId=&mvid=5900006710&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=bd5f49092a48bf5bf64771f7c7004e54&ddCalcu=4b5dve5a4fa04a0970c972fa14787b4f65fb&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
    "source": "ioptu",
@@ -9149,7 +9413,7 @@
   },
   {
    "name": "陕西秦腔频道",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxqqpd/51/20250804/index.m3u8?msisdn=918db5a3ea1513752538bec90d661a4e&mdspid=&spid=600572&netType=0&sid=5910022188&pid=2028597139&timestamp=20261002145054&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909303&ParentNodeID=-99&assertID=5910022188&client_ip=39.103.182.111&SecurityKey=20261002145054&promotionId=&mvid=5900006711&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=cccfada84164ded6668853f58df01e30&ddCalcu=0c3cveca1fb0aafdda8854f136548d8e6d66&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxqqpd/51/20250804/index.m3u8?msisdn=c47258342889f702e6444fc276e890cc&mdspid=&spid=600572&netType=0&sid=5910022188&pid=2028597139&timestamp=20261002135130&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909303&ParentNodeID=-99&assertID=5910022188&client_ip=39.103.188.159&SecurityKey=20261002135130&promotionId=&mvid=5900006711&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=40b295a5440c457258507cbc1a85814b&ddCalcu=b440v1ba82b59a85aa15c4b4c07c04558752&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
    "source": "ioptu",
@@ -9157,7 +9421,7 @@
   },
   {
    "name": "陕西都市青春频道",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxdsqc/51/20250804/index.m3u8?msisdn=e2b74f6bc4fa132b8407f179e1093108&mdspid=&spid=600572&netType=0&sid=5910022190&pid=2028597139&timestamp=20261002145054&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909358&ParentNodeID=-99&assertID=5910022190&client_ip=39.103.182.111&SecurityKey=20261002145054&promotionId=&mvid=5900006713&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=a06f8d46bd4ba914007040e03351286b&ddCalcu=ba60v86a2fb18a5d34360bed044b0a790104&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxdsqc/51/20250804/index.m3u8?msisdn=5bc86dd1df5ddad81a692dac9b0850a6&mdspid=&spid=600572&netType=0&sid=5910022190&pid=2028597139&timestamp=20261002135129&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909358&ParentNodeID=-99&assertID=5910022190&client_ip=39.103.188.159&SecurityKey=20261002135129&promotionId=&mvid=5900006713&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=c57224246140139487bb8b904e185e15&ddCalcu=5c15ve7a52b82a14e2440691b480b1b37984&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
    "source": "ioptu",
@@ -9165,7 +9429,7 @@
   },
   {
    "name": "陕西银龄频道",
-   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxylpd/51/20250804/index.m3u8?msisdn=d8710b211be05ba14c47019867fc7095&mdspid=&spid=600572&netType=0&sid=5910022191&pid=2028597139&timestamp=20261002145053&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909362&ParentNodeID=-99&assertID=5910022191&client_ip=39.103.182.111&SecurityKey=20261002145053&promotionId=&mvid=5900006714&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=e9fb93775a2b7139fb044eda15a1c473&ddCalcu=3e79v4facbb19aa35717a5dae24b4701b3f9&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/sxylpd/51/20250804/index.m3u8?msisdn=70990bfa604bb857ed6f090efad72fee&mdspid=&spid=600572&netType=0&sid=5910022191&pid=2028597139&timestamp=20261002135128&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909362&ParentNodeID=-99&assertID=5910022191&client_ip=39.103.182.111&SecurityKey=20261002135128&promotionId=&mvid=5900006714&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=08896b7437286a476f9b376defab006a&ddCalcu=a068v08a09bb6aabf7e4d3677238b69af467&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
    "source": "ioptu",
@@ -9189,7 +9453,7 @@
   },
   {
    "name": "体育休闲频道",
-   "url": "http://gslbmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/index.m3u8?msisdn=1dea76511c987543375b86fa405dbb47&mdspid=&spid=699067&netType=0&sid=5500260554&pid=2028597139&timestamp=20261002145048&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=626064707&ParentNodeID=-99&assertID=5500260554&client_ip=39.103.182.111&SecurityKey=20261002145048&promotionId=&mvid=5100186459&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=e930f9cc3308e5e92e235185537e1720&ddCalcu=0e29v73a10xefa793c5c538310583e25ee29&sv=10004&ct=android",
+   "url": "http://gslbmgsplive.miguvideo.com/wd_r2/jstv/jstiyu/600/index.m3u8?msisdn=53f772d9afada43bb2ff0853f7c4ca39&mdspid=&spid=699067&netType=0&sid=5500260554&pid=2028597139&timestamp=20261002135123&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=626064707&ParentNodeID=-99&assertID=5500260554&client_ip=39.103.188.159&SecurityKey=20261002135123&promotionId=&mvid=5100186459&mcid=500020&playurlVersion=WX-A1-9.9.2-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=3dfea6f4b30b2b8168b1f280bfb4ad92&ddCalcu=239dvdfaaex4aab6ffb40b8320fb12bb8861&sv=10004&ct=android",
    "type": 0,
    "group": "体育",
    "source": "ioptu",
@@ -9218,10 +9482,10 @@
    }
   }
  ],
- "update_time": "2026-10-02 07:20:58",
+ "update_time": "2026-10-02 15:44:41",
  "_sources": {
-  "indexes": 17,
-  "configs_ok": 19,
-  "failed": 3
+  "indexes": 18,
+  "configs_ok": 20,
+  "failed": 1
  }
 }

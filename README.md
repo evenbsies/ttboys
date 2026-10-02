@@ -89,6 +89,17 @@ python fetch_sources.py --official-live    # 主爬虫 + 并入官方直播源
 - **手动恢复**：删掉对应行即可，下次运行会重新纳入。
 - 阈值可调：`--fail-limit 3`（连续失败天数）、`--retry-days 7`（复活周期）；`status.json → summary.quality` 记录本次淘汰/复活统计。
 
+## 秒播/4K 站点 jar 恢复（自定义类站点）
+
+部分站点（蜗牛4K、盘迷4K、逸动4K、韩剧/瓜子/独播/文才/小枫/贱片/师兄/伊影等"秒播"站）依赖源作者自定义 jar 提供的爬虫类（`csp_Wex*`/`csp_Ai*`/`csp_SheQu*` 等）。这些 jar 常伪装成 `.jpg/.png` 扩展名以躲避封锁，但本身是可达的 dex 加固 jar。
+
+合并时自动执行 **jar 注入**：
+
+- 源配置的 `spider` 为**绝对可达 URL** → 注入到该源所有无 `jar` 字段的站点（保留 `;md5;` 完整性校验）；
+- 相对路径（`./jar/xxx.jar`）无法在网络订阅下下载 → 跳过，顶层 `spider` 仍保持空（播放器用内置默认，杜绝 `jar load err`）。
+
+> 效果：站点级 `jar` 字段让播放器按站点加载对应 jar，自定义类站点恢复可用，同时不引入顶层 jar 加载错误。`--no-inject-jar` 可关闭本行为。
+
 ## 部署步骤（约 5 分钟）
 
 1. **建仓库**：GitHub 上新建一个空仓库（如 `tvbox-daily`，Public 即可）。
