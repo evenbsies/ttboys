@@ -77,6 +77,25 @@ NSFW_TERMS = [
 ]
 
 
+# 网盘类站点过滤（用户明确要求剔除：夸克/115/磁力/Alist 等网盘资源站，播放体验差且易失效）
+NETDISK_TERMS = ["网盘", "云盘", "夸克", "115", "磁力", "Alist", "秒传", "UC网盘", "阿里云盘"]
+
+
+def is_netdisk_site(s):
+    """站点是否命中网盘类特征（name 组合词 + api 类名）。"""
+    name = s.get("name", "") or ""
+    for t in NETDISK_TERMS:
+        if t in name:
+            return True
+    if "阿里" in name and "影视" not in name and "剧场" not in name:
+        return True
+    api = s.get("api", "") or ""
+    pan_api = ("csp_MyPanGuard", "csp_PanShare", "csp_AList", "csp_WexWoquarkpanGuard",
+               "csp_Wex115shareGuard", "csp_FakeAi115ShareGuard", "csp_MyDriveGuard",
+               "csp_SixVGuard", "csp_Wobg", "csp_Quark", "csp_Aliyun", "csp_115")
+    return api in pan_api or "quark" in api.lower() or "pan" in api.lower() or "netdisk" in api.lower() or "alist" in api.lower()
+
+
 def is_nsfw_site(s):
     """站点是否命中色情/赌博过滤词（按 name 匹配，组合词防误杀）。"""
     name = s.get("name", "") or ""
@@ -232,7 +251,7 @@ def parse_line_json_sites(text):
         except (json.JSONDecodeError, ValueError):
             continue
         if isinstance(obj, dict) and ("api" in obj or "key" in obj) and "name" in obj:
-            if is_nsfw_site(obj):
+            if is_nsfw_site(obj) or is_netdisk_site(obj):
                 continue
             sites.append(obj)
     if not sites:
@@ -320,7 +339,8 @@ def best_spider(config_list):
     for _, sp in candidates[:3]:
         if spider_reachable(sp):
             return sp
-    return candidates[0][1]  # 全部不可达时退回最大候选（宁可有配置也不置空）
+    # 全部不可达：置空顶层（宁让 jar 类站静默失败，也不让播放器逐个报 jar load err）
+    return ""
 
 
 def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider="",
@@ -378,6 +398,9 @@ def merge_configs(config_list, max_per_source, max_sites, drop_jar=True, spider=
                 dropped_jar += 1
                 continue
             if is_nsfw_site(s):
+                dropped_nsfw += 1
+                continue
+            if is_netdisk_site(s):
                 dropped_nsfw += 1
                 continue
             ext_raw = s.get("ext")
