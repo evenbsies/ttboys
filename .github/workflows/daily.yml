@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add merged.json m.json status.json live_official.m3u live_official.json
+          git add merged.json m.json status.json live_official.m3u live_official.json quality.json excluded_sources.txt
           if git diff --cached --quiet; then
             echo "配置无变化，跳过提交"
           else

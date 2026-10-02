@@ -28,6 +28,7 @@ import sys
 import time
 import urllib.request
 from collections import OrderedDict
+from datetime import date
 from urllib.parse import urlsplit, urlunsplit, quote
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -39,6 +40,10 @@ DEFAULT_MAX_SITES = 500  # 合并后站点总数上限
 
 KEY_SECTIONS = ("sites", "parses", "lives", "doh", "rules", "ads", "headers")
 BLOCKLIST_FILE = "blocklist.txt"   # 广告/赌博域名黑名单，每行一个，并入 merged.json 的 ads 字段
+QUALITY_FILE = "quality.json"      # 源质量历史（每日 ok/fail 计数，驱动自动淘汰）
+EXCLUDE_FILE = "excluded_sources.txt"  # 被自动淘汰的源（连续失败达阈值后写入）
+FAIL_LIMIT = 3                     # 连续失败 N 天后自动淘汰
+RETRY_DAYS = 7                     # 被淘汰源每 N 天自动复活探测一次
 
 # 国内常用 GitHub raw 加速镜像（按优先级尝试；Actions 海外服务器直连优先）
 DEFAULT_MIRRORS = [
@@ -348,6 +353,88 @@ def load_blocklist():
     return domains
 
 
+# ---------- 源质量自动淘汰 ----------
+
+def days_between(a, b):
+    """两个 YYYY-MM-DD 之间的天数差；解析失败返回 0。"""
+    try:
+        da = date(*map(int, a.split("-")))
+        db = date(*map(int, b.split("-")))
+        return (db - da).days
+    except Exception:
+        return 0
+
+
+def load_quality(path):
+    """读取质量历史 quality.json 的 history 部分。结构：
+       {url: {"ok_days": N, "fail_days": N, "last": "ok|fail",
+              "last_date": "YYYY-MM-DD", "first_seen": "YYYY-MM-DD"}}"""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError, ValueError):
+        return {}
+    if isinstance(data, dict) and "history" in data:
+        h = data["history"]
+        return h if isinstance(h, dict) else {}
+    return data if isinstance(data, dict) else {}
+
+
+def save_quality(path, history, run_date):
+    data = {"updated": run_date, "history": history}
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+
+
+def load_excluded(path):
+    """读取被淘汰源 excluded_sources.txt。返回 {url: 排除日期}。"""
+    out = {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            for ln in f:
+                ln = ln.strip()
+                if not ln or ln.startswith("#"):
+                    continue
+                url = ln.split()[0]
+                m = ln.rfind("排除于 ")
+                d = ln[m + len("排除于 "):].strip() if m >= 0 else ""
+                out[url] = d
+    except FileNotFoundError:
+        pass
+    return out
+
+
+def save_excluded(path, excluded):
+    """写出被淘汰源列表（url + 注释日期），供人工查看/手动恢复。"""
+    lines = ["# 自动淘汰的源（连续抓取失败 >= %d 天）。手动恢复：删除对应行即可。" % FAIL_LIMIT,
+             "# 被淘汰的源每 %d 天自动复活探测一次，恢复可用后自动移出本文件。" % RETRY_DAYS,
+             ""]
+    for url in sorted(excluded):
+        d = excluded[url] or "?"
+        lines.append("%s  # 排除于 %s" % (url, d))
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
+
+
+def bump_history(history, url, ok, today):
+    """按天累计 ok/fail：同一 URL 一天内只更新一次，连续失败/成功按自然日计数。"""
+    h = history.setdefault(url, {"ok_days": 0, "fail_days": 0, "last": "ok",
+                                 "last_date": "", "first_seen": today})
+    h.setdefault("first_seen", today)
+    if h.get("last_date") == today:
+        return h
+    if ok:
+        h["ok_days"] = h.get("ok_days", 0) + 1
+        h["fail_days"] = 0
+        h["last"] = "ok"
+    else:
+        h["ok_days"] = 0
+        h["fail_days"] = h.get("fail_days", 0) + 1
+        h["last"] = "fail"
+    h["last_date"] = today
+    return h
+
+
 def main():
     ap = argparse.ArgumentParser(description="TVBox 每日源爬虫")
     ap.add_argument("--max-sites", type=int, default=DEFAULT_MAX_SITES, help="合并后站点上限")
@@ -360,6 +447,10 @@ def main():
                     help="显式指定 spider 字段（默认空=播放器内置默认，彻底避免 jar load err）")
     ap.add_argument("--official-live", action="store_true",
                     help="并入官方直播源（读取 live_official.json，由 live_official.py 生成）")
+    ap.add_argument("--quality-file", default=QUALITY_FILE, help="质量历史文件")
+    ap.add_argument("--exclude-file", default=EXCLUDE_FILE, help="被淘汰源列表文件")
+    ap.add_argument("--fail-limit", type=int, default=FAIL_LIMIT, help="连续失败 N 天后淘汰")
+    ap.add_argument("--retry-days", type=int, default=RETRY_DAYS, help="被淘汰源 N 天后复活探测")
     args = ap.parse_args()
 
     mirror_list = [m.strip() for m in args.mirror.split(",") if m.strip()] if args.mirror else list(DEFAULT_MIRRORS)
@@ -370,6 +461,29 @@ def main():
         print("sources.txt 为空或没有有效 URL，请先添加种子。", file=sys.stderr)
         sys.exit(1)
 
+    # ---- 源质量自动淘汰：过滤已淘汰种子 + 复活探测 ----
+    today = time.strftime("%Y-%m-%d")
+    history = load_quality(args.quality_file)
+    excluded = load_excluded(args.exclude_file)
+    revived = []
+    for u in list(excluded):
+        if days_between(excluded[u], today) >= args.retry_days:
+            revived.append(u)
+            del excluded[u]   # 先解除，探测成功则确认，失败则重新计时
+    active_excluded = {u for u, d in excluded.items() if days_between(d, today) < args.retry_days}
+    seed_pool = []
+    for u in seed_lines:
+        if u in active_excluded:
+            print("[SKIP] %s  已在淘汰列表（%s 排除），%d 天后自动复活探测" %
+                  (u, excluded[u], args.retry_days - days_between(excluded[u], today)))
+            continue
+        seed_pool.append(u)
+    seed_pool += revived
+    if revived:
+        print("[TRY ] 复活探测 %d 个被淘汰源: %s" % (len(revived), ", ".join(revived)))
+    print("本次抓取种子 %d 个（含复活 %d 个，跳过已淘汰 %d 个）" %
+          (len(seed_pool), len(revived), len(active_excluded)))
+
     status = {"run_at": time.strftime("%Y-%m-%d %H:%M:%S"), "indexes": [], "configs": [], "failed": []}
     config_list = []
     index_count = 0
@@ -379,14 +493,20 @@ def main():
         nonlocal index_count
         if url in visited or depth > MAX_DEPTH:
             return
+        if url in active_excluded:
+            visited.add(url)   # 标记为"本次已知仍被排除"，避免清理逻辑误删记录
+            print("[SKIP] %s  已在淘汰列表（%s 排除），自动跳过" % (url, excluded.get(url, "?")))
+            return
         visited.add(url)
         t0 = time.time()
         kind, payload = fetch_kind(url, args.timeout, mirror_list)
         elapsed = int((time.time() - t0) * 1000)
         if kind == "fail":
             status["failed"].append({"url": url, "error": payload, "elapsed_ms": elapsed})
+            bump_history(history, url, False, today)
             print("[FAIL] %s  %s" % (url, payload))
             return
+        bump_history(history, url, True, today)
         if kind == "config":
             sites_n = len(payload.get("sites", []))
             status["configs"].append({"url": url, "ok": True, "sites": sites_n, "elapsed_ms": elapsed})
@@ -408,8 +528,33 @@ def main():
             process(u, depth + 1)
         index_count += 1
 
-    for seed in seed_lines:
+    for seed in seed_pool:
         process(seed, 0)
+
+    # ---- 淘汰判定与复活确认（覆盖种子 + 索引展开的子源）----
+    excluded_new = 0
+    revived_ok = 0
+    revived_fail = 0
+    for u in visited:
+        h = history.get(u, {})
+        if u in revived:
+            if h.get("last") == "ok":
+                revived_ok += 1      # 复活成功，已从 excluded 移除
+            else:
+                revived_fail += 1
+                excluded[u] = today   # 复活失败，重新计时
+            continue
+        if u in active_excluded:
+            continue
+        if h.get("fail_days", 0) >= args.fail_limit:
+            excluded[u] = today
+            excluded_new += 1
+            print("[OUT ] %s 连续失败 %d 天，自动淘汰（%d 天后复活探测）" %
+                  (u, h["fail_days"], args.retry_days))
+    # 清理：本次已不再尝试的 URL（如 sources.txt 已删除该源或整个索引）清出淘汰名单
+    excluded = {u: d for u, d in excluded.items() if u in visited or u in active_excluded}
+    save_excluded(args.exclude_file, excluded)
+    save_quality(args.quality_file, history, today)
 
     if not config_list:
         print("没有抓到任何可用配置，未生成 merged.json。", file=sys.stderr)
@@ -455,10 +600,16 @@ def main():
     with open("merged.json", "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False, indent=1)
 
+    stats["quality"] = {"excluded_total": len(excluded),
+                        "excluded_new": excluded_new,
+                        "revived_ok": revived_ok,
+                        "revived_fail": revived_fail}
     _write_status(status, stats)
     print("\n完成: sites=%d parses=%d lives=%d rules=%d  (配置源 %d 个, 失败 %d 个)" % (
         stats["sites_final"], stats["parses_final"], stats["lives_final"],
         stats["rules_final"], len(status["configs"]), len(status["failed"])))
+    print("质量: 淘汰中 %d 个(本次新增 %d) | 复活成功 %d / 失败 %d" %
+          (len(excluded), excluded_new, revived_ok, revived_fail))
 
 
 def _write_status(status, stats):

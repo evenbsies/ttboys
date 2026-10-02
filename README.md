@@ -8,9 +8,11 @@
 ```
 tvbox-daily/
 ├── fetch_sources.py                 # 主爬虫（Python 3，仅标准库，零依赖）
-├── live_official.py                 # 官方直播源采集器（咪咕等广电正版直链）
+├── live_official.py                 # 官方直播源采集器（咪咕/央视/CGTN/移动IPTV 正版直链）
 ├── sources.txt                      # 种子列表：索引 + 可追加的配置源
 ├── blocklist.txt                    # 广告/赌博域名黑名单（并入 merged.json 的 ads）
+├── quality.json                     # 源质量历史（每日 ok/fail 计数，驱动自动淘汰）
+├── excluded_sources.txt             # 被自动淘汰的源（连续失败达阈值，7 天自动复活探测）
 ├── merged.json                      # 产物①：合并去重后的订阅配置（每日更新）
 ├── m.json                           # 产物①短名副本（供短订阅地址使用）
 ├── live_official.m3u                # 产物②：官方直播源 m3u 列表（央视/卫视/地方）
@@ -41,20 +43,51 @@ merged.json（可直接订阅） + status.json（来源健康报告）
 - **容错**：失效的源自动跳过，不会中断整体抓取，失败明细写入 `status.json`。
 - **种子组成**：`sources.txt` 含 hkuc 公开配置索引（高天流云/老白/heroaku 等）+ 聚玩盒子（juwanhezi.com）单仓源精选（心魔在线/小马/牛二/嗷呜/宝盒备用等，已实测存活并标注站点数）。
 
-## 官方直播源（咪咕等广电正版）
+## 官方直播源（咪咕/央视/CGTN/移动 IPTV 等广电正版）
 
-`live_official.py` 每天抓取公开维护的**官方直链列表**（`miguvideo.com` 等广电正版域名），解析 → 官方域名过滤 → 频道名归一化去重 → 并发存活探测 → 输出：
+`live_official.py` 每天抓取公开维护的**官方直链列表**（`miguvideo.com` / `cctv.com` / `cgtn.com` / `chinamobile.com` 等广电正版域名），解析 → 官方域名过滤 → 频道名归一化去重 → 输出：
 
 - `live_official.m3u`：m3u 格式（央视频道/卫视/新闻/体育分组），可直接导入任意播放器；
-- 同时并入 `merged.json` 的 `lives`（运行主爬虫时带 `--official-live` 自动并入，默认 Actions 已开启）。
+- `live_official.json`：含 **group / source / tier** 分级字段，并入 `merged.json` 的 `lives`（主爬虫带 `--official-live` 自动并入，默认 Actions 已开启）。
 
 ```bash
 python live_official.py                    # 只生成 live_official.m3u + live_official.json
 python fetch_sources.py --official-live    # 主爬虫 + 并入官方直播源
 ```
 
-- **探测策略**：404/410 视为确定死亡直接剔除；403 多为"数据中心 IP 被官方源拒绝、家庭宽带可播"，会保留并标记；频道按名称归一化（去码率/清晰度后缀）后每台保留一条。
-- **数据源**：在 `live_official.py` 顶部 `OFFICIAL_SOURCES` 追加 `名称,URL` 一行即可扩展。
+**分级（tier）**：
+
+| tier | 含义 | 说明 |
+|---|---|---|
+| 1 | 公网直连官方源 | 咪咕（miguvideo/cmvideo）、央视（cctv/cntv）、CGTN，家庭宽带一般直接可播 |
+| 2 | 网络受限官方源 | 中国移动 IPTV（dbiptv.\*.chinamobile.com），通常需移动宽带网络 |
+
+**家庭宽带自测方法**（官方源对服务器/云 IP 一律 403/404 防盗链，只有你的家庭网络才准）：
+
+1. **命令行速测**（Windows PowerShell 或 CMD，5 秒看结果）：
+   ```bat
+   curl -m 8 -A "Mozilla/5.0" "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8"
+   ```
+   返回内容以 `#EXTM3U` 开头 = 可播；`403/404` = 该源在你的网络不可用。
+2. **播放器实测**（推荐）：TVBox → 直播 → 输入 `live_official.m3u` 的订阅地址，逐个频道点开验证；不可播的频道看 `live_official.json` 里它的 `tier` 与 `source`，反馈给我后我会从对应数据源剔除或换源。
+3. **批量自测**（可选）：把 `live_official.m3u` 拖进 VLC / PotPlayer，播放列表自动加载后逐台验证。
+
+- **探测策略**：官方域名源**跳过服务器探测、全部保留**（官方源对数据中心/海外 IP 一律 403/404 防盗链，服务器探测只会误杀，交由你的播放器实测）；非官方源仍按 404 剔除。
+- **数据源**：`OFFICIAL_SOURCES` 目前 4 个——rm_dream（咪咕 120）、F-zyoom（咪咕 132）、ioptu（咪咕 m3u 99）、baocaien（央视/CGTN/移动IPTV 498）；追加 `名称,URL` 一行即可扩容。
+
+## 源质量自动淘汰（保留高质量、剔除低质量）
+
+`fetch_sources.py` 每天把每个种子的抓取结果记入 `quality.json`（按自然日累计 ok/fail），自动维护：
+
+| 规则 | 行为 |
+|---|---|
+| 连续失败 ≥ 3 天 | 自动移入 `excluded_sources.txt`，次日开始跳过不抓（避免拖慢整体抓取） |
+| 被淘汰源满 7 天 | 自动"复活探测"一次：成功 → 自动移出淘汰名单；失败 → 重新计时 7 天 |
+| 你在 `sources.txt` 删掉的源 | 同步清出淘汰名单 |
+
+- 查看当前淘汰名单：打开 `excluded_sources.txt`（每行 `URL  # 排除于 日期`）。
+- **手动恢复**：删掉对应行即可，下次运行会重新纳入。
+- 阈值可调：`--fail-limit 3`（连续失败天数）、`--retry-days 7`（复活周期）；`status.json → summary.quality` 记录本次淘汰/复活统计。
 
 ## 部署步骤（约 5 分钟）
 

@@ -1,0 +1,278 @@
+{
+ "updated": "2026-10-02",
+ "history": {
+  "https://github.com/franksun1211/TVBOX/raw/main/0706.json": {
+   "ok_days": 0,
+   "fail_days": 1,
+   "last": "fail",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://raw.githubusercontent.com/hkuc/tvbox-config/main/url.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/heroaku/TVboxo/raw/main/Text/ptest.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/heroaku/TVboxo/raw/main/Text/pyn.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/heroaku/TVboxo/raw/main/Text/ayn.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/heroaku/TVboxo/raw/main/Text/dtes.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/gaotianliuyun/gao/raw/master/0821.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/gaotianliuyun/gao/raw/master/0825.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/gaotianliuyun/gao/raw/master/0826.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/gaotianliuyun/gao/raw/master/0827.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/gaotianliuyun/gao/raw/master/js.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/gaotianliuyun/gao/raw/master/XYQ.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/yw88075/tvbox/raw/main/dr/js.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/Dong-learn9/TVBox-zyjk/raw/main/tvbox2.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/liu673cn/box/raw/main/m.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/anaer/Meow/raw/main/meow.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.com/hackyjso/TVbox/raw/main/jzy.txt": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://raw.githubusercontent.com/FanchangWang/tvbox_config/main/dist/tvbox.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "http://www.饭太硬.net/tv": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://w.junce.dpdns.org/fm.gif": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "http://tvbox.王二小放牛娃.top/": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://我不是.摸鱼儿.top": {
+   "ok_days": 0,
+   "fail_days": 1,
+   "last": "fail",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://www.252035.xyz/p/jsm.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://www.252035.xyz/z/FongMi.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://raw.githubusercontent.com/hkuc/public/main/box/ai.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://9280.kstore.vip/newwex.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://9280.kstore.space/wex.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://9763.kstore.vip/aowu.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://szyyds.cn/tv/x.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "http://rihou.cc:555/nzk/nzk0722.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "http://home.jundie.top:81/top98.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "http://zhangqun1818.serv00.net/zq/api.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "http://box.ufuzi.com/tv/qq/短剧频道/api.json": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u": {
+   "ok_days": 1,
+   "fail_days": 0,
+   "last": "ok",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  },
+  "https://ghfast.top/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u": {
+   "ok_days": 0,
+   "fail_days": 1,
+   "last": "fail",
+   "last_date": "2026-10-02",
+   "first_seen": "2026-10-02"
+  }
+ }
+}
