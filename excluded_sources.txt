@@ -2,7 +2,7 @@
 # 被淘汰的源每 7 天自动复活探测一次，恢复可用后自动移出本文件。
 
 http://box.ufuzi.com/tv/qq/短剧频道/api.json  # 排除于 2026-10-12
-http://rihou.cc:555/nzk/nzk0722.json  # 排除于 2026-10-09
+http://rihou.cc:555/nzk/nzk0722.json  # 排除于 2026-10-16
 https://github.com/franksun1211/TVBOX/raw/main/0706.json  # 排除于 2026-10-11
 https://github.com/heroaku/TVboxo/raw/main/Text/ayn.json  # 排除于 2026-10-11
 https://github.com/heroaku/TVboxo/raw/main/Text/dtes.json  # 排除于 2026-10-11
