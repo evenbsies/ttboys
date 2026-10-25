@@ -3,8 +3,8 @@
 
 http://box.ufuzi.com/tv/qq/短剧频道/api.json  # 排除于 2026-10-20
 http://rihou.cc:555/nzk/nzk0722.json  # 排除于 2026-10-23
-https://github.com/franksun1211/TVBOX/raw/main/0706.json  # 排除于 2026-10-18
-https://github.com/heroaku/TVboxo/raw/main/Text/ayn.json  # 排除于 2026-10-18
-https://github.com/heroaku/TVboxo/raw/main/Text/dtes.json  # 排除于 2026-10-18
-https://github.com/heroaku/TVboxo/raw/main/Text/ptest.json  # 排除于 2026-10-18
-https://github.com/heroaku/TVboxo/raw/main/Text/pyn.json  # 排除于 2026-10-18
+https://github.com/franksun1211/TVBOX/raw/main/0706.json  # 排除于 2026-10-25
+https://github.com/heroaku/TVboxo/raw/main/Text/ayn.json  # 排除于 2026-10-25
+https://github.com/heroaku/TVboxo/raw/main/Text/dtes.json  # 排除于 2026-10-25
+https://github.com/heroaku/TVboxo/raw/main/Text/ptest.json  # 排除于 2026-10-25
+https://github.com/heroaku/TVboxo/raw/main/Text/pyn.json  # 排除于 2026-10-25
