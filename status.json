@@ -1,47 +1,47 @@
 {
-  "run_at": "2026-10-30 01:36:07",
+  "run_at": "2026-10-31 01:25:49",
   "indexes": [
     {
       "url": "https://raw.githubusercontent.com/hkuc/tvbox-config/main/url.json",
       "ok": true,
       "found": 18,
-      "elapsed_ms": 234
+      "elapsed_ms": 105
     },
     {
       "url": "https://github.com/hackyjso/TVbox/raw/main/jzy.txt",
       "ok": true,
       "found": 0,
-      "elapsed_ms": 194
+      "elapsed_ms": 108
     },
     {
       "url": "https://raw.githubusercontent.com/FanchangWang/tvbox_config/main/dist/tvbox.json",
       "ok": true,
-      "found": 8,
-      "elapsed_ms": 170
+      "found": 9,
+      "elapsed_ms": 106
     },
     {
       "url": "http://www.饭太硬.net/tv",
       "ok": true,
       "found": 0,
-      "elapsed_ms": 1539
+      "elapsed_ms": 3331
     },
     {
       "url": "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
       "ok": true,
       "found": 0,
-      "elapsed_ms": 608
+      "elapsed_ms": 318
     },
     {
       "url": "https://我不是.摸鱼儿.top",
       "ok": true,
       "found": 0,
-      "elapsed_ms": 1700
+      "elapsed_ms": 1280
     },
     {
       "url": "https://www.252035.xyz/z/FongMi.json",
       "ok": true,
       "found": 0,
-      "elapsed_ms": 568
+      "elapsed_ms": 559
     }
   ],
   "configs": [
@@ -49,151 +49,151 @@
       "url": "https://raw.githubusercontent.com/hd9211/maotv/main/maotv3.txt",
       "ok": true,
       "sites": 362,
-      "elapsed_ms": 352
+      "elapsed_ms": 147
     },
     {
       "url": "https://9280.kstore.vip/newwex.json",
       "ok": true,
       "sites": 99,
-      "elapsed_ms": 329
+      "elapsed_ms": 319
     },
     {
       "url": "https://9280.kstore.space/wex.json",
       "ok": true,
       "sites": 63,
-      "elapsed_ms": 590
+      "elapsed_ms": 303
     },
     {
       "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
       "ok": true,
       "sites": 151,
-      "elapsed_ms": 133
+      "elapsed_ms": 104
     },
     {
       "url": "https://9763.kstore.vip/aowu.json",
       "ok": true,
       "sites": 78,
-      "elapsed_ms": 600
+      "elapsed_ms": 293
     },
     {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
       "ok": true,
       "sites": 77,
-      "elapsed_ms": 300
+      "elapsed_ms": 218
     },
     {
       "url": "https://szyyds.cn/tv/x.json",
       "ok": true,
       "sites": 62,
-      "elapsed_ms": 1121
+      "elapsed_ms": 2042
     },
     {
       "url": "http://home.jundie.top:81/top98.json",
       "ok": true,
       "sites": 24,
-      "elapsed_ms": 927
+      "elapsed_ms": 1993
     },
     {
       "url": "http://zhangqun1818.serv00.net/zq/api.json",
       "ok": true,
       "sites": 19,
-      "elapsed_ms": 658
+      "elapsed_ms": 718
     },
     {
       "url": "https://github.com/gaotianliuyun/gao/raw/master/0821.json",
       "ok": true,
       "sites": 86,
-      "elapsed_ms": 116
+      "elapsed_ms": 106
     },
     {
       "url": "https://github.com/gaotianliuyun/gao/raw/master/0825.json",
       "ok": true,
       "sites": 135,
-      "elapsed_ms": 240
+      "elapsed_ms": 108
     },
     {
       "url": "https://github.com/gaotianliuyun/gao/raw/master/0826.json",
       "ok": true,
       "sites": 51,
-      "elapsed_ms": 275
+      "elapsed_ms": 167
     },
     {
       "url": "https://github.com/gaotianliuyun/gao/raw/master/0827.json",
       "ok": true,
       "sites": 33,
-      "elapsed_ms": 88
+      "elapsed_ms": 76
     },
     {
       "url": "https://github.com/gaotianliuyun/gao/raw/master/js.json",
       "ok": true,
       "sites": 298,
-      "elapsed_ms": 320
+      "elapsed_ms": 89
     },
     {
       "url": "https://github.com/gaotianliuyun/gao/raw/master/XYQ.json",
       "ok": true,
       "sites": 48,
-      "elapsed_ms": 175
+      "elapsed_ms": 137
     },
     {
       "url": "https://github.com/yw88075/tvbox/raw/main/dr/js.json",
       "ok": true,
       "sites": 206,
-      "elapsed_ms": 129
+      "elapsed_ms": 127
     },
     {
       "url": "https://github.com/Dong-learn9/TVBox-zyjk/raw/main/tvbox2.json",
       "ok": true,
       "sites": 43,
-      "elapsed_ms": 129
+      "elapsed_ms": 143
     },
     {
       "url": "https://github.com/liu673cn/box/raw/main/m.json",
       "ok": true,
       "sites": 171,
-      "elapsed_ms": 198
+      "elapsed_ms": 118
     },
     {
       "url": "https://github.com/anaer/Meow/raw/main/meow.json",
       "ok": true,
       "sites": 77,
-      "elapsed_ms": 329
+      "elapsed_ms": 116
     },
     {
       "url": "http://肥猫.net/",
       "ok": true,
       "sites": 39,
-      "elapsed_ms": 1491
+      "elapsed_ms": 1774
     },
     {
       "url": "https://github.allproxy.dpdns.org/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
       "ok": true,
       "sites": 48,
-      "elapsed_ms": 163
+      "elapsed_ms": 189
     },
     {
       "url": "https://6800.kstore.vip/fish.json",
       "ok": true,
       "sites": 102,
-      "elapsed_ms": 296
+      "elapsed_ms": 285
     },
     {
       "url": "https://www.252035.xyz/p/jsm.json",
       "ok": true,
       "sites": 6,
-      "elapsed_ms": 575
+      "elapsed_ms": 542
     },
     {
       "url": "https://raw.githubusercontent.com/hkuc/public/main/box/ai.json",
       "ok": true,
       "sites": 1,
-      "elapsed_ms": 144
+      "elapsed_ms": 113
     },
     {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
       "ok": true,
       "sites": 0,
-      "elapsed_ms": 357,
+      "elapsed_ms": 117,
       "live": true
     },
     {
@@ -204,30 +204,24 @@
       "live": true
     }
   ],
-  "failed": [
-    {
-      "url": "http://rihou.cc:555/nzk/nzk0722.json",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "elapsed_ms": 60
-    }
-  ],
+  "failed": [],
   "summary": {
     "sites_raw": 2279,
     "sites_final": 800,
     "parses_final": 86,
-    "lives_final": 229,
+    "lives_final": 227,
     "rules_final": 51,
     "dropped_jar": 280,
     "dropped_live": 11,
-    "dropped_nsfw": 120,
-    "jar_injected": 377,
+    "dropped_nsfw": 119,
+    "jar_injected": 378,
     "blocklist_added": 0,
-    "official_live_added": 189,
+    "official_live_added": 187,
     "quality": {
       "excluded_total": 8,
       "excluded_new": 0,
       "revived_ok": 0,
-      "revived_fail": 1
+      "revived_fail": 0
     }
   }
 }
