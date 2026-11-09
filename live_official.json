@@ -225,7 +225,7 @@
  },
  {
   "name": "仙居三千院酒店-烹饪间 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230161/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230155/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -609,7 +609,7 @@
  },
  {
   "name": "直播 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230662/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230622/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -657,7 +657,7 @@
  },
  {
   "name": "直播片段 V720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230730/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230718/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -705,7 +705,7 @@
  },
  {
   "name": "臻品烘焙面包坊-烘焙区 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230190/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230187/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -777,7 +777,7 @@
  },
  {
   "name": "CCTV13",
-  "url": "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8",
+  "url": "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8",
   "type": 0,
   "group": "央视频道",
   "source": "baocaien",
@@ -1192,24 +1192,24 @@
   "tier": "1"
  },
  {
-  "name": "宁夏卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229080/index.m3u8",
+  "name": "宁夏卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230434/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
   "tier": "1"
  },
  {
-  "name": "安徽卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229301/index.m3u8",
+  "name": "安徽卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230218/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
   "tier": "1"
  },
  {
-  "name": "山东卫视 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227909/index.m3u8",
+  "name": "山东卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227955/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1328,16 +1328,16 @@
   "tier": "1"
  },
  {
-  "name": "江西卫视 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229374/index.m3u8",
+  "name": "江西卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230446/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
   "tier": "1"
  },
  {
-  "name": "河北卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229071/index.m3u8",
+  "name": "河北卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230427/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1432,8 +1432,8 @@
   "tier": "1"
  },
  {
-  "name": "陕西卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229052/index.m3u8",
+  "name": "陕西卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230433/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
