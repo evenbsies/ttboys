@@ -56,7 +56,7 @@ https://hlszymgsplive.miguvideo.com:443/migu/kailu/20210415/cctvzhongxuesheng/50
 #EXTINF:-1 group-title="其他",书画频道
 http://gslbmgsplive.miguvideo.com/migu/kailu/ydcmxdm/51/20251225/index.m3u8?msisdn=002f596a63ecb3b84a2db10b4480dbe6&mdspid=&spid=600603&netType=0&sid=5910022524&pid=2028597139&timestamp=20261107075112&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=968663920&ParentNodeID=-99&assertID=5910022524&client_ip=39.103.182.111&SecurityKey=20261107075112&promotionId=&mvid=5900006894&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=243928b724ebb9a0a364d63b5e72a637&ddCalcu=7234v63aa9l22a78eb57b2346edb4b693aa0&sv=10004&ct=android
 #EXTINF:-1 group-title="其他",仙居三千院酒店-烹饪间 720
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230155/index.m3u8
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230161/index.m3u8
 #EXTINF:-1 group-title="其他",优漫卡通频道
 https://hlszymgsplive.miguvideo.com:443/wd_r2/jstv/ymkt/600/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699067&netType=0&sid=5500260553&pid=2028597139&timestamp=20250506200428&Channel_ID=0131_10010001005&ProgramID=626064703&ParentNodeID=-99&assertID=5500260553&client_ip=117.136.92.152&SecurityKey=20250506200428&promotionId=&mvid=5100186455&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=253ac4056c4f047d63632a3320b5496b&sv=10000&ct=h5
 #EXTINF:-1 group-title="其他",体坛名栏汇
@@ -112,7 +112,7 @@ https://hlszymgsplive.miguvideo.com:443/wd-virtuallive5100030975-75/index.m3u8?m
 #EXTINF:-1 group-title="其他",最强综艺趴
 https://hlszymgsplive.miguvideo.com:443/wd_r3/cctv/zuiqiangzongyi/600/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=5500315654&pid=2028597139&timestamp=20250506200714&Channel_ID=0131_10010001005&ProgramID=629942228&ParentNodeID=-99&assertID=5500315654&client_ip=117.136.92.152&SecurityKey=20250506200714&promotionId=&mvid=5101034202&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=e8c4c1789b635489b0e7791e66834f1e&sv=10000&ct=h5
 #EXTINF:-1 group-title="其他",未知片段 720
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230772/index.m3u8
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230769/index.m3u8
 #EXTINF:-1 group-title="其他",杭州4 720
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229377/index.m3u8
 #EXTINF:-1 group-title="其他",杭州少儿 720
@@ -177,8 +177,8 @@ http://hls.cntv.myhwcdn.cn/asp/hls/4000/0303000a/3/default/8cdd688b04e4495ba1635
 https://hlszymgsplive.miguvideo.com:443/migu/kailu/cctvlaogushi/50/20231109/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=5910022002&pid=2028597139&timestamp=20250506200222&Channel_ID=0131_10010001005&ProgramID=884121956&ParentNodeID=-99&assertID=5910022002&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200222&promotionId=&mvid=5900006372&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=7166194c33b0d11fc0ee0211ea26347d&sv=10000&ct=h5
 #EXTINF:-1 group-title="其他",臻品烘焙面包坊-烘焙区 720
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230187/index.m3u8
-#EXTINF:-1 group-title="其他",芒果TV 8M1080
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230203/index.m3u8
+#EXTINF:-1 group-title="其他",芒果TV 4M1080
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230235/index.m3u8
 #EXTINF:-1 group-title="其他",财富天下
 http://gslbmgsplive.miguvideo.com/migu/kailu/cftx/51/20250804/index.m3u8?msisdn=3b34bb2eeac86d3772d002cd4da4dca0&mdspid=&spid=600697&netType=0&sid=5910022193&pid=2028597139&timestamp=20261107075057&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956923159&ParentNodeID=-99&assertID=5910022193&client_ip=39.103.182.111&SecurityKey=20261107075057&promotionId=&mvid=5900006715&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=b67155a997ce50675b2a0b5908a28033&ddCalcu=3b36v07a81d25aa58a099957bc0ea520b657&sv=10004&ct=android
 #EXTINF:-1 group-title="其他",赛事最经典
@@ -194,7 +194,7 @@ http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229157/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV12社会与法
 https://hlszymgsplive.miguvideo.com:443/migu/kailu/20200324/cctv12hd/50/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=5501083627&pid=2028597139&timestamp=20250506200037&Channel_ID=0131_10010001005&ProgramID=673168185&ParentNodeID=-99&assertID=5501083627&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200037&promotionId=&mvid=5102910389&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=3d1fcdc62f734869e471cb274216b27f&sv=10000&ct=h5
 #EXTINF:-1 group-title="央视频道",CCTV13
-https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8
+https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV13新闻
 https://hlszymgsplive.miguvideo.com:443/envivo_x/2018/SD/cctv13/1000/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=2202208864&pid=2028597139&timestamp=20250506200015&Channel_ID=0131_10010001005&ProgramID=608807423&ParentNodeID=-99&assertID=2202208864&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200015&promotionId=&mvid=2202208864&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=45b7eb8d7e14d540739eb542456f12e6&sv=10000&ct=h5
 #EXTINF:-1 group-title="央视频道",CCTV14少儿
@@ -236,7 +236,7 @@ https://hlszymgsplive.miguvideo.com:443/migu/kailu/20200324/cctv9hd/50/index.m3u
 #EXTINF:-1 group-title="央视频道",CCTV移动
 http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/649e19038fa74514ab3f00febbcd6de0/1200.m3u8
 #EXTINF:-1 group-title="新闻",CGTN-英语新闻
-http://live.cgtn.com/1000/prog_index.m3u8
+http://live.cgtn.com/500/prog_index.m3u8
 #EXTINF:-1 group-title="新闻",上海新闻综合
 https://hlszymgsplive.miguvideo.com:443/wd_r4/dfl/xinwenzonghehd/600/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699212&netType=0&sid=5500002275&pid=2028597139&timestamp=20250506200324&Channel_ID=0131_10010001005&ProgramID=651632657&ParentNodeID=-99&assertID=5500002275&client_ip=117.136.92.152&SecurityKey=20250506200324&promotionId=&mvid=5100001716&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=91b0b2b37a45defc5113518a143efae5&sv=10000&ct=h5
 #EXTINF:-1 group-title="新闻",上视新闻综合
@@ -296,11 +296,11 @@ http://gslbmgsplive.miguvideo.com/migu/kailu/jldspd/51/20261014/index.m3u8?msisd
 #EXTINF:-1 group-title="卫视",四川卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230458/index.m3u8
 #EXTINF:-1 group-title="卫视",天津卫视 720
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228905/index.m3u8
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229359/index.m3u8
 #EXTINF:-1 group-title="卫视",宁夏卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230434/index.m3u8
-#EXTINF:-1 group-title="卫视",安徽卫视 480
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230218/index.m3u8
+#EXTINF:-1 group-title="卫视",安徽卫视 576
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229301/index.m3u8
 #EXTINF:-1 group-title="卫视",山东卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227955/index.m3u8
 #EXTINF:-1 group-title="卫视",山东教育
@@ -347,8 +347,8 @@ http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229356/index.m3u8
 https://hlszymgsplive.miguvideo.com:443/wd_r2/2018/ocn/hubeiwshd/1000/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=600633&netType=0&sid=5910022163&pid=2028597139&timestamp=20250506200258&Channel_ID=0131_10010001005&ProgramID=947472496&ParentNodeID=-99&assertID=5910022163&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200258&promotionId=&mvid=5900004355&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=37b3eb3c5ea297a565a4ab528ccb685e&sv=10000&ct=h5
 #EXTINF:-1 group-title="卫视",湖南卫视 3M1080
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230206/index.m3u8
-#EXTINF:-1 group-title="卫视",甘肃卫视 480
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230443/index.m3u8
+#EXTINF:-1 group-title="卫视",甘肃卫视 576
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229077/index.m3u8
 #EXTINF:-1 group-title="卫视",贵州卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228123/index.m3u8
 #EXTINF:-1 group-title="卫视",辽宁卫视 576
@@ -357,8 +357,8 @@ http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229368/index.m3u8
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230436/index.m3u8
 #EXTINF:-1 group-title="卫视",陕西体育休闲频道
 http://gslbmgsplive.miguvideo.com/migu/kailu/sxtyxx/51/20250804/index.m3u8?msisdn=ff8082517858f8966e1602eb50244582&mdspid=&spid=600572&netType=0&sid=5910022189&pid=2028597139&timestamp=20261107075056&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909356&ParentNodeID=-99&assertID=5910022189&client_ip=39.103.182.111&SecurityKey=20261107075056&promotionId=&mvid=5900006712&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=a88fa06aab7c91ab52d2a56b519354cd&ddCalcu=dac8v48a5fb3aa90165aba6b57ac29d12a5b&sv=10004&ct=android
-#EXTINF:-1 group-title="卫视",陕西卫视 480
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230433/index.m3u8
+#EXTINF:-1 group-title="卫视",陕西卫视 576
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229052/index.m3u8
 #EXTINF:-1 group-title="卫视",陕西新闻资讯频道
 http://gslbmgsplive.miguvideo.com/migu/kailu/sxxwzx/51/20250804/index.m3u8?msisdn=4d50cf0629c8e55cbb5aba66a7afe40e&mdspid=&spid=600572&netType=0&sid=5910022187&pid=2028597139&timestamp=20261107075057&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956909289&ParentNodeID=-99&assertID=5910022187&client_ip=39.103.188.159&SecurityKey=20261107075057&promotionId=&mvid=5900006710&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=62868d80db963002368d4c9763a7704a&ddCalcu=a642v08a76a78aad38607d9bc946d3806032&sv=10004&ct=android
 #EXTINF:-1 group-title="卫视",陕西秦腔频道
