@@ -11596,38 +11596,6 @@
    "tier": "1"
   },
   {
-   "name": "CGTN Español",
-   "url": "http://livees.cgtn.com/500e/prog_index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "baocaien",
-   "tier": "1"
-  },
-  {
-   "name": "CGTN France",
-   "url": "http://livefr.cgtn.com/1000f/prog_index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "baocaien",
-   "tier": "1"
-  },
-  {
-   "name": "CGTN-俄罗斯语国际",
-   "url": "http://liveru.cgtn.com/1000r/prog_index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "baocaien",
-   "tier": "1"
-  },
-  {
-   "name": "CGTN-西班牙语国际",
-   "url": "http://livees.cgtn.com/1000e/prog_index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "baocaien",
-   "tier": "1"
-  },
-  {
    "name": "CGTN俄语",
    "url": "https://hlszymgsplive.miguvideo.com:443/envivo_v/2018/SD/cctv/eyu/1000/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=2200179332&pid=2028597139&timestamp=20250506200219&Channel_ID=0131_10010001005&ProgramID=609006446&ParentNodeID=-99&assertID=2200179332&client_ip=117.136.92.152&SecurityKey=20250506200219&promotionId=&mvid=2200179332&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=83b43428cf00d57377319f1d36c82626&sv=10000&ct=h5",
    "type": 0,
@@ -11660,14 +11628,6 @@
    "tier": "1"
   },
   {
-   "name": "CGTN纪实",
-   "url": "https://livedoc.cgtn.com/500d/prog_index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "baocaien",
-   "tier": "1"
-  },
-  {
    "name": "CGTN西班牙语",
    "url": "https://hlszymgsplive.miguvideo.com:443/envivo_v/2018/SD/cctv/xibanya/1000/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=2200179337&pid=2028597139&timestamp=20250506200212&Channel_ID=0131_10010001005&ProgramID=609006450&ParentNodeID=-99&assertID=2200179337&client_ip=117.136.92.152&SecurityKey=20250506200212&promotionId=&mvid=2200179337&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=05f315f66417d47782ddb4b5db7b9d4f&sv=10000&ct=h5",
    "type": 0,
@@ -11684,51 +11644,11 @@
    "tier": "1"
   },
   {
-   "name": "CGTN阿语",
-   "url": "http://livear.cgtn.com/1000a/prog_index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "baocaien",
-   "tier": "1"
-  },
-  {
    "name": "CHC影迷电影",
    "url": "https://hlszymgsplive.miguvideo.com:443/migu/kailu/chcymdy/50/20250415/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=5910022176&pid=2028597139&timestamp=20250506200454&Channel_ID=0131_10010001005&ProgramID=952383261&ParentNodeID=-99&assertID=5910022176&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200454&promotionId=&mvid=5900006704&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=ffb724ca81231dd5213d17502753fd40&sv=10000&ct=h5",
    "type": 0,
    "group": "其他",
    "source": "rm_dream",
-   "tier": "1"
-  },
-  {
-   "name": "Hot炫动3D 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230386/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "SiTV欢笑剧场 15M2160",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230739/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "VR测试片段 10M2160",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230560/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "Y+频道 4M1080",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230226/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
    "tier": "1"
   },
   {
@@ -11780,14 +11700,6 @@
    "tier": "1"
   },
   {
-   "name": "仙居三千院酒店-烹饪间 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230155/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
    "name": "优漫卡通频道",
    "url": "https://hlszymgsplive.miguvideo.com:443/wd_r2/jstv/ymkt/600/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699067&netType=0&sid=5500260553&pid=2028597139&timestamp=20250506200428&Channel_ID=0131_10010001005&ProgramID=626064703&ParentNodeID=-99&assertID=5500260553&client_ip=117.136.92.152&SecurityKey=20250506200428&promotionId=&mvid=5100186455&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=253ac4056c4f047d63632a3320b5496b&sv=10000&ct=h5",
    "type": 0,
@@ -11804,11 +11716,11 @@
    "tier": "1"
   },
   {
-   "name": "兵团卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229046/index.m3u8",
+   "name": "兵团卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/index.m3u8?msisdn=7d3f40d9c492535af451054e48450e29&mdspid=&spid=600697&netType=0&sid=5910022192&pid=2028597139&timestamp=20261107075045&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=956923145&ParentNodeID=-99&assertID=5910022192&client_ip=39.103.188.159&SecurityKey=20261107075045&promotionId=&mvid=5900006716&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=e5314a79ed6313c96969f52581e8d5a6&ddCalcu=6ea5v53ad1d84aea17895e2d56f391639c69&sv=10004&ct=android",
    "type": 0,
    "group": "其他",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
@@ -11868,14 +11780,6 @@
    "tier": "1"
   },
   {
-   "name": "咪咕直播 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230248/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
    "name": "嘉佳卡通",
    "url": "https://hlszymgsplive.miguvideo.com:443/wd_r1/2018/nfmedia/jjkt/1000/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699054&netType=0&sid=2206172388&pid=2028597139&timestamp=20250506200725&Channel_ID=0131_10010001005&ProgramID=614952364&ParentNodeID=-99&assertID=2206172388&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200725&promotionId=&mvid=2206172388&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=24ee7d7718ad80cd2030327fa44fb55d&sv=10000&ct=h5",
    "type": 0,
@@ -11892,59 +11796,11 @@
    "tier": "1"
   },
   {
-   "name": "外星人 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228152/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "外星人2 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229833/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "外星人3 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228143/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
    "name": "大湾区卫视",
    "url": "https://hlszymgsplive.miguvideo.com:443/wd_r3/2018/nfmedia/nfws/1000/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699054&netType=0&sid=2200322852&pid=2028597139&timestamp=20250506200255&Channel_ID=0131_10010001005&ProgramID=608917627&ParentNodeID=-99&assertID=2200322852&client_ip=117.136.92.152&SecurityKey=20250506200255&promotionId=&mvid=2200322852&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=6d4c1be65296daca4b29cacf3a0ac39f&sv=10000&ct=h5",
    "type": 0,
    "group": "其他",
    "source": "rm_dream",
-   "tier": "1"
-  },
-  {
-   "name": "天目直播 1080",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229590/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "学而思网校1 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228203/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "学而思网校2 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228264/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
    "tier": "1"
   },
   {
@@ -11961,14 +11817,6 @@
    "type": 0,
    "group": "其他",
    "source": "ioptu",
-   "tier": "1"
-  },
-  {
-   "name": "数码时代 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229419/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
    "tier": "1"
   },
   {
@@ -12001,54 +11849,6 @@
    "type": 0,
    "group": "其他",
    "source": "rm_dream",
-   "tier": "1"
-  },
-  {
-   "name": "未知片段 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230769/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "杭州4 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229377/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "杭州少儿 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229316/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "杭州明珠 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229310/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "杭州生活 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229313/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "杭州综合 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229307/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
    "tier": "1"
   },
   {
@@ -12164,62 +11964,6 @@
    "tier": "1"
   },
   {
-   "name": "直播 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230622/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "直播下姜村 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230668/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "直播临安天目山 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230631/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "直播千岛湖龙山岛 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230653/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "直播富春江 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230671/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "直播武林广场 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230628/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "直播片段 V720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230718/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
    "name": "红色轮播台",
    "url": "https://hlszymgsplive.miguvideo.com:443/migu/virtuallive2/5900002413/50/20210706/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=800033&netType=0&sid=5910019527&pid=2028597139&timestamp=20250506200514&Channel_ID=0131_10010001005&ProgramID=713600957&ParentNodeID=-99&assertID=5910019527&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200514&promotionId=&mvid=5900002443&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=1e1ad5c1a73802fa097925dc8a9aba33&sv=10000&ct=h5",
    "type": 0,
@@ -12244,35 +11988,11 @@
    "tier": "1"
   },
   {
-   "name": "美丽中国说",
-   "url": "http://hls.cntv.myhwcdn.cn/asp/hls/4000/0303000a/3/default/8cdd688b04e4495ba1635e218419d6f9/4000.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "baocaien",
-   "tier": "1"
-  },
-  {
    "name": "老故事",
    "url": "https://hlszymgsplive.miguvideo.com:443/migu/kailu/cctvlaogushi/50/20231109/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=5910022002&pid=2028597139&timestamp=20250506200222&Channel_ID=0131_10010001005&ProgramID=884121956&ParentNodeID=-99&assertID=5910022002&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200222&promotionId=&mvid=5900006372&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=7166194c33b0d11fc0ee0211ea26347d&sv=10000&ct=h5",
    "type": 0,
    "group": "其他",
    "source": "rm_dream",
-   "tier": "1"
-  },
-  {
-   "name": "臻品烘焙面包坊-烘焙区 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230187/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "芒果TV 4M1080",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230235/index.m3u8",
-   "type": 0,
-   "group": "其他",
-   "source": "F-zyoom",
    "tier": "1"
   },
   {
@@ -12316,27 +12036,11 @@
    "tier": "1"
   },
   {
-   "name": "CCTV12 2.5M1080",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229157/index.m3u8",
-   "type": 0,
-   "group": "央视频道",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
    "name": "CCTV12社会与法",
    "url": "https://hlszymgsplive.miguvideo.com:443/migu/kailu/20200324/cctv12hd/50/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=5501083627&pid=2028597139&timestamp=20250506200037&Channel_ID=0131_10010001005&ProgramID=673168185&ParentNodeID=-99&assertID=5501083627&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200037&promotionId=&mvid=5102910389&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=3d1fcdc62f734869e471cb274216b27f&sv=10000&ct=h5",
    "type": 0,
    "group": "央视频道",
    "source": "rm_dream",
-   "tier": "1"
-  },
-  {
-   "name": "CCTV13",
-   "url": "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8",
-   "type": 0,
-   "group": "央视频道",
-   "source": "baocaien",
    "tier": "1"
   },
   {
@@ -12380,14 +12084,6 @@
    "tier": "1"
   },
   {
-   "name": "CCTV2 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228129/index.m3u8",
-   "type": 0,
-   "group": "央视频道",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
    "name": "CCTV2财经",
    "url": "https://hlszymgsplive.miguvideo.com:443/wd_r2/cctv/cctv2hd/600/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=5500346945&pid=2028597139&timestamp=20250506200107&Channel_ID=0131_10010001005&ProgramID=631780532&ParentNodeID=-99&assertID=5500346945&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200107&promotionId=&mvid=5101064231&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=386e0bb59d246d9e228be45bb665d4cd&sv=10000&ct=h5",
    "type": 0,
@@ -12401,14 +12097,6 @@
    "type": 0,
    "group": "央视频道",
    "source": "rm_dream",
-   "tier": "1"
-  },
-  {
-   "name": "CCTV4K 38M2160",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229683/index.m3u8",
-   "type": 0,
-   "group": "央视频道",
-   "source": "F-zyoom",
    "tier": "1"
   },
   {
@@ -12433,14 +12121,6 @@
    "type": 0,
    "group": "央视频道",
    "source": "rm_dream",
-   "tier": "1"
-  },
-  {
-   "name": "CCTV5 2.5M1080",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228849/index.m3u8",
-   "type": 0,
-   "group": "央视频道",
-   "source": "F-zyoom",
    "tier": "1"
   },
   {
@@ -12489,22 +12169,6 @@
    "type": 0,
    "group": "央视频道",
    "source": "rm_dream",
-   "tier": "1"
-  },
-  {
-   "name": "CCTV移动",
-   "url": "http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/649e19038fa74514ab3f00febbcd6de0/1200.m3u8",
-   "type": 0,
-   "group": "央视频道",
-   "source": "baocaien",
-   "tier": "1"
-  },
-  {
-   "name": "CGTN-英语新闻",
-   "url": "http://live.cgtn.com/1000/prog_index.m3u8",
-   "type": 0,
-   "group": "新闻",
-   "source": "baocaien",
    "tier": "1"
   },
   {
@@ -12620,14 +12284,6 @@
    "tier": "1"
   },
   {
-   "name": "上海东方购物 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229588/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
    "name": "上视东方影视",
    "url": "https://hlszymgsplive.miguvideo.com:443/wd_r4/dfl/dianshijuhd/600/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699212&netType=0&sid=5500002274&pid=2028597139&timestamp=20250506200328&Channel_ID=0131_10010001005&ProgramID=617290047&ParentNodeID=-99&assertID=5500002274&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200328&promotionId=&mvid=5100001715&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=b6bca7df1bcdf0817486928d5a41fe1c&sv=10000&ct=h5",
    "type": 0,
@@ -12636,51 +12292,19 @@
    "tier": "1"
   },
   {
-   "name": "东南卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230464/index.m3u8",
+   "name": "东方卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/wd_r4/dfl/dongfangwshd/1200/index.m3u8?msisdn=b7cab7290e31b1375c94bc963ea39976&mdspid=&spid=600697&netType=0&sid=5910022185&pid=2028597139&timestamp=20261107075040&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=651632648&ParentNodeID=-99&assertID=5910022185&client_ip=39.103.188.159&SecurityKey=20261107075040&promotionId=&mvid=5100043384&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=3358d09f60bc82d43d7ad72683386ab4&ddCalcu=43b3va5a68w8da30398f66207bdca872dd34&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
-   "name": "东方卫视 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227964/index.m3u8",
+   "name": "北京卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/bjws/51/20251127/index.m3u8?msisdn=327b8f723545c041a83dcf1a6df160a0&mdspid=&spid=600697&netType=0&sid=5910022306&pid=2028597139&timestamp=20261107075039&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=630287636&ParentNodeID=-99&assertID=5910022306&client_ip=39.103.182.111&SecurityKey=20261107075039&promotionId=&mvid=5101042960&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=88077b813f6f35f3eebcee69fd690b9a&ddCalcu=a898vb0a07w97a6bd8f1936fe6efc3b5efe3&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "云南卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230452/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "内蒙古卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230440/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "北京卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229353/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "厦门卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229184/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
@@ -12732,43 +12356,11 @@
    "tier": "1"
   },
   {
-   "name": "四川卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230458/index.m3u8",
+   "name": "宁夏卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/envivo_x/2018/SD/ningxia/1000/index.m3u8?msisdn=168cac489bba0c29529fbed9dbce7852&mdspid=&spid=600697&netType=0&sid=5910022262&pid=2028597139&timestamp=20261107075044&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=738910535&ParentNodeID=-99&assertID=5910022262&client_ip=39.103.182.111&SecurityKey=20261107075044&promotionId=&mvid=5900004337&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=687acacc3e5d939c2d4bb837ae77636e&ddCalcu=e668v37a6az7ca7aecac733e85bdb943d92c&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "天津卫视 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228905/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "宁夏卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230434/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "安徽卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229301/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "山东卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227955/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
@@ -12780,59 +12372,11 @@
    "tier": "1"
   },
   {
-   "name": "山西卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230421/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "广东卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229362/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "广东卫视 720HEVC",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230784/index.m3u8广东卫视 480,http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230241/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
    "name": "广东珠江频道",
    "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/szxwzh/51/20250604/index.m3u8?msisdn=85cf0625324d7a252b3bd1cc09d90c88&mdspid=&spid=600697&netType=0&sid=5910022410&pid=2028597139&timestamp=20261107075058&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=639731952&ParentNodeID=-99&assertID=5910022410&client_ip=39.103.182.111&SecurityKey=20261107075058&promotionId=&mvid=5102012610&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=986418e54081b47200b26dafc82ad855&ddCalcu=5958v86ad4la1a288ec5f4a0d8612bb40702&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
    "source": "ioptu",
-   "tier": "1"
-  },
-  {
-   "name": "广西卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228122/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "新疆兵团卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230455/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "新疆卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229116/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
    "tier": "1"
   },
   {
@@ -12884,19 +12428,19 @@
    "tier": "1"
   },
   {
-   "name": "江西卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230446/index.m3u8",
+   "name": "江西卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/jxwshd/51/20190820/index.m3u8?msisdn=e566c7e6bdef20e0c94145af9df725f5&mdspid=&spid=600633&netType=0&sid=5910021492&pid=2028597139&timestamp=20261107075041&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=783847495&ParentNodeID=-99&assertID=5910021492&client_ip=39.103.188.159&SecurityKey=20261107075041&promotionId=&mvid=5900004351&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=0edad30bde109c29a3141c5aca783cbe&ddCalcu=e0bevcda3ay8da73a0cbad5ec110491c32a9&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
-   "name": "河北卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230427/index.m3u8",
+   "name": "河北卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/hbws/51/20251225/index.m3u8?msisdn=74d2fdb8b1b3f1f34f053c148ae17d80&mdspid=&spid=600725&netType=0&sid=5910022316&pid=2028597139&timestamp=20261107075041&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=962042070&ParentNodeID=-99&assertID=5910022316&client_ip=39.103.182.111&SecurityKey=20261107075041&promotionId=&mvid=5900006782&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=6179687885ab1d22840f6a38abfa6466&ddCalcu=6661v47a69ca6af8b7a88835aa6bf10d4282&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
@@ -12908,27 +12452,11 @@
    "tier": "1"
   },
   {
-   "name": "浙江卫视 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229352/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
    "name": "海南卫视",
    "url": "https://hlszymgsplive.miguvideo.com:443/envivo_x/SD/lvyou/711/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=600633&netType=0&sid=5910022165&pid=2028597139&timestamp=20250506200317&Channel_ID=0131_10010001005&ProgramID=947472502&ParentNodeID=-99&assertID=5910022165&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200317&promotionId=&mvid=5900004359&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=617e78b59fef67737ddbb2d5d3068dae&sv=10000&ct=h5",
    "type": 0,
    "group": "卫视",
    "source": "rm_dream",
-   "tier": "1"
-  },
-  {
-   "name": "深圳卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229356/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
    "tier": "1"
   },
   {
@@ -12940,43 +12468,19 @@
    "tier": "1"
   },
   {
-   "name": "湖南卫视 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228852/index.m3u8",
+   "name": "辽宁卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/liaoningwshd/2000/index.m3u8?msisdn=e099d128ad3b6c25ba99b37b4af7ed02&mdspid=&spid=600572&netType=0&sid=5910022198&pid=2028597139&timestamp=20261107075040&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=630291707&ParentNodeID=-99&assertID=5910022198&client_ip=39.103.188.159&SecurityKey=20261107075040&promotionId=&mvid=5101043014&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=e87a085ec3770a9cb20f504e50f43fcb&ddCalcu=bec8vf7a3ax40af8055eec430757f00a29bc&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
-   "name": "甘肃卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230443/index.m3u8",
+   "name": "重庆卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/envivo_x/2018/SD/chongqing/1000/index.m3u8?msisdn=11f914bcdf90b9c8927241a1f1beb5cb&mdspid=&spid=600697&netType=0&sid=5910022305&pid=2028597139&timestamp=20261107075045&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=738910914&ParentNodeID=-99&assertID=5910022305&client_ip=39.103.182.111&SecurityKey=20261107075045&promotionId=&mvid=5900004329&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=2cef53a562cb5f51b3b663436bcfebe5&ddCalcu=52ecvbeaeflf5ac3ba6536423c6b65bf35b1&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "贵州卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228123/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "辽宁卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229368/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
-   "tier": "1"
-  },
-  {
-   "name": "重庆卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230436/index.m3u8",
-   "type": 0,
-   "group": "卫视",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
@@ -12988,11 +12492,11 @@
    "tier": "1"
   },
   {
-   "name": "陕西卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230433/index.m3u8",
+   "name": "陕西卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/shan3xiws/51/20220809/index.m3u8?msisdn=7aefa7709e228d8283e530485b0ef27e&mdspid=&spid=600633&netType=0&sid=5910020475&pid=2028597139&timestamp=20261107075041&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=738910838&ParentNodeID=-99&assertID=5910020475&client_ip=39.103.182.111&SecurityKey=20261107075041&promotionId=&mvid=5900004331&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=817f020355de6d3ff617d25cbeb6a47f&ddCalcu=f871v47aafk60ab2e0b3c5552dde761d63ff&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
@@ -13036,11 +12540,11 @@
    "tier": "1"
   },
   {
-   "name": "黑龙江卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228398/index.m3u8",
+   "name": "黑龙江卫视",
+   "url": "http://gslbmgsplive.miguvideo.com/migu/kailu/nxjj/51/20251225/index.m3u8?msisdn=0cd7ff84c4ff386f273994b2a37b9e8b&mdspid=&spid=600697&netType=0&sid=5910022409&pid=2028597139&timestamp=20261107075046&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=738906901&ParentNodeID=-99&assertID=5910022409&client_ip=39.103.188.159&SecurityKey=20261107075046&promotionId=&mvid=5900004349&mcid=500020&playurlVersion=WX-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=0d17408b6822cead5c89388004c86837&ddCalcu=703dv81a67l84ac0480b068882329c8eca5d&sv=10004&ct=android",
    "type": 0,
    "group": "卫视",
-   "source": "F-zyoom",
+   "source": "ioptu",
    "tier": "1"
   },
   {
@@ -13068,10 +12572,10 @@
    }
   }
  ],
- "update_time": "2026-11-12 02:45:21",
+ "update_time": "2026-11-13 02:23:30",
  "_sources": {
   "indexes": 9,
   "configs_ok": 25,
-  "failed": 0
+  "failed": 1
  }
 }
