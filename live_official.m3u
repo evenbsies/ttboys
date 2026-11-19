@@ -92,7 +92,7 @@ https://hlszymgsplive.miguvideo.com:443/wd-virtuallive5100002089-75/index.m3u8?m
 #EXTINF:-1 group-title="其他",中学生
 https://hlszymgsplive.miguvideo.com:443/migu/kailu/20210415/cctvzhongxuesheng/50/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699004&netType=0&sid=5910019355&pid=2028597139&timestamp=20250506200229&Channel_ID=0131_10010001005&ProgramID=708869532&ParentNodeID=-99&assertID=5910019355&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200229&promotionId=&mvid=5900002149&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=683feaa139554d6b4768730c59223199&sv=10000&ct=h5
 #EXTINF:-1 group-title="其他",仙居三千院酒店-烹饪间 720
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230161/index.m3u8
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230155/index.m3u8
 #EXTINF:-1 group-title="其他",优漫卡通频道
 https://hlszymgsplive.miguvideo.com:443/wd_r2/jstv/ymkt/600/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699067&netType=0&sid=5500260553&pid=2028597139&timestamp=20250506200428&Channel_ID=0131_10010001005&ProgramID=626064703&ParentNodeID=-99&assertID=5500260553&client_ip=117.136.92.152&SecurityKey=20250506200428&promotionId=&mvid=5100186455&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=253ac4056c4f047d63632a3320b5496b&sv=10000&ct=h5
 #EXTINF:-1 group-title="其他",体坛名栏汇
@@ -225,8 +225,8 @@ http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227939/index.m3u8
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230452/index.m3u8
 #EXTINF:-1 group-title="卫视",内蒙古卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230440/index.m3u8
-#EXTINF:-1 group-title="卫视",北京卫视 480
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230437/index.m3u8
+#EXTINF:-1 group-title="卫视",北京卫视 576
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229353/index.m3u8
 #EXTINF:-1 group-title="卫视",厦门卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229184/index.m3u8
 #EXTINF:-1 group-title="卫视",吉林卫视
@@ -237,14 +237,14 @@ http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230458/index.m3u8
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228905/index.m3u8
 #EXTINF:-1 group-title="卫视",宁夏卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230434/index.m3u8
-#EXTINF:-1 group-title="卫视",安徽卫视 480
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230218/index.m3u8
+#EXTINF:-1 group-title="卫视",安徽卫视 720
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229086/index.m3u8
 #EXTINF:-1 group-title="卫视",山东卫视 720
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227909/index.m3u8
 #EXTINF:-1 group-title="卫视",山西卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230421/index.m3u8
-#EXTINF:-1 group-title="卫视",广东卫视 576
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229362/index.m3u8
+#EXTINF:-1 group-title="卫视",广东卫视 720
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229088/index.m3u8
 #EXTINF:-1 group-title="卫视",广东卫视 720HEVC
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230784/index.m3u8广东卫视 480,http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230241/index.m3u8
 #EXTINF:-1 group-title="卫视",广西卫视 480
@@ -267,16 +267,16 @@ https://hlszymgsplive.miguvideo.com:443/wd_r2/jstv/jsjiaoyu/600/index.m3u8?msisd
 https://hlszymgsplive.miguvideo.com:443/wd_r2/jstv/jszongyi/600/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=699067&netType=0&sid=5500260513&pid=2028597139&timestamp=20250506200402&Channel_ID=0131_10010001005&ProgramID=626065193&ParentNodeID=-99&assertID=5500260513&client_ip=117.136.92.152&SecurityKey=20250506200402&promotionId=&mvid=5100186420&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=b9422e3ade6e63bcb1ad96d6372b3640&sv=10000&ct=h5
 #EXTINF:-1 group-title="卫视",江西卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230446/index.m3u8
-#EXTINF:-1 group-title="卫视",河北卫视 480
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230427/index.m3u8
+#EXTINF:-1 group-title="卫视",河北卫视 576
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229071/index.m3u8
 #EXTINF:-1 group-title="卫视",河南卫视
 https://hlszymgsplive.miguvideo.com:443/wd-henanwssd-600/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=600633&netType=0&sid=5910021585&pid=2028597139&timestamp=20250506200248&Channel_ID=0131_10010001005&ProgramID=790187291&ParentNodeID=-99&assertID=5910021585&client_ip=117.136.92.152&SecurityKey=20250506200248&promotionId=&mvid=5900005706&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=a5773c5fc501d4aaae1070b70aef3db9&sv=10000&ct=h5
 #EXTINF:-1 group-title="卫视",浙江卫视 720
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229352/index.m3u8
 #EXTINF:-1 group-title="卫视",海南卫视
 https://hlszymgsplive.miguvideo.com:443/envivo_x/SD/lvyou/711/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=600633&netType=0&sid=5910022165&pid=2028597139&timestamp=20250506200317&Channel_ID=0131_10010001005&ProgramID=947472502&ParentNodeID=-99&assertID=5910022165&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200317&promotionId=&mvid=5900004359&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=617e78b59fef67737ddbb2d5d3068dae&sv=10000&ct=h5
-#EXTINF:-1 group-title="卫视",深圳卫视 720
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229113/index.m3u8
+#EXTINF:-1 group-title="卫视",深圳卫视 576
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229356/index.m3u8
 #EXTINF:-1 group-title="卫视",湖北卫视
 https://hlszymgsplive.miguvideo.com:443/wd_r2/2018/ocn/hubeiwshd/1000/index.m3u8?msisdn=5284dcbc-9f47-4fd4-8a77-4ac7729783a2&mdspid=&spid=600633&netType=0&sid=5910022163&pid=2028597139&timestamp=20250506200258&Channel_ID=0131_10010001005&ProgramID=947472496&ParentNodeID=-99&assertID=5910022163&client_ip=2409:893d:399e:3f5f:d311:3fb8:32ae:937c&SecurityKey=20250506200258&promotionId=&mvid=5900004355&mcid=500020&playurlVersion=WX-A1-8.4.2-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgsph5&tid=h5&conFee=0&encrypt=37b3eb3c5ea297a565a4ab528ccb685e&sv=10000&ct=h5
 #EXTINF:-1 group-title="卫视",湖南卫视 3M1080
@@ -285,8 +285,8 @@ http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230206/index.m3u8
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230443/index.m3u8
 #EXTINF:-1 group-title="卫视",贵州卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228123/index.m3u8
-#EXTINF:-1 group-title="卫视",辽宁卫视 576
-http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229368/index.m3u8
+#EXTINF:-1 group-title="卫视",辽宁卫视 720
+http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229112/index.m3u8
 #EXTINF:-1 group-title="卫视",重庆卫视 480
 http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230436/index.m3u8
 #EXTINF:-1 group-title="卫视",陕西卫视 480

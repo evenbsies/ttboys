@@ -11949,7 +11949,7 @@
   },
   {
    "name": "仙居三千院酒店-烹饪间 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230161/index.m3u8",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230155/index.m3u8",
    "type": 0,
    "group": "其他",
    "source": "F-zyoom",
@@ -12484,8 +12484,8 @@
    "tier": "1"
   },
   {
-   "name": "北京卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230437/index.m3u8",
+   "name": "北京卫视 576",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229353/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -12532,8 +12532,8 @@
    "tier": "1"
   },
   {
-   "name": "安徽卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230218/index.m3u8",
+   "name": "安徽卫视 720",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229086/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -12556,8 +12556,8 @@
    "tier": "1"
   },
   {
-   "name": "广东卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229362/index.m3u8",
+   "name": "广东卫视 720",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229088/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -12652,8 +12652,8 @@
    "tier": "1"
   },
   {
-   "name": "河北卫视 480",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230427/index.m3u8",
+   "name": "河北卫视 576",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229071/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -12684,8 +12684,8 @@
    "tier": "1"
   },
   {
-   "name": "深圳卫视 720",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229113/index.m3u8",
+   "name": "深圳卫视 576",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229356/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -12724,8 +12724,8 @@
    "tier": "1"
   },
   {
-   "name": "辽宁卫视 576",
-   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229368/index.m3u8",
+   "name": "辽宁卫视 720",
+   "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229112/index.m3u8",
    "type": 0,
    "group": "卫视",
    "source": "F-zyoom",
@@ -12780,10 +12780,10 @@
    }
   }
  ],
- "update_time": "2026-11-18 03:19:01",
+ "update_time": "2026-11-19 02:56:21",
  "_sources": {
-  "indexes": 8,
+  "indexes": 9,
   "configs_ok": 25,
-  "failed": 1
+  "failed": 0
  }
 }
