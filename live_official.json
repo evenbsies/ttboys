@@ -33,7 +33,7 @@
  },
  {
   "name": "CCTV13",
-  "url": "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8",
+  "url": "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8",
   "type": 0,
   "group": "央视频道",
   "source": "baocaien",
@@ -673,7 +673,7 @@
  },
  {
   "name": "直播 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230622/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230662/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -721,7 +721,7 @@
  },
  {
   "name": "直播片段 V720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230718/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230721/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -768,8 +768,8 @@
   "tier": "1"
  },
  {
-  "name": "芒果TV 4M1080",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230235/index.m3u8",
+  "name": "芒果TV 8M1080",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230203/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -904,8 +904,8 @@
   "tier": "1"
  },
  {
-  "name": "北京卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229353/index.m3u8",
+  "name": "北京卫视 720",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229085/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -952,16 +952,16 @@
   "tier": "1"
  },
  {
-  "name": "安徽卫视 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229086/index.m3u8",
+  "name": "安徽卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230218/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
   "tier": "1"
  },
  {
-  "name": "山东卫视 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227909/index.m3u8",
+  "name": "山东卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221227955/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -976,8 +976,8 @@
   "tier": "1"
  },
  {
-  "name": "广东卫视 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229088/index.m3u8",
+  "name": "广东卫视 576",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229362/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1072,8 +1072,8 @@
   "tier": "1"
  },
  {
-  "name": "河北卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229071/index.m3u8",
+  "name": "河北卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230427/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1120,8 +1120,8 @@
   "tier": "1"
  },
  {
-  "name": "湖南卫视 3M1080",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230206/index.m3u8",
+  "name": "湖南卫视 720",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228852/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1144,8 +1144,8 @@
   "tier": "1"
  },
  {
-  "name": "辽宁卫视 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229112/index.m3u8",
+  "name": "辽宁卫视 576",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229368/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1176,8 +1176,8 @@
   "tier": "1"
  },
  {
-  "name": "黑龙江卫视 480",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228398/index.m3u8",
+  "name": "黑龙江卫视 576",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229109/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
