@@ -369,7 +369,7 @@
  },
  {
   "name": "仙居三千院酒店-烹饪间 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230161/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230155/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -545,7 +545,7 @@
  },
  {
   "name": "未知片段 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230769/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230772/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -721,7 +721,7 @@
  },
  {
   "name": "直播片段 V720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230718/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230727/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -793,7 +793,7 @@
  },
  {
   "name": "CGTN-英语新闻",
-  "url": "http://live.cgtn.com/500/prog_index.m3u8",
+  "url": "http://live.cgtn.com/1000/prog_index.m3u8",
   "type": 0,
   "group": "新闻",
   "source": "baocaien",
@@ -896,8 +896,8 @@
   "tier": "1"
  },
  {
-  "name": "内蒙古卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229043/index.m3u8",
+  "name": "内蒙古卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230440/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -952,8 +952,8 @@
   "tier": "1"
  },
  {
-  "name": "安徽卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229301/index.m3u8",
+  "name": "安徽卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230218/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -968,8 +968,8 @@
   "tier": "1"
  },
  {
-  "name": "山西卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229074/index.m3u8",
+  "name": "山西卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230421/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1008,8 +1008,8 @@
   "tier": "1"
  },
  {
-  "name": "新疆卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229116/index.m3u8",
+  "name": "新疆卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230439/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
