@@ -441,7 +441,7 @@
  },
  {
   "name": "咪咕直播 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230250/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230248/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -721,7 +721,7 @@
  },
  {
   "name": "直播片段 V720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230718/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230721/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -1104,8 +1104,8 @@
   "tier": "1"
  },
  {
-  "name": "深圳卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229356/index.m3u8",
+  "name": "深圳卫视 720",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229113/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1120,8 +1120,8 @@
   "tier": "1"
  },
  {
-  "name": "湖南卫视 3M1080",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230206/index.m3u8",
+  "name": "湖南卫视 720",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228852/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
