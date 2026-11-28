@@ -761,7 +761,7 @@
  },
  {
   "name": "臻品烘焙面包坊-烘焙区 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230190/index.m3u8",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230187/index.m3u8",
   "type": 0,
   "group": "其他",
   "source": "F-zyoom",
@@ -793,7 +793,7 @@
  },
  {
   "name": "CGTN-英语新闻",
-  "url": "http://live.cgtn.com/1000/prog_index.m3u8",
+  "url": "http://live.cgtn.com/500/prog_index.m3u8",
   "type": 0,
   "group": "新闻",
   "source": "baocaien",
@@ -928,8 +928,8 @@
   "tier": "1"
  },
  {
-  "name": "四川卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229064/index.m3u8",
+  "name": "四川卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230458/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -976,8 +976,8 @@
   "tier": "1"
  },
  {
-  "name": "广东卫视 720",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229088/index.m3u8",
+  "name": "广东卫视 576",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229362/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1008,8 +1008,8 @@
   "tier": "1"
  },
  {
-  "name": "新疆卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229116/index.m3u8",
+  "name": "新疆卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230439/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1064,16 +1064,16 @@
   "tier": "1"
  },
  {
-  "name": "江西卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229058/index.m3u8",
+  "name": "江西卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230446/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
   "tier": "1"
  },
  {
-  "name": "河北卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229071/index.m3u8",
+  "name": "河北卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230427/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1144,8 +1144,8 @@
   "tier": "1"
  },
  {
-  "name": "辽宁卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229368/index.m3u8",
+  "name": "辽宁卫视 720",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229112/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
@@ -1176,8 +1176,8 @@
   "tier": "1"
  },
  {
-  "name": "黑龙江卫视 576",
-  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221229109/index.m3u8",
+  "name": "黑龙江卫视 480",
+  "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221228398/index.m3u8",
   "type": 0,
   "group": "卫视",
   "source": "F-zyoom",
